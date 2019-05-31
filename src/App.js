@@ -7,6 +7,7 @@ import {Game} from './components/Morpion.js';
 import {Sidebar} from './Sidebar.js';
 import {Daily} from './components/Daily.js';
 import {TopGame} from './components/TopGame.js';
+import {Video} from './components/Video.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/morpion" component={Game} />
           <Route path="/top" component={TopGame} />
           <Route path="/guidoune" component={Daily} />
+          <Route path="/video" component={Video} />
           <Route path="/color" component={Random} />
         </Switch>
         </React.Fragment>

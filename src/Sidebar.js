@@ -28,6 +28,9 @@ export function Sidebar() {
                   <Link to="/guidoune">Guidoune du jour</Link>
                 </li>
                 <li class="nav-item">
+                  <Link to="/video">Conférences</Link>
+                </li>
+                <li class="nav-item">
                   <Link to="/color">Changer la couleur de fond</Link>
                 </li>
               </ul>
