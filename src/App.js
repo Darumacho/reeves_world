@@ -1,23 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from "react-router-dom";
+import {Accueil} from './components/Accueil.js';
+import {Random} from './components/Random.js';
+import {Rain} from './components/Rain.js';
+import {Game} from './components/Morpion.js';
+import {Sidebar} from './Sidebar.js';
+import {Daily} from './components/Daily.js';
+import {TopGame} from './components/TopGame.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <React.Fragment>
+      <Sidebar />
+        <Switch>
+          <Route exact path="/" component={Accueil} />
+          <Route path="/rain" component={Rain} />
+          <Route path="/morpion" component={Game} />
+          <Route path="/top" component={TopGame} />
+          <Route path="/guidoune" component={Daily} />
+          <Route path="/color" component={Random} />
+        </Switch>
+        </React.Fragment>
       </header>
     </div>
   );

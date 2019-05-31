@@ -1,13 +1,188 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: -rootle-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/32/99/FTcskA.jpg);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#root {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#root div {
+  width: 100%;
+}
+
+#root div div {
+  height: 100%;
+}
+
+#root div div div {
+  position: relative;
+  height: auto;
+}
+
+h1, h2 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+label {
+  display: block;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a {
+  margin:12px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+button {
+  -webkit-transition-duration: 0.1s; /* Safari */
+  transition-duration: 0.1s;
+  background-color: #F4595B;
+  border-radius: 8px;
+  border-bottom: 4px solid #C24648;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #FF7375;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid #C24648;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+}
+
+button:active {
+  background-color: #C24648;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid #C24648;
+  color: #CCC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+}
+
+img {
+  max-width: 90%;
+  max-height: 340px;
+  top: 5%;
+  left: 5%;
+}
+
+.buttonMorpion{
+  background-color: #ffffff;
+}
+
+.accueilContainer{
+  padding-top : 10px;
+  padding-left : 200px;
+  padding-right : 200px;
+  padding-bottom : 10px;
+}
+
+.accueil{
+  background-color: #e0b8b8;
+  width: 100px;
+  border: 3px solid;
+  right: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.guidouneContainer{
+  padding-top : 10px;
+  padding-left : 400px;
+  padding-right : 400px;
+  padding-bottom : 10px;
+}
+
+.guidoune{
+  background-color: #d3e8f0;
+  font-size: 24px;
+  margin-top: 20px;
+  width: 200px;
+  border: 3px solid;
+}
+
+.intro{
+  background-color: #ffffff;
+  border: 1px solid;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.introContainer{
+  padding-top : 10px;
+  padding-left : 500px;
+  padding-right : 500px;
+  padding-bottom : 10px;
+}
+
+.gameContainerNumber{
+  background-color: #ffffff;
+  border: 1px solid;
+  padding-bottom : 300px;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
