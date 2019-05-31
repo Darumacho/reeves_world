@@ -32,8 +32,8 @@ export function Sidebar() {
                 </li>
               </ul>
               <form class="form-inline mt-2 mt-md-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Y'a rien à chercher" aria-label="Search"/>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+                <input class="form-control mr-sm-2" type="text" placeholder="Y'a rien à rechercher" aria-label="Search"/>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher quand même</button>
               </form>
             </div>
           </nav>
