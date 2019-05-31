@@ -8,6 +8,7 @@ import {Sidebar} from './Sidebar.js';
 import {Daily} from './components/Daily.js';
 import {TopGame} from './components/TopGame.js';
 import {Video} from './components/Video.js';
+//import {Meteo} from './components/Meteo.js';
 
 function App() {
   return (

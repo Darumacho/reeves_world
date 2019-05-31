@@ -25,6 +25,14 @@ export class Accueil extends React.Component {
               Vois-tu, je ne me contente pas de seulement repérer les mamans à l'oeil nu et en me fiant à leur fragrance. C'est tout un art : il faut écouter la terre, l'entendre se déformer et résonner à chacun des pas de ta guidoune de maman.
               <br />
               Je ne rentrerai pas dans les détails, car il faut savoir garder ses secrets bien à l'abri dans un coffre-fort sous triple verrou électronique.
+              <br />
+              <br />
+              Ce site a malheureusement été approuvé et estampillé par mon généreux et ô combien onéreux poinçon, soi-disant gage de qualité. La qualité n'est pas vraiment le fort de ce bon vieux Darumacho.
+              <br />
+              Il n'assume tellement pas ce site qu'il est obligé de prendre le pseudo de Guidoune Man.
+              <br />
+              <br />
+              À mon humble avis, il faut rajouter une section "Guidoune de l'année" où sa photo siègerait tout au long des deux solstices et équinoxes.
               </div>
             </div>
         </div>

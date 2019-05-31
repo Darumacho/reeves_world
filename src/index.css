@@ -175,7 +175,8 @@ img {
 
 .map-container{
   overflow:hidden;
-  padding-bottom:56.25%;
+  margin-top: 50%;
+  padding-bottom:75.25%;
   position:relative;
   height:0;
 }
