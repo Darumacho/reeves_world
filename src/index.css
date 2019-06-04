@@ -287,3 +287,7 @@ img {
   margin-bottom: 1.25rem;
   color: #999;
 }
+
+.footer-copyright text-center py-3 {
+  color: white !important;
+}

@@ -5,7 +5,7 @@ import {Armes} from './components/Armes.js';
 
 export function Sidebar() {
   return (
-    <Navbar bg="dark" expand="lg" style={{margin: 0}}>
+    <Navbar bg="dark" expand="lg" style={{margin: 0}} className="navbar-dark">
     <Navbar.Brand href="/"><img src={require('./header.png')} alt=""/></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
