@@ -8,7 +8,8 @@ import {Sidebar} from './Sidebar.js';
 import {Daily} from './components/Daily.js';
 import {TopGame} from './components/TopGame.js';
 import {Video} from './components/Video.js';
-//import {Meteo} from './components/Meteo.js';
+import {Journal} from './components/Journal.js';
+import {Armes} from './components/Armes.js';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
           <Route path="/top" component={TopGame} />
           <Route path="/guidoune" component={Daily} />
           <Route path="/video" component={Video} />
+          <Route path="/armes" component={Armes} />
           <Route path="/color" component={Random} />
+          <Route path="/journal" component={Journal} />
         </Switch>
         </React.Fragment>
       </header>
