@@ -1,47 +1,40 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { Nav, NavDropdown, Form, FormControl, Navbar, Button} from 'react-bootstrap';
 
 export function Sidebar() {
   return (
-      <div style={{ display: "flex" }}>
-        <header>
-          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="/"><img src={require('./header.png')} alt=""/></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <Link to="/">Accueil</Link>
-                </li>
-                <li class="nav-item">
-                  <Link to="/rain">Pluie fantastique</Link>
-                </li>
-                <li class="nav-item">
-                  <Link to="/morpion">Jouer au morpion</Link>
-                </li>
-                <li class="nav-item">
-                  <Link to="/top">Jouer à TopNumber</Link>
-                </li>
-                <li class="nav-item">
-                  <Link to="/guidoune">Guidoune du jour</Link>
-                </li>
-                <li class="nav-item">
-                  <Link to="/video">Conférences</Link>
-                </li>
-                <li class="nav-item">
-                  <Link to="/color">Changer la couleur de fond</Link>
-                </li>
-              </ul>
-              <form class="form-inline mt-2 mt-md-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Y'a rien à rechercher" aria-label="Search"/>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher quand même</button>
-              </form>
-            </div>
-          </nav>
-        </header>
-      </div>
+    <Navbar bg="dark" expand="lg" style={{margin: 0}}>
+    <Navbar.Brand href="/"><img src={require('./header.png')} alt=""/></Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="mr-auto">
+        <Nav.Link href="/">Accueil</Nav.Link>
+        <Nav.Link href="/rain">Pluie</Nav.Link>
+        <Nav.Link href="/morpion">Jouer au morpion</Nav.Link>
+        <Nav.Link href="/top">Jouer à TopNumber</Nav.Link>
+        <Nav.Link href="/video">Conférences</Nav.Link>
+        <Nav.Link href="/guidoune">Guidoune du jour</Nav.Link>
+        <Nav.Link href="/guidoune">Recettes</Nav.Link>
+        <Nav.Link href="/guidoune">Guidoune Man</Nav.Link>
+        <NavDropdown title="CSI Forever" id="basic-nav-dropdown">
+          <NavDropdown.Item href="#action/3.1">Histoire</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2">Personnages</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Armes</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Armures</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Artefacts</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Essences</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Compétences</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Talents</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Ennemis</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Lieux</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Distinctions</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="http://www.mediafire.com/file/aygv57ddo4v4b97/CSI_Forever_-_1.6.rar/file">Télécharger</NavDropdown.Item>
+        </NavDropdown>
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
   );
 }
 
