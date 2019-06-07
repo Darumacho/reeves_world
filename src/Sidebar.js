@@ -17,6 +17,7 @@ export function Sidebar() {
         <Nav.Link href="/video">Conférences</Nav.Link>
         <Nav.Link href="/guidoune">Guidoune du jour</Nav.Link>
         <Nav.Link href="/journal">Journal</Nav.Link>
+        <Nav.Link href="/boys">Les boys</Nav.Link>
         <Nav.Link href="/guidoune">Guidoune Man</Nav.Link>
         <NavDropdown title="CSI Forever" id="basic-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Histoire</NavDropdown.Item>

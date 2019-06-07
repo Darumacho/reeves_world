@@ -20,9 +20,29 @@ export class Journal extends React.Component {
 
         <div class="col-sm-8 blog-main">
 
+        <div class="blog-post">
+            <h2 class="blog-post-title">Tutoriel : 5 astuces pour éviter les carcajous</h2>
+            <p class="blog-post-meta">6 juin 2019 par <a href="/boys">Harold</a></p>
+            <p><img src="img/harold.png" alt="sauce" style={{height:200, width:200}}/></p>
+
+            <p>Alors que je me baladais lors de ma promenade habituelle des premières heures de la journée, je m'attendais à un silence nocturne harmonieux sans aucune disruption sonore.</p>
+            <p>À ma grande surprise, j'entendis des feuilles craquer et des fourrés s'agiter, n'ayant comme seul réflexe qu'un bref mais dissuasif : 
+            </p>
+            <p><strong>"Arrête boy"</strong></p>
+            <blockquote>
+              <p>Cependant, ce n'était pas un boy au pelage soyeux et à la papille goûtue : c'était une guidoune nyctalope.</p>
+            </blockquote>
+            <p>Ce type de guidoune, encore jamais rencontré, avait été prédit par <em>mes calculs d'astrophysicien</em> - en l'observant avec attention et suspicion, j'ai pu en conclure plusieurs choses :</p>
+            <li>1. Les guidounes nyctalopes voient bien pendant la nuit</li>
+            <li>2. Le soleil se lève après minuit</li>
+            <li>3. Ta maman pèse 500kg</li>
+            <br />
+            <p>J'aime quand mes journées sont remplies de science, et ma poutine de fromage.</p>
+          </div>
+
           <div class="blog-post">
             <h2 class="blog-post-title">Guidoune de minuit</h2>
-            <p class="blog-post-meta">4 juin 2019 par <a href="https://fr.wikipedia.org/wiki/Hubert_Reeves">Hubert</a></p>
+            <p class="blog-post-meta">4 juin 2019 par <a href="/boys">Hubert</a></p>
             <p><img src="img/hubert.png" alt="sauce"/></p>
 
             <p>Alors que je me baladais lors de ma promenade habituelle des premières heures de la journée, je m'attendais à un silence nocturne harmonieux sans aucune disruption sonore.</p>
@@ -36,27 +56,23 @@ export class Journal extends React.Component {
             <li>1. Les guidounes nyctalopes voient bien pendant la nuit</li>
             <li>2. Le soleil se lève après minuit</li>
             <li>3. Ta maman pèse 500kg</li>
-            
-            <h2>Heading</h2>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            <h3>Sub-heading</h3>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            <pre><code>Example code block</code></pre>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            <br />
+            <p>J'aime quand mes journées sont remplies de science, et ma poutine de fromage.</p>
           </div>
 
           <div class="blog-post">
             <h2 class="blog-post-title">Sauce pour les pâtes</h2>
-            <p class="blog-post-meta">31 mai 2019 par <a href="https://fr.wikipedia.org/wiki/Gordon_Ramsay">Gordon</a></p>
+            <p class="blog-post-meta">31 mai 2019 par <a href="/boys">Gordon</a></p>
             <p><img src="img/gordon.png" alt="sauce"/></p>
 
-            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-            
+            <p>J'étais tranquillement en train de m'éventrer les cordes vocales contre mes cuisiniers lorsque mon 7ème sens (celui entre le 6ème et le 8ème) m'a fait percevoir un très mauvais pressentiment.</p>
+            <p>C'était ce genre de vibes disruptives, cette petite brise ignominieuse, qui me rappelait ce fatal incident de la sauce pour la côte d'agneau, que j'avais d'ailleurs retrouvée dans un autre plan guidounien. Le problème perçu par mes barbillons de cuisinier fut très similaire.</p>
             <blockquote>
-              <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><strong>La sauce pour les pâtes avait disparu.</strong></p>
             </blockquote>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+            <p>Dès lors, surgit de mes yeux une lumière aussi céleste que soudaine, un peu comme sur ma photo de profil, signe que l'apocalypse gastronomique était relativement proche, mettant potentiellement fin à toutes les saveurs de ces matanteries chinoises empruntées par les Italiens.</p>
+            <p>Seul un énergumène dénué de bon sens oserait commettre un crime aussi odieux - il était donc de mon devoir de me lancer dans une odyssée policière, avec une question dans ma main droite, et un distributeur de tartes en guise de main gauche.</p>
+            <p>L'inspecteur Gordon est en route pour te trouver, fumier.</p>
           </div>
           
           <nav class="blog-pagination">
@@ -75,7 +91,7 @@ export class Journal extends React.Component {
             <ol class="list-unstyled">
               <li><a href="https://fr.wikipedia.org/wiki/Hubert_Reeves">Ma vie</a></li>
               <li><a href="https://www.hubertreeves.info/">Mon vrai site</a></li>
-              <li><a href="#">Facebook</a></li>
+              <li><a href="https://www.facebook.com/Hubert-Reeves-12111273810/">Facebook</a></li>
             </ol>
           </div>
         </div>

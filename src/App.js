@@ -10,6 +10,7 @@ import {TopGame} from './components/TopGame.js';
 import {Video} from './components/Video.js';
 import {Journal} from './components/Journal.js';
 import {Armes} from './components/Armes.js';
+import {Boys} from './components/Boys.js';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/armes" component={Armes} />
           <Route path="/color" component={Random} />
           <Route path="/journal" component={Journal} />
+          <Route path="/boys" component={Boys} />
         </Switch>
         </React.Fragment>
       </header>
