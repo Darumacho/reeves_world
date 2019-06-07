@@ -16,7 +16,7 @@ export class Accueil extends React.Component {
               Bien le bonjour. Je suis Hubert Reeves, astrophysicien, et tu as atterri dans ce qui semble être un site internet relativement miteux m'étant consacré. En réalité, cet amalgame de mémoire vive est un test d'apprentissage pour le framework ReactJS.
               <br />
               <br />
-              Comme tu peux le voir, ce site n'est pas Reevesponsive
+              Comme tu peux le voir, ce site est Reevesponsive.
               <br />
               <br />
               Je n'ai aucune idée de qui peut bien s'en occuper, mais je pense que certains doivent reconsidérer leurs choix de carrière. En effet, il faut savoir que cette photo n'est pas entièrement représentative du mâle alpha que je suis.
