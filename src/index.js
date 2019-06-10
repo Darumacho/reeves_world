@@ -8,8 +8,6 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from "react-router-dom";
 import { config } from 'rxjs';
 
-firebase.initializeApp(config);
-
 ReactDOM.render(
   <Router>
     <App />

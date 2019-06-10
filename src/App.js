@@ -11,6 +11,9 @@ import {Video} from './components/Video.js';
 import {Journal} from './components/Journal.js';
 import {Armes} from './components/Armes.js';
 import {Boys} from './components/Boys.js';
+import {Story} from './components/Story.js';
+import {Persos} from './components/Persos.js';
+import {Divin} from './components/personnages/Divin.js';
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
           <Route path="/guidoune" component={Daily} />
           <Route path="/video" component={Video} />
           <Route path="/armes" component={Armes} />
+          <Route path="/story" component={Story} />
+          <Route path="/persos" component={Persos} />
+          <Route path="/divin" component={Divin} />
           <Route path="/color" component={Random} />
           <Route path="/journal" component={Journal} />
           <Route path="/boys" component={Boys} />

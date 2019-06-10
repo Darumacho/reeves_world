@@ -190,6 +190,10 @@ img {
   padding-bottom : 10px;
 }
 
+.miniContainer{
+  text-align: left;
+}
+
 .journal{
   background-color: #ffffff;
   border: 1px solid;
@@ -240,8 +244,14 @@ img {
 }
 .blog-title {
   margin-bottom: 0;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: normal;
+}
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-decoration: underline;
+  text-align: left;
 }
 .blog-description {
   font-size: 1.1rem;
@@ -270,7 +280,8 @@ img {
 }
 
 .blog-pagination {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid #eee;
 }
 .blog-pagination > .btn {
   border-radius: 2rem;
@@ -280,8 +291,9 @@ img {
   margin-bottom: 4rem;
 }
 .blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  text-decoration: underline;
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
