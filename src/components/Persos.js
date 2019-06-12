@@ -74,7 +74,7 @@ export class Persos extends React.Component {
 
               <h3 className="subtitle">Tom Tom</h3>
               <p><u>Origine :</u> Archipel de Musik</p>
-              <p><u>Rôle :</u> Magie et Soutien</p>
+              <p><u>Rôle :</u> Magie et Soins</p>
               <p>Son titre est <strong>le Dude on Fire</strong>.</p>
               <p>Tom Tom est un DJ semeur de bonne humeur, considéré comme une légende locale. Son statut de Dude on Fire ainsi que son aura agréable font de lui un incroyable pyromancien et un très bon soigneur. Il est presque toujours appelé par son statut, et organise d'ailleurs une très grande fête avant son départ, aidé par les différents habitants de l'Archipel.</p>
               <p>Il a le pouvoir de redonner le sourire à n'importe qui est fait preuve d'une immense sympathie envers tous ceux qu'il rencontre.</p>

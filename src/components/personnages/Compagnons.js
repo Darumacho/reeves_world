@@ -56,8 +56,8 @@ export class Compagnon extends React.Component {
               <p><u>Origine :</u> Chopejambon Ville</p>
               <p><u>Rôle :</u> Attaque</p>
               <p><u>Recrutement :</u> aider le Chosen One Nico à Chopejambon Ville</p>
-              <p>Matante Man fait partie des derniers super-héros de Chopejambon Ville, bien que l'opinion publique ne soit pas vraiment d'accord avec cette affirmation. Il réussit à arrêter le Blagueur et son gang, ainsi qu'à sauver le Chosen One Nico.</p>
-              <p>Matante Man ne maîtrise aucun élément, mais compte sur son âme de héros pour porter des coups fulgurants à ses adversaires.</p>
+              <p>Matante Man revient en force avec ses super-pouvoirs afin de distribuer des marrons vertueux à tous les méchants qui se dressent sur votre chemin..</p>
+              <p>Il ne maîtrise aucun élément, mais compte sur son âme de héros pour porter des coups fulgurants à ses adversaires.</p>
               <p>Conseillé pour les formations manquant de dégâts.</p>
               <br />
 
@@ -65,7 +65,7 @@ export class Compagnon extends React.Component {
               <p><u>Origine :</u> Chopejambon Ville</p>
               <p><u>Rôle :</u> Soutien</p>
               <p><u>Recrutement :</u> aider le Chosen One Nico à Chopejambon Ville</p>
-              <p>Câlisse Boy est l'inséparable acolyte de Matante Man, toujours à prodiguer de bons conseils à son mentor. Il est toujours alerte et de bonne humeur, avec une tête un peu familière en plus.</p>
+              <p>Câlisse Boy est de retour, toujours en compagnie de Matante Man, il est toujours l'aussi bon acolyte qu'on connaît, faisant profiter toute l'équipe d'amélioration de stats.</p>
               <p>Comme tout bon sidekick qui se respecte, Câlisse Boy dispose de tout un arsenal pour améliorer la progression de ces équipiers.</p>
               <p>Conseillé pour les formations manquant de boost de stats.</p>
               <br />
@@ -74,20 +74,47 @@ export class Compagnon extends React.Component {
               <p><u>Origine :</u> Village Akrid</p>
               <p><u>Rôle :</u> Défense</p>
               <p><u>Recrutement :</u> terminer sa quête au village Akrid</p>
-              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
-              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
-              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <p>Caribou fétide est le chef gigantesque et odorant du village Akrid. Il tient son nom du premier animal qu'il a chassé en étant enfant, et porte sa carcasse depuis toujours. Son hygiène inhabituelle et sa carrure de colosse en font un tank très robuste pouvant grignoter à petit feu la santé des ennemis.</p>
+              <p>De par son fumet agréable; on peut rapidement deviner que Caribou fétide préfère l'élément Poison.</p>
+              <p>Conseillé pour les formations manquant de tank, ou peu efficaces contre les ennemis résistants aux statuts.</p>
               <br />
 
               <h3 className="subtitle">Jean-Paul</h3>
               <p><u>Origine :</u> inconnue</p>
               <p><u>Rôle :</u> Polyvalent</p>
-              <p><u>Recrutement :</u> libérer Ouarzazande</p>
+              <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
+              <p>jean-Paul a décidé d'arrondir ses fins de mois en s'inscrivant à l'agence de Duracuir en tant que mercenaire de raid. Toutes ses compétences et talents sont nommés "Oh boy", mais possèdent des effets très variés, en faisant un très bon pilier multifonction.</p>
+              <p>Comme tout personnage étrange digne de ce nom, Jean-Paul est passé maître de l'élément Psychique.</p>
+              <p>Conseillé pour toute formation.</p>
+              <br />
+              
+              <h3 className="subtitle">Chef Nabab</h3>
+              <p><u>Origine :</u> Nouillorc</p>
+              <p><u>Rôle :</u> Soins</p>
+              <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
+              <p>Le chef Nabab est un ancien collègue du chef Atouille et du chef Echtebez, chacun ayant continué dans sa propre voie. Il a mis au point une restauration rapide et copieuse dont lui seul a le secret, qu'il distribue afin de requinquer tous ses coéquipiers.</p>
+              <p>En complément de ses sorts de soin, chef Nabab est en mesure d'infliger des dégâts élevés s'il possède le type d'arme adéquat.</p>
+              <p>Conseillé pour les formations manquant de soins.</p>
+              <br />
+
+              <h3 className="subtitle">E.Gwiazdowski</h3>
+              <p><u>Origine :</u> Sacramenbourg</p>
+              <p><u>Rôle :</u> Soutien</p>
+              <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
               <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
               <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
-              
+
+              <h3 className="subtitle">Chef Jibé</h3>
+              <p><u>Origine :</u> inconnue</p>
+              <p><u>Rôle :</u> Attaque et Soutien</p>
+              <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
+              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
+              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
+              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <br />
+
               <h3 className="subtitle">Gordon</h3>
               <p><u>Origine :</u> Ouarzazande</p>
               <p><u>Rôle :</u> Défense</p>
@@ -97,10 +124,46 @@ export class Compagnon extends React.Component {
               <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
 
+              <h3 className="subtitle">Mucho Pimenté</h3>
+              <p><u>Origine :</u> Puerto Favor</p>
+              <p><u>Rôle :</u> Attaque</p>
+              <p><u>Recrutement :</u> libérer Puerto Favor</p>
+              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
+              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
+              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <br />
+
               <h3 className="subtitle">Exodius</h3>
               <p><u>Origine :</u> Nouillorc</p>
               <p><u>Rôle :</u> Défense et Magie</p>
               <p><u>Recrutement :</u> amener la maman de Jimmy dans son repaire</p>
+              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
+              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
+              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <br />             
+
+              <h3 className="subtitle">Cap'taine Loudmer</h3>
+              <p><u>Origine :</u> port Duavre</p>
+              <p><u>Rôle :</u> Attaque</p>
+              <p><u>Recrutement :</u> visiter toutes les Îles lointaines une fois et se rendre à Takarajima</p>
+              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
+              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
+              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <br />
+
+              <h3 className="subtitle">Risryn</h3>
+              <p><u>Origine :</u> Takarajima</p>
+              <p><u>Rôle :</u> Attaque</p>
+              <p><u>Recrutement :</u> terminer sa quête à Takarajima</p>
+              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
+              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
+              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <br />
+
+              <h3 className="subtitle">P'tit Billy</h3>
+              <p><u>Origine :</u> Nouillorc</p>
+              <p><u>Rôle :</u> Magie et Soutien</p>
+              <p><u>Recrutement :</u> atteindre la fin <strong>Prodige</strong></p>
               <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
               <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
