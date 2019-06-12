@@ -19,9 +19,9 @@ export class Persos extends React.Component {
         <nav class="blog-pagination">
           <a class="btn btn-outline-primary" href="/persos">Les Chosen Ones</a>
           <a class="btn btn-outline-primary" href="/divin">Les Divinités</a>
-          <a class="btn btn-outline-primary" href="#amis">Les amis</a>
-          <a class="btn btn-outline-primary" href="#mechant">Les méchants</a>
-          <a class="btn btn-outline-primary" href="#compagnon">Les compagnons</a>
+          <a class="btn btn-outline-primary" href="/ami">Les amis</a>
+          <a class="btn btn-outline-primary" href="/mechant">Les méchants</a>
+          <a class="btn btn-outline-primary" href="/compagnon">Les compagnons</a>
         </nav>
           <div class="blog-post">
               <h2 class="blog-post-title" id="chosen">Les Chosen Ones</h2>
@@ -85,27 +85,27 @@ export class Persos extends React.Component {
               <p><u>Origine :</u> Empire à Steak</p>
               <p><u>Rôle :</u> Défense</p>
               <p>Son titre est <strong>la Demi-Portion</strong>.</p>
-              <p>Endurci par le froid mordant et cruel des régions septentrionales, Tirashi est un paladin incroyablement robuste et solidaire, mettant son grand coeur et son bouclier au service des plus démunis. Il est chargé par le roi du Nord de mettre fin à un conflit régional entre plusieurs tribus, afin d'éviter l'implosion diplomatique.</p>
-              <p>Son franc-parlé lui donne des airs de rustre, cachant une camaraderie à toute épreuve.</p>
-              <p>Sans éviter tout cliché, il dispose de pouvoirs de glace.</p>
+              <p>Darumacho est originaire du village Brutope, en conflit permanent avec les autorités de l'Empire à Steak. De par sa "simplicité", Darumacho consomme sa propre santé pour lancer des compétences, contrairement à ses camarades utilisant l'Énergie Guidounienne. Sa force et sa stature impressionnantes lui procurent ainsi une barre de vie colossale. Il est enfermé dans une gigantesque arène où il doit réussir de redoutables épreuves afin de regagner la liberté.</p>
+              <p>Ses passions étant le sang et la poésie, Darumacho nous fait des merveilles en combinant les deux lors de ses prises de parole.</p>
+              <p>Darumacho ne maîtrise aucun élément, mais donnera littéralement de sa personne pour protéger son équipe ou annihiler de grands groupes d'ennemis.</p>
               <br />
 
               <h3 className="subtitle">Metsugazan</h3>
               <p><u>Origine :</u> Domaine de Silverberg</p>
               <p><u>Rôle :</u> Attaque et Magie</p>
               <p>Son titre est <strong>le Faussaire</strong>.</p>
-              <p>Endurci par le froid mordant et cruel des régions septentrionales, Tirashi est un paladin incroyablement robuste et solidaire, mettant son grand coeur et son bouclier au service des plus démunis. Il est chargé par le roi du Nord de mettre fin à un conflit régional entre plusieurs tribus, afin d'éviter l'implosion diplomatique.</p>
-              <p>Son franc-parlé lui donne des airs de rustre, cachant une camaraderie à toute épreuve.</p>
-              <p>Sans éviter tout cliché, il dispose de pouvoirs de glace.</p>
+              <p>Metsugazan est le capitaine de la garde personnelle du baron de Silverberg, un riche exploitant minier. Il est doté d'une ambidextrie naturelle lui permettant de toujours porter deux armes à la fois et est un maître d'armes au style de combat plutôt technique. Il est isolé par de mystérieuses ombres alors que le domaine de son maître est envahi, laissant le reste de la garde, incompétente, derrière lui.</p>
+              <p>Poète dans l'âme, Metsugazan a pour habitude de s'exprimer en haïku, quitte à combler ses vers avec n'importe quoi.</p>
+              <p>Il favorise les ténèbres, mais est à l'aise avec la majorité des éléments.</p>
               <br />
 
               <h3 className="subtitle">Arcthane</h3>
               <p><u>Origine :</u> Vallétale</p>
               <p><u>Rôle :</u> Polyvalent</p>
               <p>Son titre est <strong>la Conquérante</strong>.</p>
-              <p>Endurci par le froid mordant et cruel des régions septentrionales, Tirashi est un paladin incroyablement robuste et solidaire, mettant son grand coeur et son bouclier au service des plus démunis. Il est chargé par le roi du Nord de mettre fin à un conflit régional entre plusieurs tribus, afin d'éviter l'implosion diplomatique.</p>
-              <p>Son franc-parlé lui donne des airs de rustre, cachant une camaraderie à toute épreuve.</p>
-              <p>Sans éviter tout cliché, il dispose de pouvoirs de glace.</p>
+              <p>Défenseuse acharnée de l'environnement, Arcthane traque les braconniers pour en faire des trophées de chasse, les ayant paradoxalement rendu en voie d'extinction. En tant que gardienne, Arcthane peut faire preuve d'une férocité sans pareil, mais également d'une incroyable bienveillance, la disponibilité de ses compétences variant selon les situations. Elle est rencontrée lors d'un conseil en forêt, alors qu'un mystérieux animal brillant est enlevé par les derniers braconniers.</p>
+              <p>En bonne guerrière, Arcthane ne mâche jamais ses mots, mais n'hésite jamais à filer une bonne tape sur l'épaule.</p>
+              <p>Les animaux de la forêt et tout le reste du bazar habituel ont amené Arcthane à préférer la maîtrise de l'énergie féérique.</p>
               <br />
 
               </div>

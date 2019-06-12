@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class Divin extends React.Component {
+export class Ami extends React.Component {
   render() {
       return (
         <div className="journalContainer">
@@ -24,7 +24,7 @@ export class Divin extends React.Component {
           <a class="btn btn-outline-primary" href="/compagnon">Les compagnons</a>
         </nav>
           <div class="blog-post">
-              <h2 class="blog-post-title" id="chosen">Les Divinités</h2>
+              <h2 class="blog-post-title" id="chosen">Les amis</h2>
               <br />
               <div class="miniContainer">
               <h3 className="subtitle">Gilles</h3>
@@ -59,4 +59,4 @@ export class Divin extends React.Component {
   }
 }
 
-export default Divin;
+export default Ami;

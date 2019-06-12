@@ -14,6 +14,9 @@ import {Boys} from './components/Boys.js';
 import {Story} from './components/Story.js';
 import {Persos} from './components/Persos.js';
 import {Divin} from './components/personnages/Divin.js';
+import {Ami} from './components/personnages/Amis.js';
+import {Mechant} from './components/personnages/Mechants.js';
+import {Compagnon} from './components/personnages/Compagnons.js';
 
 function App() {
   return (
@@ -32,6 +35,9 @@ function App() {
           <Route path="/story" component={Story} />
           <Route path="/persos" component={Persos} />
           <Route path="/divin" component={Divin} />
+          <Route path="/ami" component={Ami} />
+          <Route path="/mechant" component={Mechant} />
+          <Route path="/compagnon" component={Compagnon} />
           <Route path="/color" component={Random} />
           <Route path="/journal" component={Journal} />
           <Route path="/boys" component={Boys} />
