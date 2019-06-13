@@ -3,6 +3,8 @@ import { Route, Switch } from "react-router-dom";
 import {Accueil} from './components/Accueil.js';
 import {Random} from './components/Random.js';
 import {Meteo} from './components/Meteo.js';
+import {Trafic} from './components/Trafic.js';
+import {Clock} from './components/Horloge.js';
 import {Game} from './components/Morpion.js';
 import {Sidebar} from './Sidebar.js';
 import {Daily} from './components/Daily.js';
@@ -26,7 +28,7 @@ function App() {
       <Sidebar />
         <Switch>
           <Route exact path="/" component={Accueil} />
-          <Route path="/montreal" component={Meteo} />
+          <Route path="/montreal" component={Trafic} />
           <Route path="/morpion" component={Game} />
           <Route path="/top" component={TopGame} />
           <Route path="/guidoune" component={Daily} />
