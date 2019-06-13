@@ -110,18 +110,18 @@ export class Compagnon extends React.Component {
               <p><u>Origine :</u> inconnue</p>
               <p><u>Rôle :</u> Attaque et Soutien</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
-              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
-              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
+              <p>Lorsqu'il n'est pas derrière les fourneaux, ni en train de parcourir le monde, chef Jibé livre ses services de BG. Son prestige légendaire l'amènent à avoir des compétences avec des noms classes, mais aussi de puissants effets de zone.</p>
+              <p>Son sourire éclatant ainsi que ses lunettes de soleil nous laissent deviner qu'il est très à l'aise avec la Lumière.</p>
               <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
 
               <h3 className="subtitle">Gordon</h3>
               <p><u>Origine :</u> Ouarzazande</p>
-              <p><u>Rôle :</u> Défense</p>
+              <p><u>Rôle :</u> Défense et Soutien</p>
               <p><u>Recrutement :</u> libérer Ouarzazande</p>
-              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
-              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
-              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <p>Gordon est de retour avec sa mauvaise humeur et sa mauvaise haleine, toujours prêt à faire preuve de la plus gratuite des violences verbales afin de complètement déstabiliser les ennemis.</p>
+              <p>Contrairement à ses collègues défenseurs, Gordon possède une majorité d'attaques préventives prioritaires, gardant toujours un tour d'avance dans sa manche.</p>
+              <p>Conseillé pour les formations lentes.</p>
               <br />
 
               <h3 className="subtitle">Mucho Pimenté</h3>
@@ -137,9 +137,9 @@ export class Compagnon extends React.Component {
               <p><u>Origine :</u> Nouillorc</p>
               <p><u>Rôle :</u> Défense et Magie</p>
               <p><u>Recrutement :</u> amener la maman de Jimmy dans son repaire</p>
-              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
-              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
-              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <p>Nostalgique de ses aventures dans le Ta-bois-rnak, Exodius reprend du service, toujours grâce à son pouvoir sympathique et sa magie vertueuse.</p>
+              <p>Comme tout paladin, c bon vieil Exodius est un aficionado de l'élement Lumière.</p>
+              <p>Conseillé pour les formations manquant de puissance magique ou de défense.</p>
               <br />             
 
               <h3 className="subtitle">Cap'taine Loudmer</h3>
@@ -160,13 +160,11 @@ export class Compagnon extends React.Component {
               <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
 
-              <h3 className="subtitle">P'tit Billy</h3>
-              <p><u>Origine :</u> Nouillorc</p>
-              <p><u>Rôle :</u> Magie et Soutien</p>
+              <h3 className="subtitle">???</h3>
+              <p><u>Origine :</u> c'est un secret pour tout le monde</p>
+              <p><u>Rôle :</u> pareil</p>
               <p><u>Recrutement :</u> atteindre la fin <strong>Prodige</strong></p>
-              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
-              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
-              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <p>Le dernier compagnon est classé secret défense, vous devrez explorer le monde et ses mystères si jamais vous souhaitez partir à l'aventure à ses côtés.</p>
               <br />
 
               </div>

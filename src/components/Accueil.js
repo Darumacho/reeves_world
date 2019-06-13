@@ -10,7 +10,7 @@ export class Accueil extends React.Component {
               <p>Où sont les mamans ?</p>
             </div>
           </div>
-            <img src="https://www.babelio.com/users/AVT_Hubert-Reeves_6775.jpeg" width="33%" height="66%" />
+            <img src="https://www.babelio.com/users/AVT_Hubert-Reeves_6775.jpeg" alt="hubert"width="33%" height="66%" />
             <div className="accueilContainer">
               <div className="accueil">
               Bien le bonjour. Je suis Hubert Reeves, astrophysicien, et tu as atterri dans ce qui semble être un site internet relativement miteux m'étant consacré. En réalité, cet amalgame de mémoire vive est un test d'apprentissage pour le framework ReactJS.

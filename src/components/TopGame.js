@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.css';
-import * as serviceWorker from '../serviceWorker';
+//import * as serviceWorker from '../serviceWorker';
 import { TopNumber } from './TopNumber';
 import { Display } from './Display';
 import { Target } from './Target';
@@ -36,13 +36,13 @@ export class TopGame extends React.Component {
     this.intervals.push(setInterval(function(){
       let targets = clone(this.state.targets);
       let num = random(1, 1000*1000);
-      targets[key] = targets[key] != 0 ? 0 : num;
+      targets[key] = targets[key] !== 0 ? 0 : num;
       this.setState({ targets: targets });
     }.bind(this), ms));
   }
 
   hitTarget(e) {
-    if (e.target.className != 'target') return;
+    if (e.target.className !== 'target') return;
     let num = parseInt(e.target.innerText);
     for (let target in this.state.targets) {
       let key = Math.random().toFixed(4);

@@ -9,14 +9,16 @@ export class Meteo extends React.Component{
   }
 
   componentDidMount(){
-      fetch('api.openweathermap.org/data/2.5/weather?q=Montreal&APIKey=51d5e4468cdfba287d70bd5e0c2493c0')
+      fetch('api.openweathermap.org/data/2.5/weather?q=Montreal,ca&appid=51d5e4468cdfba287d70bd5e0c2493c0')
       .then(results => {
+        console.log(results);
           return results.json();
       }).then(data => {
           let meteo = data.results.map((montreal) => {
               return(
                   <div className="meteo">
-                  <font size="16">Alors aujourd'hui à Montréal, il y a des :</font> <br /><br />
+                  Alors aujourd'hui à Montréal, il y a des 
+                  <br />
                   <u>{montreal.weather.main}, je dirais même plus des {montreal.weather.description}</u>
                   <br />
                   <br />
@@ -27,6 +29,7 @@ export class Meteo extends React.Component{
               )
           })
           this.setState({meteo: meteo});
+          console.log("state", this.state.meteo);
       })
   }
 

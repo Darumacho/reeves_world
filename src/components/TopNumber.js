@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-const yellow = 'rgb(255, 215, 18)';
 
 export class TopNumber extends React.Component {
   constructor(props) {

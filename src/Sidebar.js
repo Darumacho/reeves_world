@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { Nav, NavDropdown, Form, FormControl, Navbar, Button} from 'react-bootstrap';
+import { Nav, NavDropdown, Navbar} from 'react-bootstrap';
 
 export function Sidebar() {
   return (

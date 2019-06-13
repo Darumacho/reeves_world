@@ -14,12 +14,12 @@ export class Boys extends React.Component {
     <p>Le meilleur astrophysicien du monde, et le plus bel accomplissement de la contrée de Québec, qui est déjà un bel accomplissement en soi.</p>
   </div>
   <div class="col-lg-4">
-    <img class="rounded-circle" src="img/gordon.png" alt="Generic placeholder image" width="140" height="140"/>
+    <img class="rounded-circle" src="img/gordon.png" alt="gordon" width="140" height="140"/>
     <h2>Gordon boy</h2>
     <p>Le chef cuistot étoilé qui tire des plans sur la comète. Il est mondialement célébré pour avoir retrouvé la sauce de la côte d'agneau.</p>
   </div>
   <div class="col-lg-4">
-    <img class="rounded-circle" src="img/harold.png" alt="Generic placeholder image" width="140" height="140"/>
+    <img class="rounded-circle" src="img/harold.png" alt="harold" width="140" height="140"/>
     <h2>Harold boy</h2>
     <p>L'homme du tutoriel, très rarement vu sans son pouce en l'air. Son sourire éclatant provoque d'importants mouvements de foule.</p>
   </div>
