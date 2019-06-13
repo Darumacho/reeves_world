@@ -101,9 +101,9 @@ export class Compagnon extends React.Component {
               <p><u>Origine :</u> Sacramenbourg</p>
               <p><u>Rôle :</u> Soutien</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
-              <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
-              <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
-              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <p>La maire de Sacramenbourg a décidé de s'octroyer quelques jours de congé afin de revenir casser de la guidoune de Jhâva. Grâce à ses connaissances dans le domaine juridique, elle est en mesure de grandement troubler les formations ennemies.</p>
+              <p>Elle est le seul personnage à ne disposer d'aucune compétence offensive directe.</p>
+              <p>Conseillée pour n'importe quelle formation.</p>
               <br />
 
               <h3 className="subtitle">Chef Jibé</h3>

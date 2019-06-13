@@ -1,31 +1,42 @@
 import React from 'react';
 
-export function Meteo() {
-  return (
-    <div>
-        <div class="card card-shadow">
-            <div class="card-header card-header-transparent cover overlay">
-              <img class="cover-image h-200" src="https://www.quebecoriginal.com/fiche/images/800x600/a9362da9-0eac-492a-a83d-22d6aba177e0/tourisme-montreal-office-des-congres-et-du-tourisme-du-grand-montreal-octgm-montreal.jpg" alt="..."/>
-              <div class="overlay-panel overlay-background">
-                <div class="font-size-16 float-right"><i class="icon wb-map" aria-hidden="true"></i></div>
-                <p class="font-size-20">Montréal, CANADA</p>
-                <p class="font-size-20">
-                  <i class="wi-day-cloudy mr-15 font-size-40"></i>
-                  <span class="font-size-40 blue-600">20°
-                    <span class="font-size-30">C</span>
-                  </span>
-                  <span>/</span>
-                  <span>7°
-                    <span class="font-size-16">C</span>
-                  </span>
-                </p>
-                <p class="mb-5">Vendredi</p>
-                <p>31.05.2019</p>
-              </div>
-            </div>
+export class Meteo extends React.Component{
+  constructor(props){
+      super(props);
+      this.state = {
+          meteo: [],
+      };
+  }
+
+  componentDidMount(){
+      fetch('api.openweathermap.org/data/2.5/weather?q=Montreal&APIKey=51d5e4468cdfba287d70bd5e0c2493c0')
+      .then(results => {
+          return results.json();
+      }).then(data => {
+          let meteo = data.results.map((montreal) => {
+              return(
+                  <div className="meteo">
+                  <font size="16">Alors aujourd'hui à Montréal, il y a des :</font> <br /><br />
+                  <u>{montreal.weather.main}, je dirais même plus des {montreal.weather.description}</u>
+                  <br />
+                  <br />
+                    La température est de {montreal.main.temp}° Kelvin, car nous aimons les mesures compliquées.
+                    <br />
+                    Et en plus, il y'a un petit vent qui souffle à {montreal.wind.speed} MPH (car on a le système impérial en cette belle province de Québec, boy)
+                  </div>
+              )
+          })
+          this.setState({meteo: meteo});
+      })
+  }
+
+  render() {
+      return(
+          <div className="meteoContainer">
+              {this.state.meteo}
           </div>
-    </div>
-  );
+      )
+  }
 }
 
 export default Meteo;

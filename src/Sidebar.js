@@ -10,7 +10,7 @@ export function Sidebar() {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
         <Nav.Link href="/">Accueil</Nav.Link>
-        <Nav.Link href="/rain">Pluie</Nav.Link>
+        <Nav.Link href="/montreal">Montréal</Nav.Link>
         <Nav.Link href="/morpion">Jouer au morpion</Nav.Link>
         <Nav.Link href="/top">Jouer à TopNumber</Nav.Link>
         <Nav.Link href="/video">Conférences</Nav.Link>
