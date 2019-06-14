@@ -9,8 +9,15 @@ export function Montreal() {
       <Clock />
       <Meteo />
       <Trafic />
+
     </div>
   );
 }
 
 export default Montreal;
+
+/*https://weather.api.here.com/weather/1.0/report.json
+?app_id={YOUR_APP_ID}
+&app_code={YOUR_APP_CODE}
+&product=alerts
+&name=Duluth*/

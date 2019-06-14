@@ -386,7 +386,7 @@ img {
 
 .clock {
   background-color: rgb(54, 238, 152);
-  border-radius: 8px;
+  border-radius: 16px;
   color: white;
   margin-top: 10px;
   padding: 15px 32px;

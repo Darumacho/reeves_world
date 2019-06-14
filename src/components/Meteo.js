@@ -4,32 +4,36 @@ export class Meteo extends React.Component{
   constructor(props){
       super(props);
       this.state = {
-          meteo: [],
+          meteo: '',
       };
   }
 
   componentDidMount(){
-      fetch('api.openweathermap.org/data/2.5/weather?q=Montreal,ca&appid=51d5e4468cdfba287d70bd5e0c2493c0')
+      fetch('api.openweathermap.org/data/2.5/weather?q=Montreal,ca&appid=51d5e4468cdfba287d70bd5e0c2493c0&mode=json')
       .then(results => {
-        console.log(results);
+        //console.log(results);
           return results.json();
       }).then(data => {
-          let meteo = data.results.map((meteo) => {
+          //console.log(data);
+          //console.log(typeof data);
+          let boy = data.results.map((meteo) => {
               return(
                   <div className="meteo">
-                  Alors aujourd'hui à Montréal, il y a des 
+                  Alors aujourd'hui à Montréal, niveau climat, on traîne plutôt côté
                   <br />
-                  <u>{meteo.weather.main}, je dirais même plus des {meteo.weather.description}</u>
+                  <u>
+                  {meteo.weather[0].description}
+                  </u>
                   <br />
                   <br />
-                    La température est de {meteo.main.temp}° Kelvin, car nous aimons les mesures compliquées.
+                    La température est de {meteo.main.temp}°C.
                     <br />
-                    Et en plus, il y'a un petit vent qui souffle à {meteo.wind.speed} MPH (car on a le système impérial en cette belle province de Québec, boy)
+                    Et en plus, il y'a un petit vent qui souffle à {meteo.wind.speed} Km/h.
                   </div>
               )
           })
-          this.setState({meteo: meteo});
-          console.log("state", this.state.meteo);
+          this.setState({meteo: boy});
+          //console.log("state", this.state.meteo);
       })
   }
 
