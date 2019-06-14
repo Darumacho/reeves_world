@@ -138,7 +138,7 @@ export class Compagnon extends React.Component {
               <p><u>Rôle :</u> Défense et Magie</p>
               <p><u>Recrutement :</u> amener la maman de Jimmy dans son repaire</p>
               <p>Nostalgique de ses aventures dans le Ta-bois-rnak, Exodius reprend du service, toujours grâce à son pouvoir sympathique et sa magie vertueuse.</p>
-              <p>Comme tout paladin, c bon vieil Exodius est un aficionado de l'élement Lumière.</p>
+              <p>Comme tout paladin, ce bon vieil Exodius est un aficionado de l'élement Lumière.</p>
               <p>Conseillé pour les formations manquant de puissance magique ou de défense.</p>
               <br />             
 
