@@ -1,39 +1,49 @@
 import React from 'react';
+import axios from 'axios';
+
+const Accident = ({ fullDesc }) => {
+    return (
+        <div className="trafic">
+            Niveau circulation, d'après les Montréalais anglophones, la situation est la suivante
+            <br />
+            <u>{fullDesc}</u>
+            <br />
+            <br />
+            On n'a pas pu entrevoir de Montréalais francophone malheureusement.
+        </div>
+    );
+};
+
 
 export class Trafic extends React.Component{
   constructor(props){
       super(props);
       this.state = {
-          trafic: [],
+        accident: null,
       };
   }
 
   componentDidMount(){
-      fetch('https://www.mapquestapi.com/traffic/v2/incidents?&outFormat=json&boundingBox=45.57896451566304%2C-73.36875915527344%2C45.43893551313961%2C-73.73783111572266&key=7DTuK5fXabSzCGAFv4XHpTrUyi1J8ANu')
+      axios.post('https://www.mapquestapi.com/traffic/v2/incidents?&outFormat=json&boundingBox=45.57896451566304%2C-73.36875915527344%2C45.43893551313961%2C-73.73783111572266&key=7DTuK5fXabSzCGAFv4XHpTrUyi1J8ANu')
       .then(results => {
-        console.log(results);
-          return results.json();
-      }).then(data => {
-          let trafic = data.results.map((trafic) => {
-              return(
-                  <div className="meteo">
-                  Niveau circulation, d'après les Montréalais, la situation est la suivante
-                  <br />
-                  <u>{trafic.incidents.fullDesc}</u>
-                  <br />
-                  </div>
-              )
-          })
-          this.setState({trafic: trafic});
-          console.log("state", this.state.trafic);
+          const accident = results.data;
+
+          this.setState({ accident });
+          console.log(accident);
       })
   }
 
   render() {
+    const { accident } = this.state;
       return(
-          <div className="meteoContainer">
-              {this.state.trafic}
-          </div>
+        <div className="traficContainer">
+        {accident ? (
+            <Accident
+                fullDesc={accident.incidents[0].fullDesc}
+            />    
+        ) : 'Chargement des données trafic...'}
+        
+      </div>
       )
   }
 }

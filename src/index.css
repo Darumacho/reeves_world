@@ -393,7 +393,7 @@ img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 32px;
   font-family: 'Oxygen', sans-serif;
   letter-spacing: 1px;
 }
@@ -409,5 +409,19 @@ img {
 .meteo{
   font-size: 24px;
   margin-top: 20px;
+  width: 200px;
+}
+
+.traficContainer{
+  padding-top : 10px;
+  padding-left : 400px;
+  padding-right : 400px;
+  padding-bottom : 10px;
+  color: white;
+}
+
+.trafic{
+  font-size: 24px;
+  margin-top: 100px;
   width: 200px;
 }

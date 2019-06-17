@@ -36,7 +36,7 @@ export class Clock extends React.Component {
   }
 
   render() {
-    const {hours, minutes, seconds, ampm} = this.state;
+    const {hours, minutes, seconds} = this.state;
     return (
         <div className="clockContainer">
         Actuellement à Montréal, il est : 

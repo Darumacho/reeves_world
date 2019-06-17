@@ -20,7 +20,7 @@ export class Daily extends React.Component{
                     <u>{pic.name.first} {pic.name.last}</u>
                     <br />
                     <br />
-                        <img src={pic.picture.large} />
+                        <img src={pic.picture.large} alt="guidoune"/>
                     <br />
                     <br />
                     qui nous vient de <i><u>{pic.location.city}</u></i> !

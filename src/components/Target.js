@@ -4,7 +4,7 @@ import { random } from './helpers';
 
 export class Target extends React.Component {
   shouldComponentUpdate(nextProps, nextState) {
-    return this.props.number != nextProps.number;
+    return this.props.number !== nextProps.number;
   }
 
   render() {
