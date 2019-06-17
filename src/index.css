@@ -399,6 +399,7 @@ img {
 }
 
 .meteoContainer{
+  display: table-cell;
   padding-top : 10px;
   padding-left : 400px;
   padding-right : 400px;
@@ -425,3 +426,20 @@ img {
   margin-top: 100px;
   width: 200px;
 }
+
+.jauge{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px; 
+  height: 60px;
+}
+
+/*background: -moz-linear-gradient(left,  red 0%, red 60%, white 60%, white 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,red), color-stop(60%,red), color-stop(60%,#f6f6f6), color-stop(100%,#f6f6f6));
+background: -webkit-linear-gradient(left,  red 0%, red 60%, white 60%, white 100%);
+background: -o-linear-gradient(left,  red 0%, red 60%, white 60%, white 100%);
+background: -ms-linear-gradient(left,  red 0%, red 60%, white 60%, white 100%);
+background: linear-gradient(to right,  red 0%, red 60%, white 60%, white 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c9e9f', endColorstr='#f6f6f6',GradientType=1 );/*/
