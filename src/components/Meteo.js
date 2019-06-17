@@ -28,7 +28,12 @@ function getColor(temp){
     let percentGauge = '';
     
     switch(true){
-        case (temp<0.00):
+        case (temp<-10.00):
+            hexColor = '#d4f6f9';
+            percentGauge = '3%';
+            break;
+
+        case (temp>=-10.00 && temp<0.00):
             hexColor = '#54ceff';
             percentGauge = '10%';
             break;
@@ -64,7 +69,7 @@ function getColor(temp){
             break;
 
         case (temp>=35.00) :
-                hexColor = '#aa0805';
+                hexColor = '#560808';
                 percentGauge = '100%';
                 break;
 
