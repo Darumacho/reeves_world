@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const Boy = ({ description, temp, speed }) => {
     let styles = getColor(temp);
-    console.log(temp);
+    //console.log(temp);
     return (
         <React.Fragment>
         <div className="meteo">
@@ -27,7 +27,7 @@ function getColor(temp){
     let hexColor = '';
     let percentGauge = '';
     
-    switch(temp){
+    switch(true){
         case (temp<0.00):
             hexColor = '#54ceff';
             percentGauge = '10%';
@@ -43,12 +43,12 @@ function getColor(temp){
             percentGauge = '40%';
             break;
                                 
-        case (temp>=12.00 && temp<18.00) :
+        case (temp>=12.00 && temp<20.00) :
             hexColor = '#ffeb3f';
             percentGauge = '50%';
             break;
                                                     
-        case (temp>=18.00 && temp<24.00) :
+        case (temp>=20.00 && temp<24.00) :
             hexColor = '#f99325';
             percentGauge = '60%';
             break;
@@ -58,10 +58,15 @@ function getColor(temp){
             percentGauge = '75%';
             break;
                                                                                             
-        case (temp>=30.00) :
+        case (temp>=30.00 && temp <35.00) :
             hexColor = '#aa0805';
             percentGauge = '95%';
             break;
+
+        case (temp>=35.00) :
+                hexColor = '#aa0805';
+                percentGauge = '100%';
+                break;
 
         default :
             hexColor = '#f99325';
