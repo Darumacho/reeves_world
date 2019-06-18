@@ -13,14 +13,16 @@ export class Converter extends Component {
 
     componentDidMount() {
         axios
-            .get("http://api.openrates.io/latest?base=CAD")
+            .get("http://api.openrates.io/latest")
             .then(response => {
-                console.log(response);
-                const currencyAr = ["CAD"]
-                this.setState({ currencies: currencyAr })
+                const currencyAr = ["EUR"]
+                for (const key in response.data.rates) {
+                    currencyAr.push(key)
+                }
+                this.setState({ currencies: currencyAr.sort() })
             })
             .catch(err => {
-                console.log("Olala, ce n'est pas possible", err.message);
+                console.log("Opps", err.message);
             });
     }
 
@@ -36,7 +38,7 @@ export class Converter extends Component {
                     console.log("Hum, c'est tout cassé", err.message);
                 });
         } else {
-            this.setState({ result: "La money est la même." })
+            this.setState({ result: "Le type de money est le même des deux côtés." })
         }
     };
 
@@ -66,8 +68,7 @@ export class Converter extends Component {
                     />
                     <select
                         name="from"
-                        onChange={(event) => this.selectHandler(event)}
-                        value={this.state.fromCurrency}
+                        value={"CAD"}
                     >
                         {this.state.currencies.map(cur => (
                             <option key={cur}>{cur}</option>
