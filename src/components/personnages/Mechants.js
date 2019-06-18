@@ -27,23 +27,28 @@ export class Mechant extends React.Component {
               <h2 class="blog-post-title" id="chosen">Les méchants</h2>
               <br />
               <div class="miniContainer">
-              <h3 className="subtitle">Gilles</h3>
-              <p>Gilles est la Divinité de la Connaissance, représentant du Savoir et de l'Esprit, Première Force du Lateralus.</p>
-              <p>Il a été doté de la Doctrine C++ juste après la Création, qu'il a dû partager avec Claude. Les écrits restent très flous concernant le déroulement exact des évènements, mais il est l'un des deux acteurs principaux du Schisme, menant à son contrôle total sur la Connaissance, et l'exil de Claude dans les Profondeurs.</p>
-              <p>Les Chosen Ones sont ses envoyés, qu'il a nommé à raison d'un par contrée. Il redoute énormément la Corruption++, qui ferait s'effondrer la Connaissance sur l'Univers entier.</p>
+              <h3 className="subtitle">Khon Fethi</h3>
+              <p><u>Titre :</u> Chef de raid</p>
+              <p><u>Lieu(x) de rencontre :</u> Sacramenbourg</p>
+              <p>Khon Fethi est le premier Garbage Collector à être affronté par les Chosen Ones. Il est le chef du raid ayant pris d'assaut la ville de Sacramenbourg et dirige une petite troupe d'une vingtaine de disciples.</p>
+              <p>Khon Fethi étant le plus faible de ses camarades, la tâche qui lui a été confiée ne relevait d'aucun risque - c'était sans compter sur l'arrivée des Chosen Ones dans la ville très isolée de Sacramenbourg.</p>
               <br />
 
-              <h3 className="subtitle">Claude</h3>
-              <p>Claude est la Divinité des Profondeurs, représentant du Pouvoir et du Corps, Seconde Force du Lateralus.</p>
-              <p>Tout comme Gilles, il fût doté de la Doctrine C++ après la Création, mais décida de créer sa propre Doctrine, en tant que nouvelle force destinée à résoudre l'Équilibre. De cette décision vint le Schisme, Claude contraint de s'exiler dans les Profondeurs, d'où émergeront les Jhâvas ainsi que la Corruption++, des milliers de siècles plus tard.</p>
-              <p>Claude a nommé les Garbage Collectors en tant qu'émissaires pour lentement reconquérir la Terre et faire s'effondrer la Connaissance, seul moyen pour que l'Univers ne devienne qu'une seule et même masse.</p>
+              <h3 className="subtitle">José</h3>
+              <p><u>Titre :</u> Jhâvarchevêque</p>
+              <p><u>Lieu(x) de rencontre :</u> Nouillorc, CCI, Ruines Dimensionnelles, Puerto Favor et Matrice Jhâva</p>
+              <p>José est le chef religieux de l'ordre Jhâva, également évêque de la nouvelle Jhâvathédrâle. Il possède l'un des statuts les plus importants de tout son ordre, et est en étroite collaboration avec le seigneur des Profondeurs.</p>
+              <p>José s'est vu confier la majorité de la Conversion++, convertissant ainsi tous les lieux de culte du C++ au Java. Contrairement à ses camarades, il n'est jamais vraiment hostile envers les Chosen Ones, comme s'il semblait défendre leur cause.</p>
+              <p>Peut-être que ses motivations ambigües cachent un personnage au statut bien plus important qu'on puisse s'imaginer ?</p>
               <br />
 
-              <h3 className="subtitle">Guillaume</h3>
-              <p>Guillaume est la Divinité de la Terre, représentant de l'Équilibre et de l'Âme, Troisième Force du Lateralus.</p>
-              <p>Il est le Juge Impartial, détenteur de la Doctrine PHP, et gardien du monde des mortels, formant la césure entre la Connaissance et les Profondeurs. Il guide les Chosen Ones dans leur quête contre la Corruption++, omniprésent mais pas omniscient.</p>
-              <p>En tant que représentant de l'Équilibre, Guillaume n'a nommé aucun émissaire, mais se voit accueillir ceux des autres Divinités.</p>
+              <h3 className="subtitle">Abdelfattah Stérix</h3>
+              <p><u>Titre :</u> Délesteur de Deniers</p>
+              <p><u>Lieu(x) de rencontre :</u> Nouillorc</p>
+              <p>Magnat absolu de la finance nouillorcaise, A. Stérix a vite pris contact avec les Jhâvas avant que Nouillorc ne soit investie, devenant ainsi un régent auto-proclamé. Il participe à plusieurs évènements se déroulant dans d'autres contrées, comme le financement de l'expédition industrielle de Flocéliande, ou bien le rachat du COUAC 40 de Chopejambon Ville.</p>
+              <p>A. Stérix est le seul à avoir "acheté" son titre de Garbage Collector, ce qui explique pourquoi il est quelque peu ignoré par le reste de l'ordre Jhâva.</p>
               <br />
+
               </div>
         </div>
         <nav class="blog-pagination">

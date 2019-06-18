@@ -2,6 +2,7 @@ import React from 'react';
 import {Meteo} from './Meteo.js';
 import {Trafic} from './Trafic.js';
 import {Clock} from './Horloge.js';
+import {Converter} from './Converter.js';
 
 export function Montreal() {
   return (
@@ -9,6 +10,7 @@ export function Montreal() {
       <Clock />
       <Meteo />
       <Trafic />
+      <Converter />
     </div>
   );
 }
