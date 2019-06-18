@@ -2,8 +2,9 @@ import React from 'react';
 import axios from 'axios';
 
 const Boy = ({ description, temp, speed }) => {
+    temp = temp.toFixed(1);
+    speed = speed.toFixed(1);
     let styles = getColor(temp);
-    //console.log(temp);
     return (
         <React.Fragment>
         <div className="meteo">
@@ -28,54 +29,54 @@ function getColor(temp){
     let percentGauge = '';
     
     switch(true){
-        case (temp<-10.00):
+        case (temp<-10.0):
             hexColor = '#d4f6f9';
             percentGauge = '3%';
             break;
 
-        case (temp>=-10.00 && temp<0.00):
+        case (temp>=-10.0 && temp<0.0):
             hexColor = '#54ceff';
             percentGauge = '10%';
             break;
 
-        case (temp>=0.00 && temp<6.00) :
+        case (temp>=0.0 && temp<6.0) :
             hexColor = '#29afe5';
             percentGauge = '20%';
             break;
             
-        case (temp>=6.00 && temp<12.00) :
+        case (temp>=6.0 && temp<12.0) :
             hexColor = '#c1ff75';
             percentGauge = '40%';
             break;
                                 
-        case (temp>=12.00 && temp<20.00) :
+        case (temp>=12.0 && temp<20.0) :
             hexColor = '#ffeb3f';
             percentGauge = '50%';
             break;
                                                     
-        case (temp>=20.00 && temp<24.00) :
+        case (temp>=20.0 && temp<24.0) :
             hexColor = '#f99325';
             percentGauge = '60%';
             break;
                                                                         
-        case (temp>=24.00 && temp<30.00) :
+        case (temp>=24.0 && temp<30.0) :
             hexColor = '#f92824';
             percentGauge = '75%';
             break;
                                                                                             
-        case (temp>=30.00 && temp <35.00) :
+        case (temp>=30.0 && temp <35.0) :
             hexColor = '#aa0805';
             percentGauge = '95%';
             break;
 
-        case (temp>=35.00) :
-                hexColor = '#560808';
-                percentGauge = '100%';
-                break;
+        case (temp>=35.0) :
+            hexColor = '#560808';
+            percentGauge = '100%';
+            break;
 
         default :
-            hexColor = '#f99325';
-            percentGauge = '60%';
+            hexColor = '#ffeb3f';
+            percentGauge = '50%';
     }
     return {
         background: '-moz-linear-gradient(left, ' + hexColor +'  0%, ' + hexColor + ' ' + percentGauge +' , white ' + percentGauge +' , white 100%)'
@@ -96,7 +97,6 @@ export class Meteo extends React.Component{
           const montreal = results.data;
 
           this.setState({ montreal });
-          console.log(montreal);
       })
   }
 

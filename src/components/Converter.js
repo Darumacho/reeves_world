@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-
 import './Converter.css';
 
 export class Converter extends Component {
@@ -12,22 +11,19 @@ export class Converter extends Component {
         currencies: [],
     };
 
-    // Initializes the currencies with values from the api
     componentDidMount() {
         axios
-            .get("http://api.openrates.io/latest")
+            .get("http://api.openrates.io/latest?base=CAD")
             .then(response => {
-                // Initialized with 'EUR' because the base currency is 'EUR'
-                // and it is not included in the response
+                console.log(response);
                 const currencyAr = ["CAD"]
                 this.setState({ currencies: currencyAr })
             })
             .catch(err => {
-                console.log("Hum, cc'est tout cassé", err.message);
+                console.log("Olala, ce n'est pas possible", err.message);
             });
     }
 
-    // Event handler for the conversion
     convertHandler = () => {
         if (this.state.fromCurrency !== this.state.toCurrency) {
             axios
@@ -37,14 +33,13 @@ export class Converter extends Component {
                     this.setState({ result: result.toFixed(5) })
                 })
                 .catch(err => {
-                    console.log("Opps", err.message);
+                    console.log("Hum, c'est tout cassé", err.message);
                 });
         } else {
-            this.setState({ result: "You cant convert the same currency!" })
+            this.setState({ result: "La money est la même." })
         }
     };
 
-    // Updates the states based on the dropdown that was changed
     selectHandler = (event) => {
         if (event.target.name === "from") {
             this.setState({ fromCurrency: event.target.value })
@@ -59,7 +54,7 @@ export class Converter extends Component {
             <div className="Converter">
             <br />
             <br />
-                <h2 font-color= 'white'>Convertisseur de Dollar Canadien </h2>
+                <h2 font-color= 'white'>Convertis ta money, guidoune </h2>
                 <div className="Form">
                     <input
                         name="amount"

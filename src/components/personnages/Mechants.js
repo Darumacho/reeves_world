@@ -49,6 +49,35 @@ export class Mechant extends React.Component {
               <p>A. Stérix est le seul à avoir "acheté" son titre de Garbage Collector, ce qui explique pourquoi il est quelque peu ignoré par le reste de l'ordre Jhâva.</p>
               <br />
 
+              <h3 className="subtitle">Ji'Yunit</h3>
+              <p><u>Titre :</u> Gardien du framework</p>
+              <p><u>Lieu(x) de rencontre :</u> Jhâvasterie</p>
+              <p>Ji'Yunit a été chargé par ses semblables de garder le Framework Java, nécéssaire à l'équilibre entre les forces - il s'en débarrasse en le relâchant dans une singularité matantesque, avant que les Chosen Ones ne lui mettent la main dessus. Il est le seul Garbage Collector à n'agir dans aucune zone définie, voyageant sans cesse afin de protéger le Framework.</p>
+              <p>Il est sans doute le plus féroce de tous ses camarades, maniant à merveille la magie et le combat à l'épée.</p>
+              <br />
+
+              <h3 className="subtitle">Laponillaire</h3>
+              <p><u>Titre :</u> Jhâvalexandrin</p>
+              <p><u>Lieu(x) de rencontre :</u> Ouarzazande</p>
+              <p>Ancien auteur de grande renommée, Laponillaire a été choisi pour écrire et conter tous les exploits de son ordre. Lui et sa troupe de disciples investissent le village de Ouarzazande, l'usage de rimes riches rendant leurs actions moralement non répréhensibles.</p>
+              <p>Il est le seul Garbage Collector à faire preuve de diplomatie envers ceux qui l'entourent.</p>
+              <br />
+
+              <h3 className="subtitle">Eklips et Nehtbinz</h3>
+              <p><u>Titre :</u> Chevaliers Idéeux</p>
+              <p><u>Lieu(x) de rencontre :</u> Entrelasque</p>
+              <p>Eklips et Nehtbinz sont liés depuis toujours par une amitié indéfectible, choisis pour être respectivement l'épée et le bouclier de leur ordre. Un "accident de parcours" les amène à déserter leurs propres rangs, décidant de partir à la recherche de l'Assembleur lui-même.</p>
+              <p>Ils affrontent les Chosen Ones et Hubert Reeves au sein du Sanctuaire du Void, à seulement quelques pas de leur objectif initial.</p>
+              <p>Malgré leur statut, ils sont les seuls à ne pas prendre part à la Corruption++.</p>
+              <br />
+
+              <h3 className="subtitle">Giegue</h3>
+              <p><u>Titre :</u> Étranger</p>
+              <p><u>Lieu(x) de rencontre :</u> Portail Intergalactique, Ruines dimensionnelles, Nébuleuse</p>
+              <p>Les origines de Giegue restent assez floues et contradictoires d'un orateur à l'autre. Certains disent qu'il est tombé du ciel, d'autres disent qu'il est apparu un beau jour au beau milieu de Puerto Favor. Il semblerait qu'il ait un lien étroit avec le pouvoir des étoiles, dont il peut potentiellement tirer profit.</p>
+              <p>Les Chosen Ones n'ont aucune idée du rôle ni du pouvoir de Giegue jusqu'à lors.</p>
+              <br />
+
               </div>
         </div>
         <nav class="blog-pagination">

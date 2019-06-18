@@ -6,7 +6,8 @@ const CAD = ({ money }) => {
         <div className="trafic">
             Le Dollar Canadien vaut toujours
             <br />
-            <u>{money}€</u>
+            {money = money.toFixed(3)}
+            <u font-size="16">{money}€</u>
             <br />
             <br />
         </div>
