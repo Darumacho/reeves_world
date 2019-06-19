@@ -1,0 +1,38 @@
+.randomHero {
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+    box-sizing: border-box; 
+    text-align: center;
+    color: white;
+}
+
+.randomHero button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgb(11, 170, 59);
+    color: white;
+    border: none;
+}
+
+.randomHero button:hover {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgb(11, 170, 59);
+    color: white;
+    border: none;
+  }
+
+.randomHero h3 {
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.randomHero h2 span {
+    color: rgb(11, 170, 59);
+}
