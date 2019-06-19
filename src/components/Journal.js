@@ -41,7 +41,7 @@ export class Journal extends React.Component {
             <br />
             <li>3. Les carcajous possèdent de grandes patounes : soyez donc très vigilant quant aux empreintes que vous trouverez, elles peuvent indiquer la présence d'un carcajou.</li>
             <br />
-            <li>4. Les carcajous vivent dans la taïga : tant que vous ne vous trouvez pas dans cette zone, vous n'en rencontrerez pas - il faut donc éviter d'aller là-bas !</li>
+            <li>4. Les carcajous vivent dans la taïga : tant que vous ne vous trouvez pas dans cette zone, vous n'en rencontrerez pas - il faut donc éviter d'aller la taïga !</li>
             <br />
             <li>5. Il n'y a pas vraiment de cinquième astuce, mais un top 5 est plus vendeur qu'un top 4.</li>
             <br />
