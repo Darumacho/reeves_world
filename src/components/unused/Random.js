@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Button} from './colorButton.js';
+import {Button} from './unused/colorButton.js/index.js';
 
 export class Random extends React.Component {
   constructor(props){

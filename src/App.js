@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
 import {Accueil} from './components/Accueil.js';
-import {Random} from './components/Random.js';
 import {Montreal} from './components/Montreal.js';
 import {Game} from './components/Morpion.js';
 import {Sidebar} from './Sidebar.js';
@@ -44,7 +43,6 @@ function App() {
           <Route path="/lieux" component={Lieux} />
           <Route path="/contree" component={Contree} />
           <Route path="/mineur" component={Mineur} />
-          <Route path="/color" component={Random} />
           <Route path="/journal" component={Journal} />
           <Route path="/boys" component={Boys} />
         </Switch>

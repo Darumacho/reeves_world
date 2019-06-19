@@ -1,6 +1,6 @@
 import React from 'react';
 import '../index.css';
-import { Guidoune } from './Guidoune';
+import { Guidoune } from '../Guidoune';
 
 export class Rain extends React.Component {
   constructor(props) {
