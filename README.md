@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hola guidoune, ce site a été crée avec [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## C'est quoi les fonctionnalités ?
 
-In the project directory, you can run:
+Tu m'as l'air curieux, espèce de bédouin de discothèque, je vais donc éclairer ta lanterne, sale baveux de gouttière.
 
-### `npm start`
+### Accueil
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Si tu trouves que ce n'est pas explicite, j'ai l'honneur de t'annoncer que t'es vraiment la plus grosse guidoune que j'ai vu de toute ma vie wesh.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Montréal en direct
 
-### `npm test`
+Toutes les infos sur Montréal sont là, et en temps réel, t'entends ? RÉEL, contrairement à ton talent.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tu pourras y trouver une horloge, un thermomètre, des infos sur le climat et le trafic, et si tu te sens d'humeur boursière, tu pourras t'embêter à convertir tous tes joyeux deniers canadiens en n'importe quelle autre devise.
 
-### `npm run build`
+### Jouer au morpion
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Joue au morpion contre toi-même ou un ami, ce qui doit revenir au même finalement.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Jouer à TopNumber
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Vraiment si tu t'embêtes, tu peux cliquer sur des gros nombres, que tu rêves probablement de voir sur ta fiche de paie.
 
-### `npm run eject`
+### Conférences
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Nourris-toi de cette ambroisie qu'est la bonne parole de ce sacré Hubert.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Guidoune du jour
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Avec un peu de chance, tu te rendras compte que ta maman est célèbre.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Journal
 
-## Learn More
+Des articles d'une qualité que tu rêverais d'atteindre, écrits par la Trinité des Boys.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Les boys
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+La fameuse trinité en question, qui te fera changer de pantalon aussi vite qu'il ne le faut pour dire "poutine".
 
-### Code Splitting
+### Générateur de héros
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Pimente ta vie pathétique et t'inventant un pouvoir et un nom parmi les 10 000 possibilités - ça fait presque autant que tes chromosomes.
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Bonne visite, guidoune
