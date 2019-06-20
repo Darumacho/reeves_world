@@ -1,5 +1,22 @@
 Hola guidoune, ce site a été crée avec [Create React App](https://github.com/facebook/create-react-app).
 
+
+Voilà de quoi tu auras besoin pour faire tourner ce site :
+
+### Clone
+
+Télécharge le .ZIP du projet, et mets-le où tu veux (sur ton PC)
+
+### Invite de commandes
+
+Démarre un Invite de commandes, et rends-toi dans le dossier du projet, puis tape `npm install`
+
+Maintenant, tape `npm install react-bootstrap bootstrap`
+
+On y est presque, maintenant tape `npm install --save react-router-dom`
+
+Ensuite, lance `npm start` et rends-toi sur localhost:3000 dans ta barre d'URL
+
 ## C'est quoi les fonctionnalités ?
 
 Tu m'as l'air curieux, espèce de bédouin de discothèque, je vais donc éclairer ta lanterne, sale baveux de gouttière.
@@ -42,4 +59,4 @@ La fameuse trinité en question, qui te fera changer de pantalon aussi vite qu'i
 
 Pimente ta vie pathétique et t'inventant un pouvoir et un nom parmi les 10 000 possibilités - ça fait presque autant que tes chromosomes.
 
-### Bonne visite, guidoune
+## Bonne visite, guidoune
