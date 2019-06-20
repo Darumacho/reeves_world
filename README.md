@@ -59,4 +59,4 @@ La fameuse trinité en question, qui te fera changer de pantalon aussi vite qu'i
 
 Pimente ta vie pathétique et t'inventant un pouvoir et un nom parmi les 10 000 possibilités - ça fait presque autant que tes chromosomes.
 
-### Bonne visite, guidoune
+## Bonne visite, guidoune
