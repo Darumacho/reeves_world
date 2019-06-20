@@ -1,5 +1,18 @@
 Hola guidoune, ce site a été crée avec [Create React App](https://github.com/facebook/create-react-app).
 
+
+Voilà de quoi tu auras besoin pour faire tourner ce site :
+
+### Clone
+
+Télécharge le .ZIP du projet, et mets-le où tu veux (sur ton PC)
+
+### Invite de commandes
+
+Démarre un Invite de commandes, et rends-toi dans le dossier du projet, puis tape `npm install`
+
+Ensuite, lance `npm start` et rends-toi sur localhost:3000 dans ta barre d'URL
+
 ## C'est quoi les fonctionnalités ?
 
 Tu m'as l'air curieux, espèce de bédouin de discothèque, je vais donc éclairer ta lanterne, sale baveux de gouttière.
