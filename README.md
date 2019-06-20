@@ -11,6 +11,10 @@ Télécharge le .ZIP du projet, et mets-le où tu veux (sur ton PC)
 
 Démarre un Invite de commandes, et rends-toi dans le dossier du projet, puis tape `npm install`
 
+Maintenant, tape `npm install react-bootstrap bootstrap`
+
+On y est presque, maintenant tape `npm install --save react-router-dom`
+
 Ensuite, lance `npm start` et rends-toi sur localhost:3000 dans ta barre d'URL
 
 ## C'est quoi les fonctionnalités ?
