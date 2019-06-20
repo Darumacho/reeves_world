@@ -74,7 +74,7 @@ export class Mechant extends React.Component {
               <h3 className="subtitle">Giegue</h3>
               <p><u>Titre :</u> Étranger</p>
               <p><u>Lieu(x) de rencontre :</u> Portail Intergalactique, Ruines dimensionnelles, Nébuleuse</p>
-              <p>Les origines de Giegue restent assez floues et contradictoires d'un orateur à l'autre. Certains disent qu'il est tombé du ciel, d'autres disent qu'il est apparu un beau jour au beau milieu de Puerto Favor. Il semblerait qu'il ait un lien étroit avec le pouvoir des étoiles, dont il peut potentiellement tirer profit.</p>
+              <p>Les origines de Giegue restent assez floues et contradictoires d'un orateur à l'autre. Certains disent qu'il est tombé du ciel, d'autres disent qu'il est apparu un beau jour au beau milieu de Joliberges. Il semblerait qu'il ait un lien étroit avec le pouvoir des étoiles, dont il peut potentiellement tirer profit.</p>
               <p>Les Chosen Ones n'ont aucune idée du rôle ni du pouvoir de Giegue jusqu'à lors.</p>
               <br />
 

@@ -207,7 +207,7 @@ export class Heros extends Component {
             'tu fais apparaître des pâtes al dente dans chaque plat',
             'tu peux transformer les canards en pintades',
             'tu peux cracher du feu avec tes aisselles',
-            'tu peux parler ouzbèke pendant 30 secondes',
+            'tu peux parler ouzbèke pendant 30 secondes toutes les 2 heures',
             'tu peux lire l\'avenir dans les méduses',
             'tu peux écrire à la craie sur les tableaux Veleda',
             'tu maîtrises toutes les figures de style',
@@ -219,6 +219,8 @@ export class Heros extends Component {
 
         const randomPower = Math.floor(Math.random() * 100);
         const power = powers[randomPower];
+
+        console.log(`name: ${randomName} power: ${randomPower}`)
 
         this.setState({ 
             name: hero,
