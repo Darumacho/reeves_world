@@ -10,8 +10,9 @@ const Base = ({ boys }) => (
   <div>
   {console.log('guidoune')}
   {boys.map(boy => (
-    <div className="meteo" key={boy.name}>
-    Nom : {boy.name}
+    <div className="contact" key={boy.name}>
+    <img class="rounded-circle" src={boy.pic} alt="image" width="140" height="140"/>
+     {boy.name}
     <br />
     Guidoune : {boy.guidoune ? 'oui' : 'non'}
     <br />
@@ -48,7 +49,7 @@ export class Test extends Component {
     render() {
       const check = this.state.users
         return (
-        <div>
+        <div class="contactContainer">
         {check ? (
           <Base boys = {check} />
         ) : (
