@@ -20,6 +20,7 @@ import {Lieux} from './components/Lieux.js';
 import {Contree} from './components/lieux/Contree.js';
 import {Mineur} from './components/lieux/Mineur.js';
 import {Heros} from './components/Heros.js';
+import {Test} from './components/TestBDD.js';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/journal" component={Journal} />
           <Route path="/boys" component={Boys} />
           <Route path="/heros" component={Heros} />
+          <Route path="/contact" component={Test} />
         </Switch>
         </React.Fragment>
       </header>

@@ -32,7 +32,7 @@ export class Contree extends React.Component {
 
               <h3 className="subtitle">Royaume du Nord</h3>
               <p><u>Climat :</u> Polaire</p>
-              <p><u>Personnages importants :</u> À venir</p>
+              <p><u>Personnages importants :</u> Roi Nordicus 1er, L'Orchidoglaste, R'né, Céliiiiiine</p>
               <p>À venir</p>
               <br />
 

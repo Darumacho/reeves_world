@@ -16,11 +16,12 @@ export function Sidebar() {
         <Nav.Link href="/guidoune">Guidoune du jour</Nav.Link>
         <Nav.Link href="/journal">Journal</Nav.Link>
         <Nav.Link href="/boys">Les boys</Nav.Link>
+        <Nav.Link href="/contact">Contact</Nav.Link>
         <Nav.Link href="/heros">Générateur héros</Nav.Link>
         <NavDropdown title="CSI Forever" id="basic-nav-dropdown">
           <NavDropdown.Item href="/story">Histoire</NavDropdown.Item>
           <NavDropdown.Item href="/persos">Personnages</NavDropdown.Item>
-          <NavDropdown.Item href="/armes">Armes</NavDropdown.Item>
+          <NavDropdown.Item href="/test">Test</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Armures</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Artefacts</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Essences</NavDropdown.Item>

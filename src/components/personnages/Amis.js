@@ -27,16 +27,18 @@ export class Ami extends React.Component {
               <h2 class="blog-post-title" id="chosen">Les amis</h2>
               <br />
               <div class="miniContainer">
-              <h3 className="subtitle">Gilles</h3>
-              <p>Gilles est la Divinité de la Connaissance, représentant du Savoir et de l'Esprit, Première Force du Lateralus.</p>
-              <p>Il a été doté de la Doctrine C++ juste après la Création, qu'il a dû partager avec Claude. Les écrits restent très flous concernant le déroulement exact des évènements, mais il est l'un des deux acteurs principaux du Schisme, menant à son contrôle total sur la Connaissance, et l'exil de Claude dans les Profondeurs.</p>
-              <p>Les Chosen Ones sont ses envoyés, qu'il a nommé à raison d'un par contrée. Il redoute énormément la Corruption++, qui ferait s'effondrer la Connaissance sur l'Univers entier.</p>
+              <h3 className="subtitle">E. Gwiazdowski</h3>
+              <p><u>Fonction :</u> Maire</p>
+              <p><u>Lieu(x) de rencontre :</u> Sacramenbourg, Îles Lointaines</p>
+              <p>E.Gwiazdowski est une magistrate experte en droit, actuellement maire de Sacramenbourg. Elle rencontre les Chosen Ones lors de leur arrivée dans la Contrée principale et les charge de dissoudre le raid Jhâva entravant la ville. Sa phrase fétiche et incontrable est le célèbre proverbe : "Nul ne peut se prévaloir de ses propres turpitudes".</p>
+              <p>En plus d'avoir un nom imprononçable, E.Gwiazdowski possède un important éventail d''alinéas en tous genres, dédiés à profondément déstabiliser les ennemis.</p>
               <br />
 
-              <h3 className="subtitle">Claude</h3>
-              <p>Claude est la Divinité des Profondeurs, représentant du Pouvoir et du Corps, Seconde Force du Lateralus.</p>
-              <p>Tout comme Gilles, il fût doté de la Doctrine C++ après la Création, mais décida de créer sa propre Doctrine, en tant que nouvelle force destinée à résoudre l'Équilibre. De cette décision vint le Schisme, Claude contraint de s'exiler dans les Profondeurs, d'où émergeront les Jhâvas ainsi que la Corruption++, des milliers de siècles plus tard.</p>
-              <p>Claude a nommé les Garbage Collectors en tant qu'émissaires pour lentement reconquérir la Terre et faire s'effondrer la Connaissance, seul moyen pour que l'Univers ne devienne qu'une seule et même masse.</p>
+              <h3 className="subtitle">Nod Ji'Hess</h3>
+              <p><u>Fonction :</u> Jhâva renégat</p>
+              <p><u>Lieu(x) de rencontre :</u> Sacramenbourg, Îles Lointaines</p>
+              <p>Nod a déserté les rangs de l'ordre Jhâva peu de temps après le début du raid de Sacramenbourg. Il est un formidable artisan maîtrisant l'art de la transposition. Les Chosen Ones feront souvent appel à lui pour transposer les vestiges de puissants adversaires, afin d'en tirer une arme, un artefact ou une armure.</p>
+              <p>Nod semble toujours avoir une anecdote intéressante à propos de ses anciens camarades tombés au combat, ce qui amène à penser qu'il est resté relativement longtemps au sein de l'ordre.</p>
               <br />
 
               <h3 className="subtitle">Guillaume</h3>

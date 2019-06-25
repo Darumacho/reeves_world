@@ -44,4 +44,3 @@ export class Daily extends React.Component{
 }
 
 export default Daily;
-//api.openweathermap.org/data/2.5/weather?id=6077243

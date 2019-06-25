@@ -80,24 +80,23 @@ export class Mineur extends React.Component {
               <h3 className="subtitle">Entrelasque</h3>
               <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Armes, Sanctuaire du Void</p>
               <p>Une ville riche en histoire, témoin d'un évènement très important de la création de l'Univers. C'est autour de cette empreinte sacrée qu'a été construit le Sanctuaire du Void ainsi que le reste de la ville</p>
-              <p>au vu de l'importance historique de la ville, il semble étrange que les Jhâvas n'aient pas investi les lieux.</p>
+              <p>Au vu de l'importance historique de la ville, il semble étrange que les Jhâvas n'aient pas investi les lieux.</p>
               <br />
 
               <h3 className="subtitle">Roc-en-Nombre</h3>
-              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Agence de mercenariat, Armes, Armures, Jeve Stobs, Nourriture</p>
-              <p>Un archipel rocheux au sud d'Entrelasque. Il abrite le mécanisme de sûreté du Sanctuaire du Void, difficilement accessible pour le commun des mortels. Certains pêcheurs locaux parlent d'un mystérieux galion capable de les emmener vers une île supposément imaginaire.</p>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Maison du Pêcheur</p>
+              <p>Un archipel rocheux au sud d'Entrelasque. Il abrite le mécanisme de sûreté du Sanctuaire du Void, difficilement accessible pour le commun des mortels. Un pêcheur local parle d'un mystérieux galion capable d'emmener les voyageurs vers une île supposément imaginaire.</p>
               <br />
 
               <h3 className="subtitle">Cierthelieux</h3>
-              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Agence de mercenariat, Armes, Armures, Jeve Stobs, Nourriture</p>
-              <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
-              <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Manoir Ducryme, Nourriture, Armurerie d'Épée rouillée</p>
+              <p>Le village secret de la forêt portant le même nom. Ses habitants sont désignés par leur métier ou statut. On raconte que tous les jours, un crime se produit au sein du village, avant que la vie ne reprenne son cours habituel.</p>
               <br />
 
               <h3 className="subtitle">Vimontilliers</h3>
-              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Agence de mercenariat, Armes, Armures, Jeve Stobs, Nourriture</p>
-              <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
-              <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Chez FrancescAAAAAARGH, Boutique-surprise</p>
+              <p></p>
+              <p>Un petit village en périphérie de la CCI, étape de la Route du Grand Chemin. Un restaurant aux plats très onéreux y a ouvert, faisant la fortune de ses gérants.</p>
               <br />
 
               <h3 className="subtitle">Sainte-Moustache-le-Bosquet</h3>
