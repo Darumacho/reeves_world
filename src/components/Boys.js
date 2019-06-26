@@ -23,6 +23,21 @@ export class Boys extends React.Component {
     <h2>Harold boy</h2>
     <p>L'homme du tutoriel, très rarement vu sans son pouce en l'air. Son sourire éclatant provoque d'importants mouvements de foule.</p>
   </div>
+  <div class="col-lg-4">
+    <img class="rounded-circle" src="img/ohboy.png" alt="harold" width="140" height="140"/>
+    <h2>Jean-Paul boy</h2>
+    <p>Celui qui ne sait dire que "Oh boy", mais ça lui va tellement bien aussi.</p>
+  </div>
+  <div class="col-lg-4">
+    <img class="rounded-circle" src="img/GuidouneMan2.png" alt="guidoune" width="140" height="140"/>
+    <h2>Guidoune Man</h2>
+    <p>Le créateur de cette abomination du web. Comme son nom l'indique, c'est vraiment une grosse guidoune.</p>
+  </div>
+  <div class="col-lg-4">
+    <img class="rounded-circle" src="img/valoche.jpg" alt="valerie" width="140" height="140"/>
+    <h2>Valérie girl</h2>
+    <p>La bourgmestresse de Montréal, plus belle ville du Québec, donc du Canada, donc du monde entier. Elle utilise son site favori pour consulter toute les infos sur son terter.</p>
+  </div>
 </div>
 
 <div class="row featurette">

@@ -21,17 +21,16 @@ export function Sidebar() {
         <NavDropdown title="CSI Forever" id="basic-nav-dropdown">
           <NavDropdown.Item href="/story">Histoire</NavDropdown.Item>
           <NavDropdown.Item href="/persos">Personnages</NavDropdown.Item>
-          <NavDropdown.Item href="/test">Test</NavDropdown.Item>
+          <NavDropdown.Item href="/lieux">Lieux</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Armures</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Artefacts</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Essences</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Compétences</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Talents</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Ennemis</NavDropdown.Item>
-          <NavDropdown.Item href="/lieux">Lieux</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Distinctions</NavDropdown.Item>
+          <NavDropdown.Item href="/distinction">Distinctions</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="http://www.mediafire.com/file/aygv57ddo4v4b97/CSI_Forever_-_1.6.rar/file">Télécharger</NavDropdown.Item>
+          <NavDropdown.Item href="http://www.mediafire.com/file/aygv57ddo4v4b97/CSI_Forever_-_1.6.rar/file">Télécharger (1.6)</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>

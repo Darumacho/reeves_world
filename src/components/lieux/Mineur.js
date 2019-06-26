@@ -100,37 +100,36 @@ export class Mineur extends React.Component {
               <br />
 
               <h3 className="subtitle">Sainte-Moustache-le-Bosquet</h3>
-              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Agence de mercenariat, Armes, Armures, Jeve Stobs, Nourriture</p>
-              <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
-              <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Armes, Armures, École Saint-Sévère</p>
+              <p>Un petit village incroyablement paisible, élu village le plus heureux du monde. C'ets ici qu'on trouve le célèbre établissement Saint-Sévère, réputé pour le recadrement des élèves difficiles ainsi que ses classes d'été faisant le bonheur de tous les écoliers.</p>
               <br />
 
               <h3 className="subtitle">Passage funeste</h3>
-              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Agence de mercenariat, Armes, Armures, Jeve Stobs, Nourriture</p>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
               <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
               <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
               <br />
 
               <h3 className="subtitle">Voie lugubre</h3>
-              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Agence de mercenariat, Armes, Armures, Jeve Stobs, Nourriture</p>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
               <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
               <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
               <br />
 
               <h3 className="subtitle">Canyon nocif</h3>
-              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Agence de mercenariat, Armes, Armures, Jeve Stobs, Nourriture</p>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
               <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
               <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
               <br />
 
               <h3 className="subtitle">Chemin désastreux</h3>
-              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Agence de mercenariat, Armes, Armures, Jeve Stobs, Nourriture</p>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
               <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
               <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
               <br />
 
               <h3 className="subtitle">Portail intergalactique</h3>
-              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Agence de mercenariat, Armes, Armures, Jeve Stobs, Nourriture</p>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
               <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
               <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
               <br />

@@ -19,6 +19,36 @@ export class Journal extends React.Component {
       <div class="row">
 
         <div class="col-sm-8 blog-main">
+        <div class="blog-post">
+            <h2 class="blog-post-title">La fabuleuse babouche de la désolation - chapitre 1</h2>
+            <p class="blog-post-meta">21 juin 2019 par <a href="/boys">Guidoune Man</a></p>
+            <p><img src="img/GuidouneMan2.png" alt="sauce" style={{height:140, width:140}}/></p>
+
+            <p>Tout commença chez la grand-mère d'un dénommé André-Albert. André-Albert aimait y aller pour retrouver sa cousine René-Balthazar et son cousin Bob. Cependant, la grand-mère des trois enfants n'était pas des plus commodes, malgré son âge encore plus canonique qu'une exposition dans un muséum d'histoire naturelle.</p>
+            <p>Les trois compères pouvaient grandement profiter de la vaste demeure de la mère de leur mère, ou de leur père, ça dépend de qui on parle, parce que par exemple, la grand-mère est la mère de la mère de René-Balthazar, mais des pères d'Andre-Albert et Bob, donc bon, on va pas s'attarder là-dessus et de toute façon j'aime pas les mathématiques familiales.</p>
+            <p>Comme je disais avant de m'auto-interrompre, la vaste demeure de la grand-mère faisait office de gigantesque terrain de jeu pour les trois enfants, excepté le grenier, accessible depuis le bout du couloir où se trouvaient toutes les chambre sà coucher. Et pourtant, malgré l'espace immense dans lequel ils pouvaient laisser libre cours à leur imagination, c'était le grenier que les enfants avaient le plus envie de visiter.</p>
+            <p>Ils commencèrent donc à élaborer un plan afin d'y pénétrer, au nez et à la moustache de leur grand-mère :</p>
+            <p>- "On devrait essayer d'y aller tard dans la nuit, à pas de loup !" proposa André-Albert</p>
+            <p>- "Impossible, répliqua René-Balthazar, tu sais très bien que nos chambres sont fermées à clé"</p>
+            <p>- "Ik hou van appeltaart en gedroogde dennenappels", plaça Bob, avec malice.</p>
+            <p>- "J'apprécie l'idée Bob !", lui répondit André-Albert, qui avait déjà un autre plan en tête</p>
+            <p>Les enfants se précipitèrent dans la cuisine afin d'y ingurgiter tout ce qu'y s'y trouvait, donnant une bonne raison à leur grand-mère pour qu'elle sorte en ville. Les enfants pouvaient alors pleinement profiter de l'absence de la vieille femme pour se faufiler dans le grenier.</p>
+            <p>La porte du grenier leur semblait majestueuse et pleine de mystère, devant des enfants pétrifiés d'hésitation :</p>
+            <p>- "...on devrait peut-être ouvrir ?" tenta André-Albert</p>
+            <p>- "Entre ça et vider la cuisine, je ne pense pas qu'on ait eu une bonne idée...", ajouta René-Balthazar.</p>
+            <p>- "Ik heb teveel gegeten en buikpijn", saupoudra Bob, l'air de rien.</p>
+            <p>Dans un élan commun de courage, les trois enfants attrapèrent la poignée et la tournèrent de toute leur force, laissant un air au parfum renfermé et poussièreux s'échapper par l'entrouverture. Seul le bois robuste de la lourde porte résonna à travers l'étage, tandis que les enfants la poussèrent, le souffle coupé par la pollution locale et la peur de l'inconnu.</p>
+            <p>Baignant dans l'unique rayon de soleil ayant réussi à atteindre la pièce, un petit autel recouvert d'or sur lequel reposait une figure plutôt familière : une babouche parsemée de pierres précieuses...</p>
+            <br />
+            <p>La suite au prochain épisode !</p>
+          </div>
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">Manifeste sur la congolexicomatisation des lois du marché</h2>
+            <p class="blog-post-meta">13 juin 2019 par <a href="/boys">Jean-Paul</a></p>
+            <p><img src="img/ohboy.png" alt="sauce" style={{height:200, width:200}}/></p>
+            <p>Oh boy.</p>
+          </div>
 
         <div class="blog-post">
             <h2 class="blog-post-title">Tutoriel : 5 astuces pour éviter les carcajous</h2>
