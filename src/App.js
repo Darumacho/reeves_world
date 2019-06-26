@@ -20,7 +20,7 @@ import {Lieux} from './components/Lieux.js';
 import {Contree} from './components/lieux/Contree.js';
 import {Mineur} from './components/lieux/Mineur.js';
 import {Heros} from './components/Heros.js';
-import {Test} from './components/TestBDD.js';
+import {Test} from './components/Contact.js';
 
 function App() {
   return (
