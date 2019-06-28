@@ -106,18 +106,21 @@ export class Mineur extends React.Component {
 
               <h3 className="subtitle">Passage funeste</h3>
               <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
-              <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
-              <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
+              <p><u>Gardiens :</u> Khon Fethi l'Invincible, Légion des Jhâvannihhilateurs, Ellison</p>
+              <p>L'une des mystérieuses Îles lointaines. On y trouvait une cité apparemment florissante, avant que l'île entière ne soit déchirée par une gigantesque faille. Les derniers habitants de l'île ont pris soin d'enterrer leurs défaunts, apportant son nom au nouveau domaine.</p>
+              <p>Le Passage funeste est une haut lieu de la conquête Jhâva, renfermant les forces d'élite millénaires chargées de donner le coup de grâce aux forces divines.</p>
               <br />
 
               <h3 className="subtitle">Voie lugubre</h3>
               <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
-              <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
-              <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
+              <p><u>Gardiens :</u> Gardien lugubre, Géladal, Chevalier d'Arquéhedgie, Donald</p>
+              <p>L'une des mystérieuses Îles lointaines. C'est une grande forêt imbue d'une puissante force maléfique ayant corrompu faune et flore. La souillure démoniaque est si puissante que des portails se sont ouverts depuis les Profondeurs, laissant s'échapper de véritables abominations.</p>
+              <p>On raconte qu'une entité aussi vieille que les dieux y résiderait, régissant toute la matanterie de ce monde.</p>
               <br />
 
               <h3 className="subtitle">Canyon nocif</h3>
               <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
+              <p><u>Gardiens :</u> Ninjarc-en-ciel, Melon Usk</p>
               <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
               <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
               <br />

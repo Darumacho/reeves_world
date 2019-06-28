@@ -41,10 +41,32 @@ export class Ami extends React.Component {
               <p>Nod semble toujours avoir une anecdote intéressante à propos de ses anciens camarades tombés au combat, ce qui amène à penser qu'il est resté relativement longtemps au sein de l'ordre.</p>
               <br />
 
-              <h3 className="subtitle">Guillaume</h3>
-              <p>Guillaume est la Divinité de la Terre, représentant de l'Équilibre et de l'Âme, Troisième Force du Lateralus.</p>
-              <p>Il est le Juge Impartial, détenteur de la Doctrine PHP, et gardien du monde des mortels, formant la césure entre la Connaissance et les Profondeurs. Il guide les Chosen Ones dans leur quête contre la Corruption++, omniprésent mais pas omniscient.</p>
-              <p>En tant que représentant de l'Équilibre, Guillaume n'a nommé aucun émissaire, mais se voit accueillir ceux des autres Divinités.</p>
+              <h3 className="subtitle">Michel Bay</h3>
+              <p><u>Fonction :</u> Directeur de la Tour de Combat</p>
+              <p><u>Lieu(x) de rencontre :</u> Tour de Combat</p>
+              <p>Michel Bay est un aventurier ayant fait fortune grâce à ses nombreux livres racontant ses périples remplis d'explosions et d'action. Il décide de construire une gigantesque tour en plein désert afin de trouver la guidoune la plus valeureuse du monde, au fil d'une impitoyable série de combats.</p>
+              <p>Il faisait partie d'un trio de voyageurs aux aventures bourrées de péripétie, mais chacun a suivi une voie différente.</p>
+              <br />
+
+              <h3 className="subtitle">Hubert Reeves</h3>
+              <p><u>Fonction :</u> Astrophysicien</p>
+              <p><u>Lieu(x) de rencontre :</u> Bosquet périphérique, Jhâvasterie, Mont Raelle, Nowel City, Entrelasque</p>
+              <p>Hubert Reeves est un astrophysicien de renommée mondial, aussi vieux que bourré de connaissances. Il joue un rôle important dans l'interaction avec les singularités matantesques, qu'il étudie avec le plus grand soin. Selon lui, il existe une force complètement inconnue commune à toutes les singularités.</p>
+              <p>Il se joint aux Chosen Ones lors de la bataille d'Entrelasque, puis propose son savoir et ses talents, moyennant de la sweet sweet money.</p>
+              <br />
+
+              <h3 className="subtitle">Capitaine Jacques Moineau</h3>
+              <p><u>Fonction :</u> Capitaine de la Perle Noire</p>
+              <p><u>Lieu(x) de rencontre :</u> Nouillorc, Port Duavre, Takarajima, Îles lointaines</p>
+              <p>Un marin très expérimenté devenu capitaine de son propre navire, la Perle Noire. Il fait la liaison entre Nouillorc et le port Duavre, mais s'occupe également d'emmener les voyageurs les plus inconscients vers les terribles Îles lointaines.</p>
+              <p>Il mentionne son frère ayant suivi le chemin de la piraterie, vu pour la dernière fois aux alentours de Takarajima il y'a des années.</p>
+              <br />
+
+              <h3 className="subtitle">Chef Jibé</h3>
+              <p><u>Fonction :</u> BG de la Vie</p>
+              <p><u>Lieu(x) de rencontre :</u> Port Duavre, Îles lointaines</p>
+              <p>Le vétéran des 3 BG de la Vie. Chef Jibé rencontre les Chosen Ones au port Duavre, après que les Jhâvas aient scellé l'accès à la route du grand chemin. Il dispose d'une grande connaissance des différents mondes, bien qu'il ne soit qu'n simple observateur.</p>
+              <p>En dépit de son statut, il est en mesure d'aider les Chosen Ones à progresser à travers les redoutables Îles lointaines.</p>
               <br />
               </div>
         </div>
