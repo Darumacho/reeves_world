@@ -443,6 +443,13 @@ img {
   background-color: rgb(97, 94, 94)
 }
 
+.tabContainer{
+  padding-top : 10px;
+  padding-left : 5%;
+  padding-right : 5%;
+  padding-bottom : 10px;
+}
+
 .jauge{
   margin-top: 20px;
   margin-bottom: 20px;

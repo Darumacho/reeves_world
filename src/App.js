@@ -21,6 +21,7 @@ import {Contree} from './components/lieux/Contree.js';
 import {Mineur} from './components/lieux/Mineur.js';
 import {Heros} from './components/Heros.js';
 import {Test} from './components/Contact.js';
+import {Tab} from './components/tableau.js';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Route path="/boys" component={Boys} />
           <Route path="/heros" component={Heros} />
           <Route path="/contact" component={Test} />
+          <Route path="/tab" component={Tab} />
         </Switch>
         </React.Fragment>
       </header>

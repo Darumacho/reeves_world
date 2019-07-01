@@ -18,6 +18,7 @@ export function Sidebar() {
         <Nav.Link href="/boys">Les boys</Nav.Link>
         <Nav.Link href="/contact">Contact</Nav.Link>
         <Nav.Link href="/heros">Générateur héros</Nav.Link>
+        <Nav.Link href="/tab">Tableau</Nav.Link>
         <NavDropdown title="CSI Forever" id="basic-nav-dropdown">
           <NavDropdown.Item href="/story">Histoire</NavDropdown.Item>
           <NavDropdown.Item href="/persos">Personnages</NavDropdown.Item>
