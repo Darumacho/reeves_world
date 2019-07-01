@@ -23,6 +23,7 @@ export function Sidebar() {
           <NavDropdown.Item href="/story">Histoire</NavDropdown.Item>
           <NavDropdown.Item href="/persos">Personnages</NavDropdown.Item>
           <NavDropdown.Item href="/lieux">Lieux</NavDropdown.Item>
+          <NavDropdown.Item href="/armes">Armes</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Armures</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Artefacts</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Essences</NavDropdown.Item>

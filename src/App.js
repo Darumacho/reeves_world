@@ -8,7 +8,6 @@ import {Daily} from './components/Daily.js';
 import {TopGame} from './components/TopGame.js';
 import {Video} from './components/Video.js';
 import {Journal} from './components/Journal.js';
-import {Armes} from './components/Armes.js';
 import {Boys} from './components/Boys.js';
 import {Story} from './components/Story.js';
 import {Persos} from './components/Persos.js';
@@ -22,6 +21,8 @@ import {Mineur} from './components/lieux/Mineur.js';
 import {Heros} from './components/Heros.js';
 import {Test} from './components/Contact.js';
 import {Tab} from './components/tableau.js';
+import {Sword} from './components/armes/epees.js';
+import {Hammer} from './components/armes/marteau.js';
 
 function App() {
   return (
@@ -36,7 +37,6 @@ function App() {
           <Route path="/top" component={TopGame} />
           <Route path="/guidoune" component={Daily} />
           <Route path="/video" component={Video} />
-          <Route path="/armes" component={Armes} />
           <Route path="/story" component={Story} />
           <Route path="/persos" component={Persos} />
           <Route path="/divin" component={Divin} />
@@ -51,6 +51,8 @@ function App() {
           <Route path="/heros" component={Heros} />
           <Route path="/contact" component={Test} />
           <Route path="/tab" component={Tab} />
+          <Route path="/armes" component={Sword} />
+          <Route path="/marteau" component={Hammer} />
         </Switch>
         </React.Fragment>
       </header>
