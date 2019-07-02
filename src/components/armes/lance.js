@@ -35,13 +35,11 @@ export class Lance extends Component {
             { title: 'Port', field: 'port', lookup: { 1: 'Une main', 2: 'Deux mains'} },
           ]}
           data={[
-              { name: 'Poignard', icon: 'boy', damage: 11, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 1 },
-              { name: 'Aiguille empoisonnée', icon: 'boy', damage: 1, grade: 2, coeff: 1.02, element: 0, effect: '1% de chances de tuer en un seul coup', port: 1 },
-              { name: 'Dépeceur', icon: 'boy', damage: 15, grade: 2, coeff: 1.05, element: 1, effect: '-', port: 1 },
-              { name: 'Daglagla', icon: 'boy', damage: 26, grade: 4, coeff: 1.12, element: 2, effect: '-', port: 1 },
-              { name: 'Fulgurodard', icon: 'boy', damage: 62, grade: 6, coeff: 1.33, element: 10, effect: '-', port: 1 },
-              { name: 'Nymphectieuse', icon: 'boy', damage: 51, grade: 5, coeff: 1.25, element: 9, effect: '-', port: 1 },
-              { name: 'Dague nostique', icon: 'boy', damage: 43, grade: 5, coeff: 1.25, element: 7, effect: '-', port: 1 },
+              { name: 'Javelot', icon: 'boy', damage: 15, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 1 },
+              { name: 'Hallebarde', icon: 'boy', damage: 19, grade: 2, coeff: 1.02, element: 0, effect: '-', port: 1 },
+              { name: 'Trident de mercure', icon: 'boy', damage: 23, grade: 3, coeff: 1.08, element: 0, effect: '-', port: 1 },
+              { name: 'Lancéclair', icon: 'boy', damage: 59, grade: 5, coeff: 1.25, element: 4, effect: '-', port: 1 },
+              { name: 'Gigaperceuse', icon: 'boy', damage: 62, grade: 5, coeff: 1.25, element: 0, effect: '-', port: 1 },
               ]}
           title="Liste des lances"
         />

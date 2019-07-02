@@ -19,7 +19,7 @@ export class Ornement extends Component {
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
       </nav>
       <div className="tabContainer">
-        <div className="tabHeader">Un type d'arme très spécial spécifique à Sckald. Les ornements conservent les atouts défensifs du casque tout en lui ajoutant des propriétés offensives.
+        <div className="tabHeader">Un type d'arme très inhabituel spécifique à Sckald. Les ornements conservent les atouts défensifs du casque tout en lui ajoutant des propriétés offensives.
           <br />
           Héros compatibles : -- -- --
         </div>
