@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MaterialTable from 'material-table';
 
-export class Hammer extends Component {
+export class Greatsword extends Component {
   render() {
     return (
       <div>
@@ -19,7 +19,7 @@ export class Hammer extends Component {
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
       </nav>
       <div className="tabContainer">
-        <div className="tabHeader">Armes réservées aux héros les plus endurants, les marteaux sont le symbole de la force brute. Ils sont souvent accompagnés d'effets dévastateurs
+        <div className="tabHeader">Les espadons sont les plus grandes armes du jeu, généralement réservés aux héros de forte carrure. Ils infligent d'énormes dégâts et se portent presque exclusivement à deux mains. Ils infligent toujours un malus de vitesse à leur porteur.
           <br />
           Héros compatibles : -- -- --
         </div>
@@ -35,15 +35,17 @@ export class Hammer extends Component {
             { title: 'Port', field: 'port', lookup: { 1: 'Une main', 2: 'Deux mains'} },
           ]}
           data={[
-              { name: 'Massud\'bois', icon: 'boy', damage: 19, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 1 },
-              { name: 'Concasseur délicieux', icon: 'boy', damage: 23, grade: 2, coeff: 1.05, element: 0, effect: '-', port: 1 },
-              { name: 'Attendrisseur', icon: 'boy', damage: 21, grade: 3, coeff: 1.08, element: 0, effect: 'Diminue la Défense de la cible à chaque coup', port: 1 },
-              { name: 'Clé Amolèthe', icon: 'boy', damage: 51, grade: 3, coeff: 1.15, element: 0, effect: 'Diminue drastiquement la Vitesse', port: 2 },
-              { name: 'Gourdingue', icon: 'boy', damage: 23, grade: 3, coeff: 1.08, element: 5, effect: 'Peut empoisonner la cible à chaque coup', port: 1 },
-              { name: 'Masse cacaclysmique', icon: 'boy', damage: 78, grade: 8, coeff: 1.33, element: 5, effect: '-', port: 2 },
-              { name: 'Martocculte', icon: 'boy', damage: 53, grade: 4, coeff: 1.12, element: 4, effect: '-', port: 1 },
+              { name: 'Tecpatl', icon: 'boy', damage: 24, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 2 },
+              { name: 'Espardent', icon: 'boy', damage: 23, grade: 2, coeff: 1.05, element: 1, effect: '-', port: 2 },
+              { name: 'Brise-lame', icon: 'boy', damage: 25, grade: 3, coeff: 1.08, element: 0, effect: 'Ne diminue pas la Vitesse', port: 1 },
+              { name: 'Leiomano', icon: 'boy', damage: 60, grade: 5, coeff: 1.25, element: 0, effect: '75% de chances de faire saigner la cible', port: 2 },
+              { name: 'Espadon du mistral', icon: 'boy', damage: 23, grade: 3, coeff: 1.08, element: 3, effect: 'Augmente la Puiss.magique', port: 2 },
+              { name: 'Macuahuitl', icon: 'boy', damage: 75, grade: 8, coeff: 1.25, element: 0, effect: '-', port: 2 },
+              { name: 'Espadon d\'onyx', icon: 'boy', damage: 93, grade: 7, coeff: 1.33, element: 7, effect: '-', port: 2 },
+              { name: 'Exécuteur', icon: 'boy', damage: 79, grade: 5, coeff: 1.25, element: 7, effect: '-', port: 2 },
+              { name: 'Permafrost', icon: 'boy', damage: 77, grade: 5, coeff: 1.25, element: 2, effect: '-', port: 2 },
               ]}
-          title="Liste des marteaux"
+          title="Liste des espadons"
         />
       </div>
       </div>
@@ -51,4 +53,4 @@ export class Hammer extends Component {
   }
 }
 
-export default Hammer;
+export default Greatsword;

@@ -23,6 +23,7 @@ import {Test} from './components/Contact.js';
 import {Tab} from './components/tableau.js';
 import {Sword} from './components/armes/epees.js';
 import {Hammer} from './components/armes/marteau.js';
+import {Greatsword} from './components/armes/espadon.js';
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
           <Route path="/tab" component={Tab} />
           <Route path="/armes" component={Sword} />
           <Route path="/marteau" component={Hammer} />
+          <Route path="/espadon" component={Greatsword} />
         </Switch>
         </React.Fragment>
       </header>

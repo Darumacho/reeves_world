@@ -450,6 +450,13 @@ img {
   padding-bottom : 10px;
 }
 
+.tabHeader {
+  background-color: #ccc;
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 16px;
+}
+
 .jauge{
   margin-top: 20px;
   margin-bottom: 20px;
