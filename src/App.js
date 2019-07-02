@@ -24,6 +24,14 @@ import {Tab} from './components/tableau.js';
 import {Sword} from './components/armes/epees.js';
 import {Hammer} from './components/armes/marteau.js';
 import {Greatsword} from './components/armes/espadon.js';
+import {Axe} from './components/armes/hache.js';
+import {Ceste} from './components/armes/ceste.js';
+import {Dague} from './components/armes/dague.js';
+import {Martial} from './components/armes/martial.js';
+import {Ornement} from './components/armes/ornement.js';
+import {Lance} from './components/armes/lance.js';
+import {Faux} from './components/armes/faux.js';
+import {Staff} from './components/armes/baguette.js';
 
 function App() {
   return (
@@ -55,6 +63,14 @@ function App() {
           <Route path="/armes" component={Sword} />
           <Route path="/marteau" component={Hammer} />
           <Route path="/espadon" component={Greatsword} />
+          <Route path="/hache" component={Axe} />
+          <Route path="/ceste" component={Ceste} />
+          <Route path="/dague" component={Dague} />
+          <Route path="/martial" component={Martial} />
+          <Route path="/ornement" component={Ornement} />
+          <Route path="/lance" component={Lance} />
+          <Route path="/faux" component={Faux} />
+          <Route path="/baguette" component={Staff} />
         </Switch>
         </React.Fragment>
       </header>
