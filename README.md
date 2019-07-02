@@ -49,11 +49,14 @@ Avec un peu de chance, tu te rendras compte que ta maman est célèbre.
 
 ### Journal
 
-Des articles d'une qualité que tu rêverais d'atteindre, écrits par la Trinité des Boys.
+Des articles d'une qualité que tu rêverais d'atteindre, écrits par la Trinité des 6 Boys.
 
 ### Les boys
 
 La fameuse trinité en question, qui te fera changer de pantalon aussi vite qu'il ne le faut pour dire "poutine".
+
+### Contact
+Les coordonnées des boys - ils te feront peut-être l'honneur de considérer ton existence en lisant ton mail.
 
 ### Générateur de héros
 
