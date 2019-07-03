@@ -8,7 +8,7 @@
     "cors": "^2.8.5",
     "firebase": "^6.2.2",
     "gh-pages": "^2.0.1",
-    "homepage": "https://darumacho.github.io/reeves_world/",
+    "homepage": "./",
     "material-table": "^1.40.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
