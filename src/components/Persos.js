@@ -28,6 +28,8 @@ export class Persos extends React.Component {
               <br />
               <div class="miniContainer">
               <h3 className="subtitle">Chester</h3>
+              <p><u>Taille :</u> 1.79m</p>
+              <p><u>Poids :</u> 80kg</p>
               <p><u>Origine :</u> Arborescence</p>
               <p><u>Rôle :</u> Polyvalent</p>
               <p>Son titre est <strong>l'Arborescent</strong>.</p>
@@ -37,6 +39,8 @@ export class Persos extends React.Component {
               <br />
 
               <h3 className="subtitle">Tirashi</h3>
+              <p><u>Taille :</u> 1.82m</p>
+              <p><u>Poids :</u> 110kg</p>
               <p><u>Origine :</u> Royaume du Nord</p>
               <p><u>Rôle :</u> Défense</p>
               <p>Son titre est <strong>le Hacheur Parmentier</strong>.</p>
@@ -46,6 +50,8 @@ export class Persos extends React.Component {
               <br />
 
               <h3 className="subtitle">Sckald</h3>
+              <p><u>Taille :</u> 1.83m</p>
+              <p><u>Poids :</u> 75kg</p>
               <p><u>Origine :</u> Motopolis</p>
               <p><u>Rôle :</u> Attaque</p>
               <p>Son titre est <strong>le Rider</strong>.</p>
@@ -55,6 +61,8 @@ export class Persos extends React.Component {
               <br />
 
               <h3 className="subtitle">Le Flo</h3>
+              <p><u>Taille :</u> 1.81m</p>
+              <p><u>Poids :</u> 88kg</p>
               <p><u>Origine :</u> Flocéliande</p>
               <p><u>Rôle :</u> Attaque</p>
               <p>Son titre est <strong>le Trublion</strong>.</p>
@@ -64,6 +72,8 @@ export class Persos extends React.Component {
               <br />
 
               <h3 className="subtitle">Nico</h3>
+              <p><u>Taille :</u> 1.86m</p>
+              <p><u>Poids :</u> 69kg</p>
               <p><u>Origine :</u> Chopejambon Ville</p>
               <p><u>Rôle :</u> Soutien et Défense</p>
               <p>Son titre est <strong>le Dabber</strong>.</p>
@@ -73,6 +83,8 @@ export class Persos extends React.Component {
               <br />
 
               <h3 className="subtitle">Tom Tom</h3>
+              <p><u>Taille :</u> 1.74m</p>
+              <p><u>Poids :</u> 62kg</p>
               <p><u>Origine :</u> Archipel de Musik</p>
               <p><u>Rôle :</u> Magie et Soins</p>
               <p>Son titre est <strong>le Dude on Fire</strong>.</p>
@@ -82,6 +94,8 @@ export class Persos extends React.Component {
               <br />
 
               <h3 className="subtitle">Darumacho</h3>
+              <p><u>Taille :</u> 1.86m</p>
+              <p><u>Poids :</u> 180kg</p>
               <p><u>Origine :</u> Empire à Steak</p>
               <p><u>Rôle :</u> Défense</p>
               <p>Son titre est <strong>la Demi-Portion</strong>.</p>
@@ -91,6 +105,8 @@ export class Persos extends React.Component {
               <br />
 
               <h3 className="subtitle">Metsugazan</h3>
+              <p><u>Taille :</u> 1.62m</p>
+              <p><u>Poids :</u> 50kg</p>
               <p><u>Origine :</u> Domaine de Silverberg</p>
               <p><u>Rôle :</u> Attaque et Magie</p>
               <p>Son titre est <strong>le Faussaire</strong>.</p>
@@ -100,6 +116,8 @@ export class Persos extends React.Component {
               <br />
 
               <h3 className="subtitle">Arcthane</h3>
+              <p><u>Taille :</u> 1.70m</p>
+              <p><u>Poids :</u> 52kg</p>
               <p><u>Origine :</u> Vallétale</p>
               <p><u>Rôle :</u> Polyvalent</p>
               <p>Son titre est <strong>la Conquérante</strong>.</p>

@@ -28,6 +28,8 @@ export class Compagnon extends React.Component {
               <br />
               <div class="miniContainer">
               <h3 className="subtitle">Routoufmuche</h3>
+              <p><u>Taille :</u> 1.75m</p>
+              <p><u>Poids :</u> 80kg</p>
               <p><u>Origine :</u> inconnue</p>
               <p><u>Rôle :</u> Polyvalent</p>
               <p><u>Recrutement :</u> libérer le port Duavre</p>
@@ -37,6 +39,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Hubert</h3>
+              <p><u>Taille :</u> 1.68m</p>
+              <p><u>Poids :</u> 65kg</p>
               <p><u>Origine :</u> Motopolis</p>
               <p><u>Rôle :</u> Magie et Soutien</p>
               <p><u>Recrutement :</u> vaincre Eklips et Nehtbinz à Entrelasque</p>
@@ -46,6 +50,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Bagin</h3>
+              <p><u>Taille :</u> 1.51m</p>
+              <p><u>Poids :</u> 42kg</p>
               <p><u>Origine :</u> Port Duavre</p>
               <p><u>Rôle :</u> Orchidoclaste</p>
               <p><u>Recrutement :</u> terminer sa quête à la CCI</p>
@@ -53,6 +59,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Matante Man</h3>
+              <p><u>Taille :</u> 1.80m</p>
+              <p><u>Poids :</u> 75kg</p>
               <p><u>Origine :</u> Chopejambon Ville</p>
               <p><u>Rôle :</u> Attaque</p>
               <p><u>Recrutement :</u> aider le Chosen One Nico à Chopejambon Ville</p>
@@ -62,6 +70,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Câlisse Boy</h3>
+              <p><u>Taille :</u> 1.48m</p>
+              <p><u>Poids :</u> 35kg</p>
               <p><u>Origine :</u> Chopejambon Ville</p>
               <p><u>Rôle :</u> Soutien</p>
               <p><u>Recrutement :</u> aider le Chosen One Nico à Chopejambon Ville</p>
@@ -71,6 +81,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Caribou fétide</h3>
+              <p><u>Taille :</u> 2.48m</p>
+              <p><u>Poids :</u> 150kg</p>
               <p><u>Origine :</u> Village Akrid</p>
               <p><u>Rôle :</u> Défense</p>
               <p><u>Recrutement :</u> terminer sa quête au village Akrid</p>
@@ -80,6 +92,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Jean-Paul</h3>
+              <p><u>Taille :</u> 1.86m</p>
+              <p><u>Poids :</u> 88kg</p>
               <p><u>Origine :</u> inconnue</p>
               <p><u>Rôle :</u> Polyvalent</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
@@ -89,6 +103,8 @@ export class Compagnon extends React.Component {
               <br />
               
               <h3 className="subtitle">Chef Nabab</h3>
+              <p><u>Taille :</u> 1.71m</p>
+              <p><u>Poids :</u> 80kg</p>
               <p><u>Origine :</u> Nouillorc</p>
               <p><u>Rôle :</u> Soins</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
@@ -98,6 +114,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">E.Gwiazdowski</h3>
+              <p><u>Taille :</u> 1.65m</p>
+              <p><u>Poids :</u> 54kg</p>
               <p><u>Origine :</u> Sacramenbourg</p>
               <p><u>Rôle :</u> Soutien</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
@@ -107,6 +125,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Chef Jibé</h3>
+              <p><u>Taille :</u> 1.68m</p>
+              <p><u>Poids :</u> 70kg</p>
               <p><u>Origine :</u> inconnue</p>
               <p><u>Rôle :</u> Attaque et Soutien</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
@@ -116,6 +136,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Gordon</h3>
+              <p><u>Taille :</u> 1.88m</p>
+              <p><u>Poids :</u> 95kg</p>
               <p><u>Origine :</u> Ouarzazande</p>
               <p><u>Rôle :</u> Défense et Soutien</p>
               <p><u>Recrutement :</u> libérer Ouarzazande</p>
@@ -125,6 +147,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Mucho Pimenté</h3>
+              <p><u>Taille :</u> 1.75m</p>
+              <p><u>Poids :</u> 70kg</p>
               <p><u>Origine :</u> Puerto Favor</p>
               <p><u>Rôle :</u> Attaque</p>
               <p><u>Recrutement :</u> libérer Puerto Favor</p>
@@ -134,6 +158,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Exodius</h3>
+              <p><u>Taille :</u> 2.15m</p>
+              <p><u>Poids :</u> 250kg</p>
               <p><u>Origine :</u> Nouillorc</p>
               <p><u>Rôle :</u> Défense et Magie</p>
               <p><u>Recrutement :</u> amener la maman de Jimmy dans son repaire</p>
@@ -143,6 +169,8 @@ export class Compagnon extends React.Component {
               <br />             
 
               <h3 className="subtitle">Cap'taine Loudmer</h3>
+              <p><u>Taille :</u> 1.85m</p>
+              <p><u>Poids :</u> 90kg</p>
               <p><u>Origine :</u> port Duavre</p>
               <p><u>Rôle :</u> Attaque</p>
               <p><u>Recrutement :</u> visiter toutes les Îles lointaines une fois et se rendre à Takarajima</p>
@@ -152,6 +180,8 @@ export class Compagnon extends React.Component {
               <br />
 
               <h3 className="subtitle">Risryn</h3>
+              <p><u>Taille :</u> 1.79m</p>
+              <p><u>Poids :</u> 89kg</p>
               <p><u>Origine :</u> Takarajima</p>
               <p><u>Rôle :</u> Attaque</p>
               <p><u>Recrutement :</u> terminer sa quête à Takarajima</p>
