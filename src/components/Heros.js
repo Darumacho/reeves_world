@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import './Heros.css';
 
+import ShuffleText from 'react-shuffle-text';
+
 export class Heros extends Component {
     state = {
         name: 'Guidoune',
-        power: 'tu maîtrises le feu'
+        power: 'tu maîtrises le feu',
+        enemyName: 'le docteur Doofenschmirtz',
+        enemyPower: 'c\'est un professeur diabolique',
+
     };
 
     randomName = () => {
@@ -194,7 +199,7 @@ export class Heros extends Component {
             'tu es immunisé aux pétards',
             'toutes tes phrases finissent par "Boy"',
             'tu ne peux pas marcher sur les LEGO',
-            'tu peux danser la Tektonik à n\'importe qui',
+            'tu peux faire danser la Tektonik à n\'importe qui',
             'tu ne rigoles qu\'aux blagues nulles',
             'tu sais qui est le président du Kirghizistan',
             'tu peux endormir n\'importe quel rhinocéros',
@@ -214,17 +219,156 @@ export class Heros extends Component {
             'tu maîtrises les toupies',
         ];
 
+        const enemiesName = [
+            'le docteur Doofenschmirtz',
+            'le professeur Pigequedal',
+            'le Caméléon',
+            'le Capricorne',
+            'François Fillon Man',
+            'une congrégation de témoins de Jéhovah',
+            'Frelon Man',
+            'la Sorcière de la Mort',
+            'Jean-Pierre Foucault',
+            'le Chimiste',
+            'le Pigeon Monarque',
+            'le Torréfacteur',
+            'Ventilator Master',
+            'la classe de CP de l\'école Sainte-Geneviève',
+            'Lego Man',
+            'Seto Kaiba',
+            'le mec qui détruit tout à la WiiMote',
+            'Fortune Master',
+            'le Manchot',
+            'le docteur Tartopum',
+            'le guichetier de la SNCF',
+            'Slowalk Man',
+            'Water Man',
+            'le Hibou Grand-Duc septentrional',
+            'le Capitaine Krabs',
+            'Kev Adams',
+            'un p***** de furry',
+            'Florentin',
+            'toi-même',
+            'le Dabber fou',
+            'l\'homme-flaque d\'eau',
+            'le maître-nageur de la piscine de Bolbec',
+            'un magnat du pétrole texan',
+            'l\'homme au pied-de-biche du T2',
+            'cette guidoune de Little Mac',
+            'Razorback',
+            'Pied-de-table Master',
+            'le Gerboulateur',
+            'le professeur Pudéyep',
+            'Céline Dion',
+            'le PDG de EA',
+            'Nicolas Fouché',
+            'Yaourt Man',
+            'Cigarette Man',
+            'un dealer de Vache qui rit',
+            'l\'homme-Roquefort',
+            'un fromager',
+            'l\'homme-femme',
+            'une famille en vacances',
+            'ton ancien professeur de maths',
+            'le professeur Oh Boy',
+            'David Pujadas',
+            'Magic Master',
+            'Fortnite Man',
+            'un héros de BD franco-belge des années 50',
+            'Man Man',
+            'le Saucissoneur',
+            'une mouche',
+            'Vincent Lefebvre',
+            'la girafe des ténèbres',
+            'la giga-perceuse',
+            'un mec qui ne se lave pas les mains',
+            'un groupe de cosplayers à la Japan Expo',
+            'Escargotinator',
+            'le Clarinettiste',
+            'le mangeur de Pringles',
+            'Tidus',
+            'Harold',
+            'Jean-Luc Mélenchon Man',
+            'l\'homme-table',
+            'le professeur Stephen Hawking',
+            'un parent d\'élève',
+            'la meuf de chez Nachos qui ne sait pas articuler',
+            'le docteur Professeur',
+            'Pikachu',
+            'l\'homme hipster parisien',
+            'le tarif "sur place" de chez Paul',
+            'un vieux monsieur chinois',
+            'la taupe dans ton jardin',
+            'le Nutella',
+            'ce gamin insupportable qui hurle dans l\'avion',
+            'Guidoune Man et ses blagues pourtant génialissimes',
+            'la mauvaise haleine de ton chef',
+            'la brosse à dents',
+            'l\'hygiène corporelle des gens à la piscine',
+            'un braconnier de feuilles de chêne',
+            'Mark Zuckerberg',
+            'un pêcheur qui sent le flétan',
+            'un mec qui gare sa moto n\'importe comment',
+            'un cultivateur d\'asperges',
+            'l\'homme-amanite-tue-mouches',
+            'un rugbyman nu',
+            'l\'homme-pintade',
+            'Vaisselle Master',
+            'le Lanceur de lave-vaisselle',
+            'Poire Master',
+            'Negative Colissimo Man',
+            'un cowboy trompettiste',
+            'James de la Team Rocket',
+        ];
+
+        const enemiesPower = [
+            'c\'est un professeur diabolique',
+            'il connait tous les multiples de 1',
+            'il fait des créneaux à la perfection',
+            'il ne se lave jamais les dents',
+            'ses dabs font peur aux chiens',
+            'il peut se transformer en flaque d\'eau',
+            'il a toujours 30 minutes de retard',
+            'il déteste Keanu Reeves',
+            'il ne mange que des poires',
+            'il joue de la clarinette en permanence',
+            'il fait apparaître des LEGO sous tes pieds',
+            'il terrorise le TEOR',
+            'c\'est un docteur belge',
+            'ses parents ne lui ont pas appris la politesse',
+            'il joue à Fortnite',
+            'il remplace toutes les céréales par des mini saucissons',
+            'il main Little Mac dans Smash Bros',
+            'il met des DLCs partout',
+            'il fais en sortent que tous le monde fassent des faute d\'ortografe',
+            'il ne met jamais son nom sur ses bagages',
+            'il augmente le cholestérol',
+            'son rire est insupportable',
+            'il contrôle une armée de mouettes',
+            'il donne en permanence envie d\'éternuer',
+            'il sifflote la même chanson en permanence',
+            'il fait disparaître tous les rouleaux de papier-toilette',
+        ];
+
         const randomName = Math.floor(Math.random() * 100);
         const hero = names[randomName];
 
         const randomPower = Math.floor(Math.random() * 100);
         const power = powers[randomPower];
 
-        console.log(`name: ${randomName} power: ${randomPower}`)
+        const randomEnemyName = Math.floor(Math.random() * 100);
+        const enemyName = enemiesName[randomEnemyName];
+
+        const randomEnemyPower = Math.floor(Math.random() * 19);
+        const enemyPower = enemiesPower[randomEnemyPower];
+
+        console.log(`name: ${randomName} power: ${randomPower} enemy: ${randomEnemyName}`)
 
         this.setState({ 
             name: hero,
-            power: power
+            power: power,
+            enemyName: enemyName,
+            enemyPower: enemyPower
         });
         };
 
@@ -234,16 +378,25 @@ export class Heros extends Component {
 
     render() {
         return (
+            <React.Fragment>
             <div className="randomHero">
             <br />
             <br />
                 <h2 font-color= 'white'>Deviens un super héros</h2>
-                    <button onClick={this.randomName}>Générer un nom</button>
+                    <button onClick={this.randomName}>Générer une vie de super-héros</button>
                     <br />
                     <br/>
                     Tu es
                 <h3>{this.state.name} Man et {this.state.power} !</h3>               
             </div>
+            <div className="randomHero">
+                <br/>
+                Ton pire ennemi est...
+                <h4>{this.state.enemyName} et {this.state.enemyPower} !</h4>   
+                <br />          
+            </div>
+            </React.Fragment>
+            
         );
     }
 }
