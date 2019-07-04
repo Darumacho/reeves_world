@@ -35,13 +35,13 @@ export class Axe extends Component {
             { title: 'Port', field: 'port', lookup: { 1: 'Une main', 2: 'Deux mains'} },
           ]}
           data={[
-              { name: 'Hache de guerre', icon: 'boy', damage: 17, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 1 },
+              { name: 'Hache de guerre', icon: 'boy', damage: 17, grade: 1, coeff: 1, element: 0, effect: 'Aucun', port: 1 },
               { name: 'Hache conflictuelle', icon: 'boy', damage: 19, grade: 2, coeff: 1.25, element: 0, effect: '-', port: 1 },
-              { name: 'Élagueur cryophobique', icon: 'boy', damage: 45, grade: 4, coeff: 1.12, element: 2, effect: '-', port: 1 },
-              { name: 'Hachoir affamé', icon: 'boy', damage: 31, grade: 3, coeff: 1.08, element: 0, effect: '-', port: 1 },
-              { name: 'Pourfendeuse', icon: 'boy', damage: 29, grade: 3, coeff: 1.08, element: 0, effect: '-', port: 1 },
-              { name: 'Décapiteur hiémal', icon: 'boy', damage: 70, grade: 8, coeff: 1.33, element: 5, effect: '-', port: 1 },
-              { name: 'Bourreau carmin', icon: 'boy', damage: 53, grade: 5, coeff: 1.25, element: 0, effect: '-', port: 1 },
+              { name: 'Élagueur cryophobique', icon: 'boy', damage: 45, grade: 4, coeff: 1.08, element: 2, effect: '-', port: 1 },
+              { name: 'Hachoir affamé', icon: 'boy', damage: 31, grade: 3, coeff: 1.05, element: 0, effect: '-', port: 1 },
+              { name: 'Pourfendeuse', icon: 'boy', damage: 29, grade: 3, coeff: 1.05, element: 0, effect: '-', port: 1 },
+              { name: 'Décapiteur hiémal', icon: 'boy', damage: 70, grade: 8, coeff: 1.25, element: 5, effect: '-', port: 1 },
+              { name: 'Bourreau carmin', icon: 'boy', damage: 53, grade: 5, coeff: 1.15, element: 0, effect: '-', port: 1 },
               ]}
           title="Liste des haches"
         />

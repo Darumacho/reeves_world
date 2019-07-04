@@ -35,11 +35,11 @@ export class Lance extends Component {
             { title: 'Port', field: 'port', lookup: { 1: 'Une main', 2: 'Deux mains'} },
           ]}
           data={[
-              { name: 'Javelot', icon: 'boy', damage: 15, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 1 },
+              { name: 'Javelot', icon: 'boy', damage: 15, grade: 1, coeff: 1, element: 0, effect: 'Aucun', port: 1 },
               { name: 'Hallebarde', icon: 'boy', damage: 19, grade: 2, coeff: 1.02, element: 0, effect: '-', port: 1 },
-              { name: 'Trident de mercure', icon: 'boy', damage: 23, grade: 3, coeff: 1.08, element: 0, effect: '-', port: 1 },
-              { name: 'Lancéclair', icon: 'boy', damage: 59, grade: 5, coeff: 1.25, element: 4, effect: '-', port: 1 },
-              { name: 'Gigaperceuse', icon: 'boy', damage: 62, grade: 5, coeff: 1.25, element: 0, effect: '-', port: 1 },
+              { name: 'Trident de mercure', icon: 'boy', damage: 23, grade: 3, coeff: 1.05, element: 0, effect: '-', port: 1 },
+              { name: 'Lancéclair', icon: 'boy', damage: 59, grade: 5, coeff: 1.15, element: 4, effect: '-', port: 1 },
+              { name: 'Gigaperceuse', icon: 'boy', damage: 62, grade: 5, coeff: 1.15, element: 0, effect: '-', port: 1 },
               ]}
           title="Liste des lances"
         />

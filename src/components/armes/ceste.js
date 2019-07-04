@@ -35,12 +35,12 @@ export class Ceste extends Component {
             { title: 'Port', field: 'port', lookup: { 1: 'Une main', 2: 'Deux mains'} },
           ]}
           data={[
-              { name: 'Poing américain', icon: 'boy', damage: 8, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 2 },
-              { name: 'Gants de boxe', icon: 'boy', damage: 7, grade: 2, coeff: 1.05, element: 0, effect: '-', port: 2 },
-              { name: 'Flammoserre', icon: 'boy', damage: 13, grade: 3, coeff: 1.08, element: 1, effect: '-', port: 2 },
-              { name: 'Vrillovrilles', icon: 'boy', damage: 12, grade: 3, coeff: 1.08, element: 1, effect: '-', port: 2 },
-              { name: 'Griffes de Renfir', icon: 'boy', damage: 22, grade: 4, coeff: 1.12, element: 2, effect: '-', port: 2 },
-              { name: 'Sol Invictus', icon: 'boy', damage: 40, grade: 5, coeff: 1.25, element: 8, effect: '-', port: 2 },
+              { name: 'Poing américain', icon: 'boy', damage: 8, grade: 1, coeff: 1, element: 0, effect: 'Aucun', port: 2 },
+              { name: 'Gants de boxe', icon: 'boy', damage: 7, grade: 2, coeff: 1.02, element: 0, effect: '-', port: 2 },
+              { name: 'Flammoserre', icon: 'boy', damage: 13, grade: 3, coeff: 1.05, element: 1, effect: '-', port: 2 },
+              { name: 'Vrillovrilles', icon: 'boy', damage: 12, grade: 3, coeff: 1.05, element: 1, effect: '-', port: 2 },
+              { name: 'Griffes de Renfir', icon: 'boy', damage: 22, grade: 4, coeff: 1.08, element: 2, effect: '-', port: 2 },
+              { name: 'Sol Invictus', icon: 'boy', damage: 40, grade: 5, coeff: 1.15, element: 8, effect: '-', port: 2 },
               ]}
           title="Liste des cestes"
         />

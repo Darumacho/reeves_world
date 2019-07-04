@@ -35,13 +35,13 @@ export class Hammer extends Component {
             { title: 'Port', field: 'port', lookup: { 1: 'Une main', 2: 'Deux mains'} },
           ]}
           data={[
-              { name: 'Massud\'bois', icon: 'boy', damage: 19, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 1 },
-              { name: 'Concasseur délicieux', icon: 'boy', damage: 23, grade: 2, coeff: 1.05, element: 0, effect: '-', port: 1 },
-              { name: 'Attendrisseur', icon: 'boy', damage: 21, grade: 3, coeff: 1.08, element: 0, effect: 'Diminue la Défense de la cible à chaque coup', port: 1 },
+              { name: 'Massud\'bois', icon: 'boy', damage: 19, grade: 1, coeff: 1, element: 0, effect: 'Aucun', port: 1 },
+              { name: 'Concasseur délicieux', icon: 'boy', damage: 23, grade: 2, coeff: 1.02, element: 0, effect: '-', port: 1 },
+              { name: 'Attendrisseur', icon: 'boy', damage: 21, grade: 3, coeff: 1.05, element: 0, effect: 'Diminue la Défense de la cible à chaque coup', port: 1 },
               { name: 'Clé Amolèthe', icon: 'boy', damage: 51, grade: 3, coeff: 1.15, element: 0, effect: 'Diminue drastiquement la Vitesse', port: 2 },
-              { name: 'Gourdingue', icon: 'boy', damage: 23, grade: 3, coeff: 1.08, element: 5, effect: 'Peut empoisonner la cible à chaque coup', port: 1 },
-              { name: 'Masse cacaclysmique', icon: 'boy', damage: 78, grade: 8, coeff: 1.33, element: 5, effect: '-', port: 2 },
-              { name: 'Martocculte', icon: 'boy', damage: 53, grade: 4, coeff: 1.12, element: 4, effect: '-', port: 1 },
+              { name: 'Gourdingue', icon: 'boy', damage: 23, grade: 3, coeff: 1.05, element: 5, effect: 'Peut empoisonner la cible à chaque coup', port: 1 },
+              { name: 'Masse cacaclysmique', icon: 'boy', damage: 78, grade: 8, coeff: 1.25, element: 5, effect: '-', port: 2 },
+              { name: 'Martocculte', icon: 'boy', damage: 53, grade: 4, coeff: 1.08, element: 4, effect: '-', port: 1 },
               ]}
           title="Liste des marteaux"
         />

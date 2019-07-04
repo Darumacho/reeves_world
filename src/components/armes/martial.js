@@ -35,13 +35,13 @@ export class Martial extends Component {
             { title: 'Port', field: 'port', lookup: { 1: 'Une main', 2: 'Deux mains'} },
           ]}
           data={[
-              { name: 'Nunchaku', icon: 'boy', damage: 8, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 1 },
-              { name: 'Battoir', icon: 'boy', damage: 9, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 1 },
-              { name: 'Kendô', icon: 'boy', damage: 11 , grade: 3, coeff: 1.08, element: 0, effect: '-', port: 1 },
-              { name: 'Hexadisque', icon: 'boy', damage: 18, grade: 3, coeff: 1.08, element: 0, effect: '-', port: 1 },
+              { name: 'Nunchaku', icon: 'boy', damage: 8, grade: 1, coeff: 1, element: 0, effect: 'Aucun', port: 1 },
+              { name: 'Battoir', icon: 'boy', damage: 9, grade: 1, coeff: 1, element: 0, effect: 'Aucun', port: 1 },
+              { name: 'Kendô', icon: 'boy', damage: 11 , grade: 3, coeff: 1.05, element: 0, effect: '-', port: 1 },
+              { name: 'Hexadisque', icon: 'boy', damage: 18, grade: 3, coeff: 1.05, element: 0, effect: '-', port: 1 },
               { name: 'Ultracritique', icon: 'boy', damage: 20, grade: 4, coeff: 1.08, element: 0, effect: '-', port: 1 },
               { name: 'Lotus guidounien', icon: 'boy', damage: 52, grade: 8, coeff: 1.25, element: 10, effect: '-', port: 1 },
-              { name: 'Transparence', icon: 'boy', damage: 18, grade: 5, coeff: 1.25, element: 8, effect: '-', port: 1 },
+              { name: 'Transparence', icon: 'boy', damage: 18, grade: 5, coeff: 1.33, element: 8, effect: '-', port: 1 },
               ]}
           title="Liste des armes martiales"
         />

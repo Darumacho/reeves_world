@@ -35,12 +35,12 @@ export class Ornement extends Component {
             { title: 'Port', field: 'port', lookup: { 1: 'Une main', 2: 'Deux mains'} },
           ]}
           data={[
-              { name: 'Cascocasque', icon: 'boy', damage: 17, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 1 },
-              { name: 'Cascacorne', icon: 'boy', damage: 20, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 1 },
-              { name: 'Cascobrut', icon: 'boy', damage: 15, grade: 2, coeff: 1.05, element: 0, effect: '15% de chances de paralyser la cible', port: 1 },
-              { name: 'Buleaume', icon: 'boy', damage: 26, grade: 3, coeff: 1.08, element: 6, effect: '-', port: 1 },
-              { name: 'Cascadès', icon: 'boy', damage: 42, grade: 4, coeff: 1.12, element: 7, effect: '-', port: 1 },
-              { name: 'Boguérisse', icon: 'boy', damage: 48, grade: 4, coeff: 1.12, element: 0, effect: '-', port: 1 },
+              { name: 'Cascocasque', icon: 'boy', damage: 17, grade: 1, coeff: 1, element: 0, effect: 'Aucun', port: 1 },
+              { name: 'Cascacorne', icon: 'boy', damage: 20, grade: 1, coeff: 1, element: 0, effect: 'Aucun', port: 1 },
+              { name: 'Cascobrut', icon: 'boy', damage: 15, grade: 2, coeff: 1.02, element: 0, effect: '15% de chances de paralyser la cible', port: 1 },
+              { name: 'Buleaume', icon: 'boy', damage: 26, grade: 3, coeff: 1.05, element: 6, effect: '-', port: 1 },
+              { name: 'Cascadès', icon: 'boy', damage: 42, grade: 4, coeff: 1.08, element: 7, effect: '-', port: 1 },
+              { name: 'Boguérisse', icon: 'boy', damage: 48, grade: 4, coeff: 1.08, element: 0, effect: '-', port: 1 },
               { name: 'Cage à cerveau', icon: 'boy', damage: 75, grade: 5, coeff: 1.25, element: 8, effect: '-', port: 1 },
               ]}
           title="Liste des ornements de casque"

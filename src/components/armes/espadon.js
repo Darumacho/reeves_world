@@ -35,15 +35,15 @@ export class Greatsword extends Component {
             { title: 'Port', field: 'port', lookup: { 1: 'Une main', 2: 'Deux mains'} },
           ]}
           data={[
-              { name: 'Tecpatl', icon: 'boy', damage: 24, grade: 1, coeff: 1.02, element: 0, effect: 'Aucun', port: 2 },
-              { name: 'Espardent', icon: 'boy', damage: 23, grade: 2, coeff: 1.05, element: 1, effect: '-', port: 2 },
-              { name: 'Brise-lame', icon: 'boy', damage: 25, grade: 3, coeff: 1.08, element: 0, effect: 'Ne diminue pas la Vitesse', port: 1 },
-              { name: 'Leiomano', icon: 'boy', damage: 60, grade: 5, coeff: 1.25, element: 0, effect: '75% de chances de faire saigner la cible', port: 2 },
+              { name: 'Tecpatl', icon: 'boy', damage: 24, grade: 1, coeff: 1, element: 0, effect: 'Aucun', port: 2 },
+              { name: 'Espardent', icon: 'boy', damage: 23, grade: 2, coeff: 1.02, element: 1, effect: '-', port: 2 },
+              { name: 'Brise-lame', icon: 'boy', damage: 25, grade: 3, coeff: 1.05, element: 0, effect: 'Ne diminue pas la Vitesse', port: 1 },
+              { name: 'Leiomano', icon: 'boy', damage: 60, grade: 5, coeff: 1.15, element: 0, effect: '75% de chances de faire saigner la cible', port: 2 },
               { name: 'Espadon du mistral', icon: 'boy', damage: 23, grade: 3, coeff: 1.08, element: 3, effect: 'Augmente la Puiss.magique', port: 2 },
               { name: 'Macuahuitl', icon: 'boy', damage: 75, grade: 8, coeff: 1.25, element: 0, effect: '-', port: 2 },
               { name: 'Espadon d\'onyx', icon: 'boy', damage: 93, grade: 7, coeff: 1.33, element: 7, effect: '-', port: 2 },
-              { name: 'Exécuteur', icon: 'boy', damage: 79, grade: 5, coeff: 1.25, element: 7, effect: '-', port: 2 },
-              { name: 'Permafrost', icon: 'boy', damage: 77, grade: 5, coeff: 1.25, element: 2, effect: '-', port: 2 },
+              { name: 'Exécuteur', icon: 'boy', damage: 79, grade: 5, coeff: 1.15, element: 7, effect: '-', port: 2 },
+              { name: 'Permafrost', icon: 'boy', damage: 77, grade: 5, coeff: 1.15, element: 2, effect: '-', port: 2 },
               ]}
           title="Liste des espadons"
         />
