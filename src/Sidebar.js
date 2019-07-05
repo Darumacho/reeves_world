@@ -24,12 +24,11 @@ export function Sidebar() {
           <NavDropdown.Item href="/persos">Personnages</NavDropdown.Item>
           <NavDropdown.Item href="/lieux">Lieux</NavDropdown.Item>
           <NavDropdown.Item href="/armes">Armes</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Armures</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Artefacts</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Essences</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Compétences</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Talents</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Ennemis</NavDropdown.Item>
+          <NavDropdown.Item href="/armures">Armures</NavDropdown.Item>
+          <NavDropdown.Item href="/artefacts">Artefacts</NavDropdown.Item>
+          <NavDropdown.Item href="/essences">Essences</NavDropdown.Item>
+          <NavDropdown.Item href="/skills">Compétences</NavDropdown.Item>
+          <NavDropdown.Item href="/talents">Talents</NavDropdown.Item>
           <NavDropdown.Item href="/distinction">Distinctions</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="http://www.mediafire.com/file/aygv57ddo4v4b97/CSI_Forever_-_1.6.rar/file">Télécharger (1.6)</NavDropdown.Item>
