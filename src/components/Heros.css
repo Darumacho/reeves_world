@@ -30,6 +30,7 @@
     border-radius: 10px;
     margin-top: 20px;
     padding: 15px;
+    word-break: break-word;
     font-size: 30px;
 }
 

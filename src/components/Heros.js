@@ -322,32 +322,57 @@ export class Heros extends Component {
         ];
 
         const enemiesPower = [
-            'c\'est un professeur diabolique',
-            'il connait tous les multiples de 1',
-            'il fait des créneaux à la perfection',
-            'il ne se lave jamais les dents',
+            'qui est un professeur diabolique',
+            'qui connait tous les multiples de 1',
+            'qui fait des créneaux à la perfection',
+            'qui ne se lave jamais les dents',
             'ses dabs font peur aux chiens',
-            'il peut se transformer en flaque d\'eau',
-            'il a toujours 30 minutes de retard',
-            'il déteste Keanu Reeves',
-            'il ne mange que des poires',
-            'il joue de la clarinette en permanence',
-            'il fait apparaître des LEGO sous tes pieds',
-            'il terrorise le TEOR',
-            'c\'est un docteur belge',
+            'qui peut se transformer en flaque d\'eau',
+            'qui a toujours 30 minutes de retard',
+            'qui déteste Keanu Reeves',
+            'qui ne mange que des poires',
+            'qui joue de la clarinette en permanence',
+            'qui fait apparaître des LEGO sous tes pieds',
+            'qui terrorise le TEOR',
+            'qui est un docteur belge',
             'ses parents ne lui ont pas appris la politesse',
-            'il joue à Fortnite',
-            'il remplace toutes les céréales par des mini saucissons',
-            'il main Little Mac dans Smash Bros',
-            'il met des DLCs partout',
-            'il fais en sortent que tous le monde fassent des faute d\'ortografe',
-            'il ne met jamais son nom sur ses bagages',
-            'il augmente le cholestérol',
+            'qui joue à Fortnite',
+            'qui remplace toutes les céréales par des mini saucissons',
+            'qui main Little Mac dans Smash Bros',
+            'qui met des DLCs partout',
+            'qui fais en sortent que tous le monde fassent des faute d\'ortografe',
+            'qui ne met jamais son nom sur ses bagages',
+            'qui augmente le cholestérol',
             'son rire est insupportable',
-            'il contrôle une armée de mouettes',
-            'il donne en permanence envie d\'éternuer',
-            'il sifflote la même chanson en permanence',
-            'il fait disparaître tous les rouleaux de papier-toilette',
+            'qui contrôle une armée de mouettes',
+            'qui donne en permanence envie d\'éternuer',
+            'qui sifflote la même chanson en permanence',
+            'qui fait disparaître tous les rouleaux de papier-toilette',
+            'qui fait parler tout le monde en allemand',
+            'qui fait disparaître toutes les chaussettes',
+            'dont les genoux provoquent des conjonctivites',
+            'qui récite le Tartuffe de Molière en boucle',
+            'qui a un très mauvais jeu d\'acteur',
+            'qui peut te transformer en kikoojap',
+            'qui ne mange que des produits bio à 200 balles',
+            'qui rend les gens fous avec son histoire de TAE',
+            'qui provoque des diarhées explosives tous les mardis',
+            'son funeste animal de compagnie est un escargot très agressif',
+            'cette crapule s\'exhibe devant les maisons de retraite',
+            'une ordure qui écrit "commeme" au lieu de "quand même"',
+            'un redoutable adversaire refusant toujours la priorité à droite',
+            'qui met toujours la climatisation en hiver',
+            'ce malfrat spoile tous les films que tu as en tête',
+            'qui possède des paluches énormes et velues',
+            'cette ordure dirige un hôpital qui se fout de la charité',
+            'qui place la goutte d\'eau qui fait déborder le vase',
+            'qui inverse la moutarde et le ketchup',
+            'dont les ongles de pieds mesurent 45 centimètres',
+            'qui bascule sur une chaîne météo néerlandaise lors du moment le plus important de chaque film',
+            'cette crapule perturbe le trafic en mettant des feux rouges trop longs',
+            'qui fait disparaître toutes les ultra-rares des boosters Yu-Gi-Oh',
+            'qui conduit une Tweezy, parfaite pour assassiner en silence',
+            'cette espèce de fumier ne dit jamais "Merci" aux serveurs',
         ];
 
         const randomName = Math.floor(Math.random() * 100);
@@ -359,7 +384,7 @@ export class Heros extends Component {
         const randomEnemyName = Math.floor(Math.random() * 100);
         const enemyName = enemiesName[randomEnemyName];
 
-        const randomEnemyPower = Math.floor(Math.random() * 19);
+        const randomEnemyPower = Math.floor(Math.random() * 50);
         const enemyPower = enemiesPower[randomEnemyPower];
 
         console.log(`name: ${randomName} power: ${randomPower} enemy: ${randomEnemyName}`)
@@ -392,7 +417,7 @@ export class Heros extends Component {
             <div className="randomHero">
                 <br/>
                 Ton pire ennemi est...
-                <h4>{this.state.enemyName} et {this.state.enemyPower} !</h4>   
+                <h4>{this.state.enemyName}, {this.state.enemyPower} !</h4>   
                 <br />          
             </div>
             </React.Fragment>
@@ -402,3 +427,7 @@ export class Heros extends Component {
 }
 export default Heros;
 
+/*<ShuffleText charFrameTime= {5} charFrames= {3} charIncInterval= {20} content ={this.state.name} />
+<ShuffleText charFrameTime= {5} charFrames= {3} charIncInterval= {20} content =" Man et " />
+<ShuffleText charFrameTime= {5} charFrames= {3} charIncInterval= {20} content = {this.state.power} /> 
+<ShuffleText charFrameTime= {5} charFrames= {3} charIncInterval= {20} content = "!"/>*/
