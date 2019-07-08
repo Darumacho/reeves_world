@@ -10,6 +10,7 @@ import {Video} from './components/Video.js';
 import {Journal} from './components/Journal.js';
 import {Boys} from './components/Boys.js';
 import {Story} from './components/Story.js';
+import {AppQuestion} from './components/quiz/AppQuestion.js';
 import {Persos} from './components/Persos.js';
 import {Divin} from './components/personnages/Divin.js';
 import {Ami} from './components/personnages/Amis.js';
@@ -20,7 +21,6 @@ import {Contree} from './components/lieux/Contree.js';
 import {Mineur} from './components/lieux/Mineur.js';
 import {Heros} from './components/Heros.js';
 import {Test} from './components/Contact.js';
-import {Tab} from './components/tableau.js';
 import {Sword} from './components/armes/epees.js';
 import {Hammer} from './components/armes/marteau.js';
 import {Greatsword} from './components/armes/espadon.js';
@@ -59,7 +59,7 @@ function App() {
           <Route path="/boys" component={Boys} />
           <Route path="/heros" component={Heros} />
           <Route path="/contact" component={Test} />
-          <Route path="/tab" component={Tab} />
+          <Route path="/quiz" component={AppQuestion} />
           <Route path="/armes" component={Sword} />
           <Route path="/marteau" component={Hammer} />
           <Route path="/espadon" component={Greatsword} />
