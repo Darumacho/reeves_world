@@ -389,7 +389,7 @@ export class Heros extends Component {
 
         console.log(`name: ${randomName} power: ${randomPower} enemy: ${randomEnemyName}`)
 
-        this.setState({ 
+        this.setState({
             name: hero,
             power: power,
             enemyName: enemyName,
