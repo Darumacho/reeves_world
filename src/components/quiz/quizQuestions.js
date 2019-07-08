@@ -1,6 +1,6 @@
 var quizQuestions = [
     {
-        question: "Qui est ton artiste musical canadien préféré ?",
+        question: "Quel est ton artiste musical canadien préféré ?",
         answers: [
             {
                 type: "une grosse guidoune",
@@ -286,6 +286,151 @@ var quizQuestions = [
             {
                 type: "un consul montréalais",
                 content: "Tu tentes la négociation avec les autorités ennemies."
+            }
+        ]
+    },
+    {
+        question: "Un jeune enfant t'aborde dans la rue. Il a froid, il est effrayé et affammé - que fais-tu ?",
+        answers: [
+            {
+                type: "une grosse guidoune",
+                content: "Tu lui dis que tu n'as rien sur toi."
+            },
+            {
+                type: "un jeune bédouin",
+                content: "Tu l'intègres à ta tribu, sous le nom de \"Poulain frêle\"."
+            },
+            {
+                type: "un chasseur de caribou",
+                content: "Tu abrèges ses souffrances avec un bon suplex maison."
+            },
+            {
+                type: "un maître-poutinier",
+                content: "Tu lui prépares un bon repas bien chaud. Comme ça tu pourras manger aussi."
+            },
+            {
+                type: "un astrophysicien légendaire",
+                content: "Tu le prends sous ton aile pour qu'il devienne le prochain prix Nobel de je-sais-pas-quoi."
+            },
+            {
+                type: "un consul montréalais",
+                content: "Tu tentes de retrouver ses parents en entamant des procédures super compliquées."
+            }
+        ]
+    },
+    {
+        question: "La soirée chez ton ami Raoul s'est mal passée, tu te réveilles avec un 3ème bras dans le dos. Comment réagis-tu ?",
+        answers: [
+            {
+                type: "une grosse guidoune",
+                content: "Il ira très bien avec ta troisième jambe."
+            },
+            {
+                type: "un jeune bédouin",
+                content: "Tu deviens un Bouddha, en pensant que ça vaut bien un Troisième Oeil."
+            },
+            {
+                type: "un chasseur de caribou",
+                content: "C'est génial, encore un et tu deviens un Mackogneur."
+            },
+            {
+                type: "un maître-poutinier",
+                content: "C'est cool, ça fait 50% de high-five en plus !"
+            },
+            {
+                type: "un astrophysicien légendaire",
+                content: "Tu étudies les potentiels risques pendant quelques temps avant de te rendre compte que c'est parfait pour se gratter le dos."
+            },
+            {
+                type: "un consul montréalais",
+                content: "Tu le caches afin de ne pas attirer l'attention."
+            }
+        ]
+    },
+    {
+        question: "Ce bon vieux Harold organise une partie de Donjons & Guidounes. Tu choisis d'incarner...",
+        answers: [
+            {
+                type: "une grosse guidoune",
+                content: "...Anariella, la voleuse chaude qui vient d'un pays froid."
+            },
+            {
+                type: "un jeune bédouin",
+                content: "...Sabot d'Orignal, le chaman qui raconte que des trucs chelous."
+            },
+            {
+                type: "un chasseur de caribou",
+                content: "...AAARGH, la force de la nature qui mange des trolls au petit déjeuner."
+            },
+            {
+                type: "un maître-poutinier",
+                content: "...MC Poutine, le troubadour aux tubes inter-impériaux"
+            },
+            {
+                type: "un astrophysicien légendaire",
+                content: "...Glandalf, le vieux sage à la magie et érudition sans pareil."
+            },
+            {
+                type: "un consul montréalais",
+                content: "...le père Tabouret, un prêtre pacifique qui passe son temps à s'abstenir."
+            }
+        ]
+    },
+    {
+        question: "Après le thé, ta chère petite grand-mère te confie une fiole de poison et te demande d'aller te débarrasser de sa plus grande rivale de bridge. Quelle est ta réaction ?",
+        answers: [
+            {
+                type: "une grosse guidoune",
+                content: "Tu vérifies d'abord que la mixture ait bon goût, afin de ne pas éveiller les soupçons lors du passage à l'acte."
+            },
+            {
+                type: "un jeune bédouin",
+                content: "Tu suggères à ta grand-mère de lancer une malédiction maori. Moins suspect et plus efficace."
+            },
+            {
+                type: "un chasseur de caribou",
+                content: "Tu lui demandes une sulfateuse, pour être sûr de ne pas rater la cible."
+            },
+            {
+                type: "un maître-poutinier",
+                content: "Tu le fais à condition d'utiliser de délicieux gâteaux pour le sévice."
+            },
+            {
+                type: "un astrophysicien légendaire",
+                content: "Tu rappelles à ta grand-mère que si elle n'a plus de rivale, sa vie n'aura plus aucun sens."
+            },
+            {
+                type: "un consul montréalais",
+                content: "Tu essaies d'obtenir une autorisation auprès de ladite rivale."
+            }
+        ]
+    },
+    {
+        question: "Quel est le meilleur moyen d'égayer ta vie ?",
+        answers: [
+            {
+                type: "une grosse guidoune",
+                content: "Se prendre en photo dans tous les sens en mettant des citations trouvées sur le premier lien Google."
+            },
+            {
+                type: "un jeune bédouin",
+                content: "Méditer tout un week-end dans la canopée du Sahara, au beau milieu du Grand Canyon."
+            },
+            {
+                type: "un chasseur de caribou",
+                content: "Faire des stocks de viande pour l'hiver qui s'annonce tellement rude que tu auras des litchis dans le pantalon."
+            },
+            {
+                type: "un maître-poutinier",
+                content: "Aller chez Nachos."
+            },
+            {
+                type: "un astrophysicien légendaire",
+                content: "Concevoir des sites internet en se croyant drôle."
+            },
+            {
+                type: "un consul montréalais",
+                content: "Donner à des oeuvres caritatives et oeuvrer pour la paix dans le monde, gros coeur sur vous les copains."
             }
         ]
     },
