@@ -463,8 +463,11 @@ img {
 }
 
 .jauge{
+  border-radius:50px;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-left:5px;
+  padding-right:5px;
   display: inline-block;
   vertical-align: middle;
   width: 60px; 
