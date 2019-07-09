@@ -412,6 +412,9 @@ img {
   margin-top: 20px;
   width: 200px;
   color:white;
+  border-radius: 12px;
+    background: #3ca2e6;
+    border: none;
 }
 
 .traficContainer{
