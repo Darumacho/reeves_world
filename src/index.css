@@ -110,6 +110,7 @@ img {
   right: 20px;
   padding: 20px;
   margin: 20px;
+  border-radius: 12px;
 }
 
 .guidouneContainer{
@@ -132,6 +133,7 @@ img {
   border: 1px solid;
   width: 500px;
   margin-bottom: 10px;
+  border-radius: 12px;
 }
 
 .introContainer{
