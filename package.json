@@ -39,5 +39,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Hola guidoune, ce site a été crée avec [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darumacho/reeves_world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darumacho/reeves_world/issues"
   }
 }
