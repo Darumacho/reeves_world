@@ -22,7 +22,7 @@ function Quiz(props) {
     return (
         <div key={props.questionId}>
             <QuestionCount counter={props.questionId} total={props.questionTotal} />
-            <Question content={props.question} />
+            <Question content={props.question} image={props.image}/>
             <ul className="answerOptions">
             {props.answerOptions.map(renderAnswerOptions)}
             </ul>
@@ -35,6 +35,7 @@ function Quiz(props) {
     answerOptions: PropTypes.array.isRequired,
     question: PropTypes.string.isRequired,
     questionId: PropTypes.number.isRequired,
+    image: PropTypes.string.isRequired,
     questionTotal: PropTypes.number.isRequired,
     onAnswerSelected: PropTypes.func.isRequired
   };

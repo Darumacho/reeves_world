@@ -7,6 +7,9 @@ function Result(props) {
       Tu es <strong>{props.quizResult}</strong> : {props.desc}
       <br />
       <br />
+      <img src={props.img} width="33%" height="33%"/>
+      <br />
+      <br />
       <strong><u>{props.statut} célèbres :</u></strong> {props.famous}.
     </div>
   );
@@ -16,7 +19,8 @@ Result.propTypes = {
   quizResult: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
   statut: PropTypes.string.isRequired,
-  famous: PropTypes.string.isRequired
+  famous: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired
 };
 
 export default Result;

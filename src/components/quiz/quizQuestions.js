@@ -1,6 +1,7 @@
 var quizQuestions = [
     {
         question: "Quel est ton artiste musical canadien préféré ?",
+        img:"https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/actionfigure_tylerrudolph_fcfk7a_ds_2400.jpg?itok=O6_iC7eD",
         answers: [
             {
                 type: "1",
@@ -30,6 +31,7 @@ var quizQuestions = [
     },
     {
         question: "Tu te retrouves à un meeting avec plein de monde que tu ne connais pas. Le meilleur moyen de sociabiliser c'est...",
+        img:"https://media.giphy.com/media/XKwfkU6kPSFtl8cZlH/giphy.gif",
         answers: [
             {
                 type: "5",
@@ -59,6 +61,7 @@ var quizQuestions = [
     },
     {
         question: "Ton imbécile de cousin Alceste se plaint encore de ne pas pouvoir changer de prénom. Comment peux-tu l'aider ?",
+        img:"https://i.imgflip.com/1zl41p.jpg",
         answers: [
             {
                 type: "3",
@@ -88,6 +91,7 @@ var quizQuestions = [
     },
     {
         question: "Tu es sur le point de remporter le tournoi Mario Kart lorsque ton oncle R'né te balance une carapace rouge qui te fait arriver 3ème juste avant la ligne d'arrivée. Au bord des larmes, quelle est ta réaction ?",
+        img:"https://media.npr.org/assets/img/2016/03/29/ap_090911089838_sq-3271237f28995f6530d9634ff27228cae88e3440-s800-c85.jpg",
         answers: [
             {
                 type: "1",
@@ -117,6 +121,7 @@ var quizQuestions = [
     },
     {
         question: "Alors que tu attends ton tour chez le Roi du Burger, la mère de famille devant toi semble mettre un temps formidable à commander. Comment procéder pour accélérer le processus ?",
+        img:"https://i.gifer.com/HHVJ.gif",
         answers: [
             {
                 type: "1",
@@ -175,6 +180,7 @@ var quizQuestions = [
     },
     {
         question: "Alors que tu rentres d'une dure journée de travail, tu apprends que ton frère Wenceslas a vendu quelques-unes de tes figurines Méga Homme. Comment appréhendes-tu la situation ?",
+        img:"https://medias.spotern.com/spots/w640/79843-1532336916.jpg",
         answers: [
             {
                 type: "1",
@@ -233,6 +239,7 @@ var quizQuestions = [
     },
     {
         question: "Tandis que tu passes une délicieuse soirée en amoureux avec ta femme Bernadette, tu remarques qu'une savoureuse liane de mucus nasal pend de sa narine droite. Comment remédier à la situation ?",
+        img:"https://footage.framepool.com/shotimg/qf/944032413-restaurant-a-bord-titanic-sortie-au-restaurant-menu-carte.jpg",
         answers: [
             {
                 type: "1",
@@ -262,6 +269,7 @@ var quizQuestions = [
     },
     {
         question: "Le pays est ravagé par la guerre, à feu et à sang, et tu es mobilisé sur le front. Que fais-tu ?",
+        img:"https://pbs.twimg.com/profile_images/763005079469166592/eIo30xgM_400x400.jpg",
         answers: [
             {
                 type: "1",
@@ -291,6 +299,7 @@ var quizQuestions = [
     },
     {
         question: "Un jeune enfant t'aborde dans la rue. Il a froid, il est effrayé et affammé - que fais-tu ?",
+        img:"https://thumbs.gfycat.com/EuphoricOptimisticJoey-size_restricted.gif",
         answers: [
             {
                 type: "1",
@@ -320,6 +329,7 @@ var quizQuestions = [
     },
     {
         question: "La soirée chez ton ami Raoul s'est mal passée, tu te réveilles avec un 3ème bras dans le dos. Comment réagis-tu ?",
+        img:"https://www.nerdtests.com/mq/testimages/97660_904339664a76cf5c8c1c.jpg",
         answers: [
             {
                 type: "1",
@@ -349,6 +359,7 @@ var quizQuestions = [
     },
     {
         question: "Ce bon vieux Harold organise une partie de Donjons & Guidounes. Tu choisis d'incarner...",
+        img:"https://geekandsundry.com/wp-content/uploads/2017/10/CR-table-opening.png",
         answers: [
             {
                 type: "1",
@@ -378,6 +389,7 @@ var quizQuestions = [
     },
     {
         question: "Après le thé, ta chère petite grand-mère te confie une fiole de poison et te demande d'aller te débarrasser de sa plus grande rivale de bridge. Quelle est ta réaction ?",
+        img:"https://www.wibc.com/sites/g/files/exi441/f/styles/large_730/public/article-images-featured/gettyimages-484719885.jpg?itok=iUxVFGB3",
         answers: [
             {
                 type: "1",
@@ -407,6 +419,7 @@ var quizQuestions = [
     },
     {
         question: "Quel est le meilleur moyen d'égayer ta vie ?",
+        img:"https://media.giphy.com/media/111ebonMs90YLu/giphy.gif",
         answers: [
             {
                 type: "1",
