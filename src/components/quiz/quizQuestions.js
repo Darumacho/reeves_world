@@ -418,6 +418,126 @@ var quizQuestions = [
         ]
     },
     {
+        question: "Que vois-tu dans cette image ci-dessous ?",
+        img:"https://i.f1g.fr/media/figarofr/800x_crop/2013/11/08/PHOa9c33c1a-4864-11e3-b7fc-49df42c126b4-805x453.jpg",
+        answers: [
+            {
+                type: "1",
+                content: "Je vois rien dans ces machins-là."
+            },
+            {
+                type: "2",
+                content: "Deux ours en train de taper un high-five."
+            },
+            {
+                type: "3",
+                content: "Une ombre ensanglantée."
+            },
+            {
+                type: "4",
+                content: "Deux nains de profil."
+            },
+            {
+                type: "5",
+                content: "Un test de Rorschach."
+            },
+            {
+                type: "6",
+                content: "Un homme barbu."
+            }
+        ]
+    },
+    {
+        question: "Alors que ton séjour chez la coiffeuse se termine, elle te montre l'arrière de ta tête à l'aide de son fameux miroir, mais c'est encore un peu long. Que lui dis-tu ?",
+        img:"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/701/images/slideshow2/1-mullet-intro-1485290161.jpg",
+        answers: [
+            {
+                type: "1",
+                content: "\"C'est pas terrible comme travail dis donc\", en lui laissant une sale note dans les avis Google."
+            },
+            {
+                type: "2",
+                content: "Deux ours en train de taper un high-five."
+            },
+            {
+                type: "3",
+                content: "Tu lui demandes si elle se fout pas de toi par hasard, corrige-moi ça en vitesse, guidoune."
+            },
+            {
+                type: "4",
+                content: "\"Oui c'est bon, merci.\""
+            },
+            {
+                type: "5",
+                content: "Tu t'en fiches, car tu n'as malheureusement pas assez de cheveux pour aller chez la coiffeuse."
+            },
+            {
+                type: "6",
+                content: "\"Est-ce que vous pourriez raccourcir un tout petit peu sivouplé ?\""
+            }
+        ]
+    },
+    {
+        question: "Nom d'un petit bonhomme ! Ton amie Léopoldine s'est coincée la tête dans un pot de cornichons ! Comment vas-tu l'aider à s'en sortir ?",
+        img:"https://i.ytimg.com/vi/Wl6XPs7WnYw/hqdefault.jpg",
+        answers: [
+            {
+                type: "1",
+                content: "Tu fais un Snap parce qu'on voit ça tous les jours quand même."
+            },
+            {
+                type: "2",
+                content: "En utilisant de l'huile de castor pour faire glisser le tout."
+            },
+            {
+                type: "3",
+                content: "En fracassant le pot à coups de marteau."
+            },
+            {
+                type: "4",
+                content: "En l'aidant à manger tous ces délicieux cornichons.."
+            },
+            {
+                type: "5",
+                content: "En lui proposant la carrière d'astronaute dont elle a toujours rêver."
+            },
+            {
+                type: "6",
+                content: "En envoyant un rapport au fabricant du pot, ce n'est pas très sécurisé tout ça !."
+            }
+        ]
+    },
+    {
+        question: "Par tous les diables ! Un homme armé d'un pied-de-biche attaque le TEOR ! Que fais-tu ?",
+        img:"http://images5.fanpop.com/image/photos/25600000/Gordon-Freeman-about-to-swing-a-crowbar-gordon-freeman-25675994-681-900.jpg",
+        answers: [
+            {
+                type: "1",
+                content: "Tu descends au prochain arrêt, pas envie de te faire frapper."
+            },
+            {
+                type: "2",
+                content: "Tu le défies à un duel de Yu-Gi-Oh pour mettre fin au carnage."
+            },
+            {
+                type: "3",
+                content: "Tu sors ton propre pied-de-biche pour aller lui démonter sa maman."
+            },
+            {
+                type: "4",
+                content: "Tu proposes à l'assaillant de discuter de tout ça autour d'un bon paquet de Granolas."
+            },
+            {
+                type: "5",
+                content: "Tu comptes sur les autorités pour faire leur travail."
+            },
+            {
+                type: "6",
+                content: "Tu fais tout ce qui est en ton pouvoir pour le convaincre d'arrêter"
+            }
+        ]
+    },
+    {
         question: "Quel est le meilleur moyen d'égayer ta vie ?",
         img:"https://media.giphy.com/media/111ebonMs90YLu/giphy.gif",
         answers: [
@@ -444,6 +564,36 @@ var quizQuestions = [
             {
                 type: "6",
                 content: "Donner à des oeuvres caritatives et oeuvrer pour la paix dans le monde, gros coeur sur vous les copains."
+            }
+        ]
+    },
+    {
+        question: "Que penses-tu de ce site ?",
+        img:"https://i.ytimg.com/vi/NaSd2d5rwPE/hqdefault.jpg",
+        answers: [
+            {
+                type: "1",
+                content: "Il est moche et sans aucun sens."
+            },
+            {
+                type: "2",
+                content: "Les concepts sont ésotériques, mais intéressants."
+            },
+            {
+                type: "3",
+                content: "C'est un truc de guidoune cet endroit, sortez-moi de là."
+            },
+            {
+                type: "4",
+                content: "C'est rigolo par ici."
+            },
+            {
+                type: "5",
+                content: "Tant que ça plaît à au moins une personne, le reste n'est pas important."
+            },
+            {
+                type: "6",
+                content: "Aucun défaut, à l'image de son créateur."
             }
         ]
     },
