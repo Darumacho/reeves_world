@@ -11,6 +11,9 @@ function Result(props) {
       <br />
       <br />
       <strong><u>{props.statut} célèbres :</u></strong> {props.famous}.
+      <nav class="blog-pagination">
+        <a class="btn btn-outline-primary" href="/quiz">Recommencer</a>
+      </nav>
     </div>
   );
 }
