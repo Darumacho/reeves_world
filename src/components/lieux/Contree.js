@@ -32,8 +32,10 @@ export class Contree extends React.Component {
 
               <h3 className="subtitle">Royaume du Nord</h3>
               <p><u>Climat :</u> Polaire</p>
-              <p><u>Personnages importants :</u> Roi Nordicus 1er, L'Orchidoglaste, R'né, Céliiiiiine</p>
-              <p>À venir</p>
+              <p><u>Personnages importants :</u> Roi Nordicus 1er, L'Orchidoglaste, R'né Angilel, Céline Iond, Tirashi</p>
+              <p>Un royaume anciennement parsemé de conflits, récemment résolus par l'actuel roi Nordicus 1er. La paix de son royaume est menacée lorsque les chefs d'Auffrac-les-Congères et de La Friscale confrontent leurs opinions suite à un débat lancé par l'infâme Orchidoglaste. Nordicus fait ainsi appel à son paladin Tirashi et ses camarades Chosen Ones pour régler le conflit.</p>
+              <p>Les nombreux villages de ce royaume disposent de leurs propres expressions et proverbes, pouvant parfois provoquer la confusion et l'incompréhension lors de certains dialogues entre locaux.</p>
+              <p>Le royaume du Nord est la contrée comprenant le plus de zones secondaires</p>
               <br />
 
               <h3 className="subtitle">Motopolis</h3>

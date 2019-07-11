@@ -8,7 +8,7 @@ export class Heros extends Component {
         name: 'Guidoune',
         power: 'tu maîtrises le feu',
         enemyName: 'le docteur Doofenschmirtz',
-        enemyPower: 'c\'est un professeur diabolique',
+        enemyPower: 'un professeur diabolique aussi fou que diplômé',
 
     };
 
@@ -322,7 +322,7 @@ export class Heros extends Component {
         ];
 
         const enemiesPower = [
-            'qui est un professeur diabolique',
+            'un professeur diabolique aussi fou que diplômé',
             'qui connait tous les multiples de 1',
             'qui fait des créneaux à la perfection',
             'qui ne se lave jamais les dents',
@@ -337,7 +337,7 @@ export class Heros extends Component {
             'qui est un docteur belge',
             'ses parents ne lui ont pas appris la politesse',
             'qui joue à Fortnite',
-            'qui remplace toutes les céréales par des mini saucissons',
+            'ce monstre remplace toutes les céréales par des mini saucissons',
             'cette guidoune main Little Mac dans Smash Bros',
             'une espèce de matante qui met des DLCs partout',
             'qui fais en sortent que tous le monde fassent des faute d\'ortografe',
@@ -373,6 +373,30 @@ export class Heros extends Component {
             'qui fait disparaître toutes les ultra-rares des boosters Yu-Gi-Oh',
             'qui conduit une Tweezy, parfaite pour assassiner en silence',
             'cette espèce de fumier ne dit jamais "Merci" aux serveurs',
+            'une sorte de traître qui favorise les exclusivités Epic Games Store',
+            'qui trouve que les blagues Carambar sont hilarantes',
+            'un inconditionnel du chaos qui déteste le kebab',
+            'dont les chaussures brillent beaucoup trop',
+            'qui ne laisse jamais la place aux personnes âgées dans les bus',
+            'cette ordure achète tous les produits Apple existants',
+            'cette erreur de la société met le lait avant les céréales',
+            'cette espèce de fumier met la charrue avant les boeufs',
+            'un terrible opposant à la république du Québec, avec ses projets anti-poutine',
+            'membre du crew d\'Augustin Monville',
+            'un terrible adversaire qui fait en sorte que tu te cognes toujours le petit orteil au réveil',
+            'qui défait toujours tes lacets au moment où tu t\'y attends le moins',
+            'une abomination qui répond toujours "Feur" quand on lui dit "Quoi"',
+            'un fléau universel qui possède toujours un +4 au Uno',
+            'qui fait apparaître des épis sur chacune des têtes croisées',
+            'cette saleté pense que la Terre est plate',
+            'un adversaire coriace qui ne dit jamais "Oui", ni "Non"',
+            'une force de la nature immunisée aux lancers de tortue',
+            'qui place des tranches d\'ananas sur chaque tranche de pizza',
+            'c\'est un furry',
+            'un destructeur-né sans aucun scrupule ni brosse à dents',
+            'cette immondice trempe son Roquefort dans du sirop de menthe',
+            'cette ordure se place toujours au mileu des escalators',
+            'fanatique n\'hésitanta pas à sacrifier au nom du Coco de Paimpol',
         ];
 
         const randomName = Math.floor(Math.random() * 100);
@@ -384,10 +408,10 @@ export class Heros extends Component {
         const randomEnemyName = Math.floor(Math.random() * 100);
         const enemyName = enemiesName[randomEnemyName];
 
-        const randomEnemyPower = Math.floor(Math.random() * 50);
+        const randomEnemyPower = Math.floor(Math.random() * 75);
         const enemyPower = enemiesPower[randomEnemyPower];
 
-        console.log(`name: ${randomName} power: ${randomPower} enemy: ${randomEnemyName}`)
+        console.log(`name: ${randomName} power: ${randomPower} enemy: ${randomEnemyName} enemyPower: ${randomEnemyPower}`)
 
         this.setState({
             name: hero,
