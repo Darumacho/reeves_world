@@ -9,7 +9,8 @@ export class Heros extends Component {
         power: 'tu maîtrises le feu',
         enemyName: 'le docteur Doofenschmirtz',
         enemyPower: 'un professeur diabolique aussi fou que diplômé',
-
+        technique1: 'Glaçon',
+        technique2: 'volcanique',
     };
 
     randomName = () => {
@@ -114,6 +115,7 @@ export class Heros extends Component {
             'Edge',
             'Gallinacé',
             'Nicolas',
+            'Saumon',
         ];
 
         const powers = [
@@ -217,6 +219,7 @@ export class Heros extends Component {
             'tu peux écrire à la craie sur les tableaux Veleda',
             'tu maîtrises toutes les figures de style',
             'tu maîtrises les toupies',
+            'tu peux invoquer des chats',
         ];
 
         const enemiesName = [
@@ -319,6 +322,8 @@ export class Heros extends Component {
             'Negative Colissimo Man',
             'un cowboy trompettiste',
             'James de la Team Rocket',
+            'Donald Trump',
+            'FrancescAAAAAAARGH',
         ];
 
         const enemiesPower = [
@@ -396,7 +401,96 @@ export class Heros extends Component {
             'un destructeur-né sans aucun scrupule ni brosse à dents',
             'cette immondice trempe son Roquefort dans du sirop de menthe',
             'cette ordure se place toujours au mileu des escalators',
-            'fanatique n\'hésitanta pas à sacrifier au nom du Coco de Paimpol',
+            'fanatique n\'hésitant pas à sacrifier au nom du Coco de Paimpol',
+            'un dangereux individu qui adore les One Direction',
+        ];
+
+        const technique1 = [
+            'Glaçon',
+            'Flamme',
+            'Bond',
+            'Cure-dent',
+            'Laser',
+            'Trou noir',
+            'Missile',
+            'Explosion',
+            'Flatulence',
+            'Saxophone',
+            'Buster',
+            'Rot',
+            'Invocation',
+            'Volcan',
+            'Éruption',
+            'Blizzard',
+            'Caoutchouc',
+            'Saucisse',
+            'Onde',
+            'Canon',
+            'Bombe',
+            'Ventilateur',
+            'Rire',
+            'Cyclone',
+            'Séisme',
+            'Bouclier',
+            'Griffe',
+            'Karaoké',
+            'Taco',
+            'Pizza',
+            'Patinoire',
+            'Alarme',
+            'Jutsu',
+            'Flash',
+            'Chatouille',
+            'Grimace',
+            'Filet',
+            'Coupe de cheveux',
+            'Clarinette',
+            'Magie',
+            'Rituel',
+        ];
+
+        const technique2 = [
+            'volcanique',
+            'polaire',
+            'des ténèbres',
+            'obscur(e)',
+            'sismique',
+            'de la mort',
+            'électrique',
+            'financier(e)',
+            'de campagne',
+            'oculaire',
+            'de petits pois',
+            'aux olives',
+            'du futur',
+            'saucisse',
+            'empoisonné(e)',
+            'nucléaire',
+            'mégatonne',
+            'sonique',
+            'caniculaire',
+            'plasma',
+            'ternaire',
+            'de latex',
+            'présidentiel(le)',
+            'scolaire',
+            'orchidoclaste',
+            'de cartes',
+            'prioritaire à droite',
+            'de minuit',
+            'bolbécais(e)',
+            'magique',
+            'de lumière',
+            'comique',
+            'recyclé(e)',
+            'd\'altitude',
+            'communiste',
+            'gastronomique',
+            'minéral(e)',
+            'aquatique',
+            'de pierre',
+            'métallique',
+            'diabolique',
         ];
 
         const randomName = Math.floor(Math.random() * 100);
@@ -411,13 +505,21 @@ export class Heros extends Component {
         const randomEnemyPower = Math.floor(Math.random() * 75);
         const enemyPower = enemiesPower[randomEnemyPower];
 
+        const randomTechnique1 = Math.floor(Math.random() * 40);
+        const technique_one = technique1[randomTechnique1];
+
+        const randomTechnique2 = Math.floor(Math.random() * 40);
+        const technique_two = technique2[randomTechnique2];
+
         console.log(`name: ${randomName} power: ${randomPower} enemy: ${randomEnemyName} enemyPower: ${randomEnemyPower}`)
 
         this.setState({
             name: hero,
             power: power,
             enemyName: enemyName,
-            enemyPower: enemyPower
+            enemyPower: enemyPower,
+            technique1: technique_one,
+            technique2: technique_two,
         });
         };
 
@@ -436,14 +538,15 @@ export class Heros extends Component {
                     <br />
                     <br/>
                     Tu es
-                <h3>{this.state.name} Man et {this.state.power} !</h3>               
-            </div>
-            <div className="randomHero">
+                <h3>{this.state.name} Man et {this.state.power} !</h3>  
+                <br />
+                ta technique ultime se nomme 
+                <h4>{this.state.technique1} {this.state.technique2} !</h4>           
                 <br/>
+                <br />
                 Ton pire ennemi est...
-                <h4>{this.state.enemyName}, {this.state.enemyPower} !</h4>   
-                <br />          
-            </div>
+                <h5>{this.state.enemyName}, {this.state.enemyPower} !</h5>   
+                </div>          
             </React.Fragment>
             
         );

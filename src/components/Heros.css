@@ -35,6 +35,14 @@
 }
 
 .randomHero h4 {
+    background-color: rgb(16, 236, 252);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.randomHero h5 {
     background-color: rgb(206, 16, 16);
     border-radius: 10px;
     margin-top: 20px;
