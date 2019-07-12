@@ -49,25 +49,25 @@ export class Contree extends React.Component {
               <h3 className="subtitle">Flocéliande</h3>
               <p><u>Climat :</u> Tropical</p>
               <p><u>Personnages importants :</u> Le Grand Flo, Le Floplomaque, Le Florateur, Le Flogisticien, Gérard le Garde, Colonel Yeeeeeehaw, Le Flo</p>
-              <p>Sacramenbourg est une petite ville isolée de tout, en plein désert, point de départ de la quête des Chosen Ones. Elle est dirigée par la mairesse E.Gwiazdowski, experte en droit.</p>
-              <p>Les premiers habitants de Sacramenbourg ont émigré de l'ancienne cité de Lanfair, après son engloutissement quasi total, il y'a plusieurs décénnies. Ne disposant d'aucune force de frappe, la ville a rapidement été victime d'un raid de la part des Jhâvas.</p>
-              <p>C'est la prmeière ville à être libérée par les Chosen Ones.</p>
+              <p>Une jungle primitive, éloignée de toute trace de civilisation, abritant la tribu primitive des Flo. Ce sanctuaire naturel aussi moite que dense abrite un bois de très grande qualité récemment prisé d'un industriel, menant à une déforestation massive. La majeure partie des autochtones n'étant pas douée de réflexion, les chefs locaux ont bien du mal à régler la situation.</p>
+              <p>Les Chosen Ones viennent ainsi en aide au Grand Flo afin de réunir tous ses semblables et ainsi repousser l'industriel destructeur. Le Flo est le représentant de son peuple très probablement choisi du fait de son exceptionnelle puissance et de sa différenciation physique.</p>
+              <p>C'est la contrée disposant du plus grand nombre de ressources naturelles.</p>
               <br />
 
               <h3 className="subtitle">Chopejambon Ville</h3>
               <p><u>Climat :</u> Continental</p>
               <p><u>Personnages importants :</u> Matante Man, Câlisse Boy, Nuxaigneur, Hibou Petit-Duc Méridional, Le Blagueur et ses lieutenants, Nico</p>
-              <p>Sacramenbourg est une petite ville isolée de tout, en plein désert, point de départ de la quête des Chosen Ones. Elle est dirigée par la mairesse E.Gwiazdowski, experte en droit.</p>
-              <p>Les premiers habitants de Sacramenbourg ont émigré de l'ancienne cité de Lanfair, après son engloutissement quasi total, il y'a plusieurs décénnies. Ne disposant d'aucune force de frappe, la ville a rapidement été victime d'un raid de la part des Jhâvas.</p>
-              <p>C'est la prmeière ville à être libérée par les Chosen Ones.</p>
+              <p>Une ville moderne typique de banlieue, anciennement théâtre d'affrontements entre super-héros et super-méchants. Le nombre de ces derniers s'étant accru, seuls 2 équipes de super-héros se disputent la résolution de tous les crimes et autres magouilles financières. La ville assiste, impuissante, à la montée en force du gang du Blagueur, qu'essaient tant bien que mal de combattre Matante Man et son acolyte Câlisse Boy.</p>
+              <p>Ces derniers sont aidés par les Chosen Ones afin de sauver la ville et leur camarade Nico, découvrant au passage les sombres desseins des entreprises locales, et faisant de Matante Man et Câlisse Boy des héros plus que respectés.</p>
+              <p>C'est la contrée comportant le plus de commerces et d'activités en tous genres.</p>
               <br />
 
               <h3 className="subtitle">Archipel de Musik</h3>
               <p><u>Climat :</u> Tropical</p>
               <p><u>Personnages importants :</u> Doyen Bernard, Cramtou, Tom Tom</p>
-              <p>Sacramenbourg est une petite ville isolée de tout, en plein désert, point de départ de la quête des Chosen Ones. Elle est dirigée par la mairesse E.Gwiazdowski, experte en droit.</p>
-              <p>Les premiers habitants de Sacramenbourg ont émigré de l'ancienne cité de Lanfair, après son engloutissement quasi total, il y'a plusieurs décénnies. Ne disposant d'aucune force de frappe, la ville a rapidement été victime d'un raid de la part des Jhâvas.</p>
-              <p>C'est la prmeière ville à être libérée par les Chosen Ones.</p>
+              <p>Un archipel tropical, à des milliers de kilomètres des soucis de la Contrée principale. Fêtes et bonne humeur y sont les maîtres-mots, instaurés par le légendaire Man on Fire, il y a plusieurs siècles. Les habitants vivent dans l'oisiveté totale, leur seul tracas se résumant à savoir si ils auront assez de Ledkoko pour le prochain festin.</p>
+              <p>Le flambeau festif ayant été repris par plusieurs DJ locaux, c'est le Dude on Fire qui s'impose en tant que roi de la fête. Grâce à ses amis Chosen Ones, il livre la plus grande fête de l'archipel avant son départ.</p>
+              <p>C'est la seule contrée ne pouvant être explorée à pied, nécessitant un bâteau pour le déplacement.</p>
               <br />
 
               <h3 className="subtitle">Empire à Steak</h3>
