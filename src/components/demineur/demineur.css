@@ -1,0 +1,169 @@
+
+.minesweeper {
+    user-select: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 10px;
+    background: #bdbdbd;
+    display: flex;
+    justify-content: center;
+    border-left: 2px solid #fefefe;
+    border-top: 2px solid #fefefe;
+    border-bottom: 2px solid #7b7b7b;
+    border-right: 2px solid #7b7b7b;
+    font-size:24px;
+}
+
+.minesweeper__body{
+    border: 2px solid #7b7b7b;
+}
+
+.minesweeper__row {
+    display: flex;
+}
+
+.minesweeper__field {
+    background: #dedede;
+    position: relative;
+    border: 1px solid #7b7a7a;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.minesweeper__field_1 {
+    color: #1212f9;
+}
+
+.minesweeper__field_2 {
+    color: #007b00;
+}
+
+.minesweeper__field_3 {
+    color: #ef2e2e;
+}
+
+.minesweeper__field_4 {
+    color: #00007b;
+}
+
+.minesweeper__field_5 {
+    color: #7b0000;
+}
+
+.minesweeper__field_6 {
+    color: #007f7e;
+}
+
+.minesweeper__field_7 {
+    color: #000000;
+}
+
+.minesweeper__field_8 {
+    color: #000000;
+}
+
+.minesweeper__field_bomb::before {
+    background: url(./poutine.png);
+}
+
+.minesweeper__field_cloud::before {
+    background: #bdbdbd;
+    border-left: 2px solid #fefefe;
+    border-top: 2px solid #fefefe;
+    border-bottom: 2px solid #7b7b7b;
+    border-right: 2px solid #7b7b7b;
+    box-sizing: border-box;
+}
+.minesweeper__field_cloud:active::before {
+    transform: translate(1px, 1px);
+}
+
+.minesweeper__field_flag::after {
+    background: inherit;
+}
+
+.minesweeper__field_flag::before {
+    z-index: 5;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg);
+}
+
+.minesweeper__field_bomb::before,
+.minesweeper__field_flag::before,
+.minesweeper__field_flag::after,
+.minesweeper__field_cloud::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 75% 75%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.minesweeper__options {
+    background: white;
+    padding-bottom: 10px;
+}
+
+.minesweeper__header {
+    background: white;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.container button {
+    padding: 5px 10px;
+    margin-left:80px;
+    margin-right:80px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: rgb(11, 170, 59);
+    color: white;
+    border: none;
+}
+
+.container button:hover {
+    padding: 5px 10px;
+    margin-left:80px;
+    margin-right:80px;
+    border-radius: 5px;
+    background: rgb(11, 219, 74);
+    color: white;
+    border: none;
+  }
+
+  .minesweeper__options {
+    display: flex;
+    flex-direction: column;
+}
+
+.minesweeper__options>div {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.minesweeper__options label {
+    width: 75%;
+    display: block;
+}
+
+.minesweeper__options input {
+    border: 0;
+    width: 25%;
+    display: block;
+    padding: 10px;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    background: #3c4d65;
+}

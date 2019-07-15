@@ -11,7 +11,7 @@ export function Sidebar() {
         <Nav.Link href="/">Accueil</Nav.Link>
         <Nav.Link href="/montreal">Montréal en direct</Nav.Link>
         <Nav.Link href="/morpion">Jouer au morpion</Nav.Link>
-        <Nav.Link href="/top">Jouer à TopNumber</Nav.Link>
+        <Nav.Link href="/mine">Jouer au Dépoutineur</Nav.Link>
         <Nav.Link href="/video">Conférences</Nav.Link>
         <Nav.Link href="/guidoune">Guidoune du jour</Nav.Link>
         <Nav.Link href="/journal">Journal</Nav.Link>

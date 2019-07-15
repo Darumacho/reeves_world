@@ -457,7 +457,7 @@ var quizQuestions = [
             },
             {
                 type: "2",
-                content: "Deux ours en train de taper un high-five."
+                content: "Ça ne fait rien, cette nouvelle coupe te permettra sûrement de rivaliser avec Canard Muet et sa tignasse aussi soyeuse que majestueuse."
             },
             {
                 type: "3",
@@ -483,7 +483,7 @@ var quizQuestions = [
         answers: [
             {
                 type: "1",
-                content: "Tu fais un Snap parce qu'on voit ça tous les jours quand même."
+                content: "Tu fais un Snap parce qu'on voit pas ça tous les jours quand même."
             },
             {
                 type: "2",
