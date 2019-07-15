@@ -29,7 +29,7 @@ export class Persos extends React.Component {
               <div class="miniContainer">
               <h3 className="subtitle">Chester</h3>
               <p><u>Taille :</u> 1.79m</p>
-              <p><u>Poids :</u> 80kg</p>
+              <p><u>Poids :</u> 90kg</p>
               <p><u>Origine :</u> Arborescence</p>
               <p><u>Rôle :</u> Polyvalent</p>
               <p>Son titre est <strong>l'Arborescent</strong>.</p>
@@ -51,11 +51,11 @@ export class Persos extends React.Component {
 
               <h3 className="subtitle">Sckald</h3>
               <p><u>Taille :</u> 1.83m</p>
-              <p><u>Poids :</u> 75kg</p>
+              <p><u>Poids :</u> 85kg</p>
               <p><u>Origine :</u> Motopolis</p>
               <p><u>Rôle :</u> Attaque</p>
               <p>Son titre est <strong>le Rider</strong>.</p>
-              <p>Parcourant sur son bicycle les valereuses terres montagneuses de Motopolis, Sckald est un Chosen One au phrasé exotique, typique de sa contrée d'origine. Il est le plus rapide des Chosen Ones, fendant les airs et le crâne des Jhâvas à l'aide de redoutables attaques frontales. Tout comme ses compatriotes, il voue un culte aux divinités de la mythologie locale, et est pressenti par le maire Robert Charlebois d'aller retarder le coup de patoune du Grand Carcajou.</p>
+              <p>Parcourant sur son bicycle les valeureuses terres montagneuses de Motopolis, Sckald est un Chosen One au phrasé exotique, typique de sa contrée d'origine. Il est le plus rapide des Chosen Ones, fendant les airs et le crâne des Jhâvas à l'aide de redoutables attaques frontales. Tout comme ses compatriotes, il voue un culte aux divinités de la mythologie locale, et est pressenti par le maire Robert Charlebois pour aller retarder le coup de patoune du Grand Carcajou.</p>
               <p>Malgré des répliques métaphoriques et très nébuleuses, il garde la tête sur les épaules (contrairement à certains).</p>
               <p>Sckald ne maîtrise aucun élément, mais est en mesure d'infliger le plus grand nombre de statuts possibles.</p>
               <br />

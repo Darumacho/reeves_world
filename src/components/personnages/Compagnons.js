@@ -97,7 +97,7 @@ export class Compagnon extends React.Component {
               <p><u>Origine :</u> inconnue</p>
               <p><u>Rôle :</u> Polyvalent</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
-              <p>jean-Paul a décidé d'arrondir ses fins de mois en s'inscrivant à l'agence de Duracuir en tant que mercenaire de raid. Toutes ses compétences et talents sont nommés "Oh boy", mais possèdent des effets très variés, en faisant un très bon pilier multifonction.</p>
+              <p>Jean-Paul a décidé d'arrondir ses fins de mois en s'inscrivant à l'agence de Duracuir en tant que mercenaire de raid. Toutes ses compétences et talents sont nommés "Oh boy", mais possèdent des effets très variés, en faisant un très bon pilier multifonction.</p>
               <p>Comme tout personnage étrange digne de ce nom, Jean-Paul est passé maître de l'élément Psychique.</p>
               <p>Conseillé pour toute formation.</p>
               <br />

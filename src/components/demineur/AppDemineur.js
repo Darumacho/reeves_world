@@ -43,8 +43,8 @@ export class AppDemineur extends React.Component {
             <React.Fragment>
                 <div className="container">
                 <div className="minesweeper__header">
-                        <p>Ce dépoutineur est entièrement personnalisable - si jamais tu sens que tu fais n'importe quoi, clique sur Guidoune Man pour tout réinitialiser.</p>
-                        <br />
+                        <p>Ce dépoutineur est entièrement personnalisable : tu peux régler la taille de la grille et le taux d'apparaition des poutines.</p>
+                        <p>Si jamais tu sens que tu fais n'importe quoi, clique sur Guidoune Man pour tout réinitialiser.</p>
                         <h1 fontSize="16px"><u>{msg}</u></h1>
                     </div>
                     <div>

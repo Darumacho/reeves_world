@@ -21,6 +21,8 @@ export class Contree extends React.Component {
           <a class="btn btn-outline-primary" href="/contree">Contrées</a>
           <a class="btn btn-outline-primary" href="/mineur">Lieux mineurs</a>
         </nav>
+        <h2 class="blog-post-title" id="chosen">Contrées</h2>
+              <br />
         <div class="miniContainer">
               <h3 className="subtitle">Arborescence</h3>
               <p><u>Climat :</u> Indéfini</p>
