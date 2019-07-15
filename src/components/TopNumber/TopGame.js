@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../../index.css';
 //import * as serviceWorker from '../serviceWorker';
 import { TopNumber } from './TopNumber';
 import { Display } from './Display';
