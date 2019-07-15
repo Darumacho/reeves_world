@@ -113,6 +113,7 @@
 }
 
 .minesweeper__header {
+    border-radius: 8px;
     background: white;
     margin-bottom: 10px;
     padding-bottom: 8px;

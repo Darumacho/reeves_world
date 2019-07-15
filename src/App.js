@@ -5,7 +5,7 @@ import {Montreal} from './components/Montreal.js';
 import {Game} from './components/Morpion.js';
 import {Sidebar} from './Sidebar.js';
 import {Daily} from './components/Daily.js';
-import {TopGame} from './components/TopGame.js';
+import {TopGame} from './components/TopNumber/TopGame.js';
 import {Video} from './components/Video.js';
 import {Journal} from './components/Journal.js';
 import {Boys} from './components/Boys.js';

@@ -25,7 +25,7 @@ export class AppDemineur extends React.Component {
     restartMinesweeper = () => {
         this.setState(prevState => ({
             minesweeperKey: prevState.minesweeperKey + 1,
-            msg: "Dépoutineur"
+            msg: "Partie en cours"
         }));
     };
     updateStateProp = (prop) => (e) => {
@@ -45,8 +45,7 @@ export class AppDemineur extends React.Component {
                 <div className="minesweeper__header">
                         <p>Ce dépoutineur est entièrement personnalisable - si jamais tu sens que tu fais n'importe quoi, clique sur Guidoune Man pour tout réinitialiser.</p>
                         <br />
-                        <br />
-                        <h1 font-size="16px"><u>{msg}</u></h1>
+                        <h1 fontSize="16px"><u>{msg}</u></h1>
                     </div>
                     <div>
                         <button className="minesweeper__restart" onClick={this.restartMinesweeper}><img src="img/GuidouneMan2.png" width="40%" height="40%" /></button>

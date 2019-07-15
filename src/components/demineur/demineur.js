@@ -183,7 +183,7 @@ Minesweeper.propTypes = {
     bombChance: (props, propName, componentName) => {
         const chance = props[propName];
         if (chance < 0 || chance > 1) {
-            return new Error(`Invalid prop "${propName}" with value of ${chance} supplied to "${componentName}". The bomb chance must be a number between 0 and 1.`);
+            return new Error(`Paramètre "${propName}" avec une valeur de ${chance} appliqué à "${componentName}" : la probabilité doit être comprise entre 0 et 1.`);
         }
     }
 };
