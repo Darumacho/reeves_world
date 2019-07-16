@@ -4,7 +4,17 @@ import React from 'react';
 import { render } from 'react-dom';
 import Minesweeper from "./demineur.js";
 
-export class AppDemineur extends React.Component {
+export class AppDemineur extends React.Component {   
+    constructor(props) {
+        super(props);
+        this.url = "sound/win.mp3";
+        this.urlLose = "sound/lose.mp3";
+        this.audio = new Audio(this.url);
+        this.lose = new Audio(this.urlLose);
+        this.play = this.play.bind(this);
+        this.pause = this.pause.bind(this);
+      }
+    
     state = {
         msg: "Dépoutineur",
         minesweeperKey: 0,
@@ -12,21 +22,52 @@ export class AppDemineur extends React.Component {
         width: 10,
         height: 10
     };
+
+    play(){
+        this.setState({
+          play: true,
+          pause: false
+        });
+        console.log(this.audio);
+        this.audio.play();
+      }
+    
+      pause(){
+      this.setState({ play: false, pause: true });
+        this.audio.pause();
+      }
+
+    togglePlay = () => {
+        this.setState({ play: !this.state.play }, () => {
+            this.state.play ? this.audio.play() : this.audio.pause();
+          });
+    }
+
+    togglePlayLose = () => {
+        this.setState({ play: !this.state.play }, () => {
+            this.state.play ? this.lose.play() : this.lose.pause();
+          });
+    }
+
     onWin = () => {
         this.setState({
-            msg: "Gagné !"
+            msg: "Gagné !",
         });
+        this.togglePlay();
     };
     onLose = () => {
         this.setState({
             msg: "Perdu !",
         });
+        this.togglePlayLose();
     };
     restartMinesweeper = () => {
         this.setState(prevState => ({
             minesweeperKey: prevState.minesweeperKey + 1,
             msg: "Partie en cours"
         }));
+        
+        this.togglePlay();
     };
     updateStateProp = (prop) => (e) => {
         const value = Number(e.target.value);
@@ -43,7 +84,7 @@ export class AppDemineur extends React.Component {
             <React.Fragment>
                 <div className="container">
                 <div className="minesweeper__header">
-                        <p>Ce dépoutineur est entièrement personnalisable : tu peux régler la taille de la grille et le taux d'apparaition des poutines.</p>
+                        <p>Ce dépoutineur est entièrement personnalisable : tu peux régler la taille de la grille et le taux d'apparition des poutines.</p>
                         <p>Si jamais tu sens que tu fais n'importe quoi, clique sur Guidoune Man pour tout réinitialiser.</p>
                         <h1 fontSize="16px"><u>{msg}</u></h1>
                     </div>
