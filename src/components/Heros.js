@@ -116,6 +116,11 @@ export class Heros extends Component {
             'Gallinacé',
             'Nicolas',
             'Saumon',
+            'Crash',
+            'Voltige',
+            'En effet',
+            'Perceuse',
+            'Carton',
         ];
 
         const powers = [
@@ -220,6 +225,9 @@ export class Heros extends Component {
             'tu maîtrises toutes les figures de style',
             'tu maîtrises les toupies',
             'tu peux invoquer des chats',
+            'tu ne fais que des doubles au Monopoly',
+            'tu es absolument introuvable au cache-cache',
+            'tu excelles avec Excel',
         ];
 
         const enemiesName = [
@@ -403,6 +411,17 @@ export class Heros extends Component {
             'cette ordure se place toujours au mileu des escalators',
             'fanatique n\'hésitant pas à sacrifier au nom du Coco de Paimpol',
             'un dangereux individu qui adore les One Direction',
+            'une machine à tuer qui encombre tous les nez',
+            'une immonde ordure qui enlève tous les balais d\'essuie-glaces',
+            'un redoutable adversaire qui ne pioche que des cartes "200" au 1000 bornes',
+            'une abomination qui DAB en éternuant',
+            'ce monstre place toujours du persil entre les dents',
+            'qui empêche de passer les vidéos de pub sur YouTube',
+            'cette saleté place toujours des gens lents devant toi',
+            'qui réussit à emmêler les écouteurs de la pire des manières',
+            'qui met toujours des sandwichs sous tes araignées',
+            'le fameux criminel armé d\'un lance-dentiers',
+            'terrible gangster capable de créer de la fumée sans feu',
         ];
 
         const technique1 = [
@@ -483,7 +502,7 @@ export class Heros extends Component {
             'de lumière',
             'comique',
             'recyclé(e)',
-            'd\'altitude',
+            'de haute altitude',
             'communiste',
             'gastronomique',
             'minéral(e)',
@@ -491,24 +510,25 @@ export class Heros extends Component {
             'de pierre',
             'métallique',
             'diabolique',
+            'mégavolt',
         ];
 
-        const randomName = Math.floor(Math.random() * 100);
+        const randomName = Math.floor(Math.random() * 105);
         const hero = names[randomName];
 
-        const randomPower = Math.floor(Math.random() * 100);
+        const randomPower = Math.floor(Math.random() * 103);
         const power = powers[randomPower];
 
         const randomEnemyName = Math.floor(Math.random() * 100);
         const enemyName = enemiesName[randomEnemyName];
 
-        const randomEnemyPower = Math.floor(Math.random() * 75);
+        const randomEnemyPower = Math.floor(Math.random() * 86);
         const enemyPower = enemiesPower[randomEnemyPower];
 
         const randomTechnique1 = Math.floor(Math.random() * 40);
         const technique_one = technique1[randomTechnique1];
 
-        const randomTechnique2 = Math.floor(Math.random() * 40);
+        const randomTechnique2 = Math.floor(Math.random() * 41);
         const technique_two = technique2[randomTechnique2];
 
         console.log(`name: ${randomName} power: ${randomPower} enemy: ${randomEnemyName} enemyPower: ${randomEnemyPower}`)

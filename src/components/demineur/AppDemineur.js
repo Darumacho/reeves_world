@@ -1,7 +1,6 @@
 import "./demineur.css";
 
 import React from 'react';
-import { render } from 'react-dom';
 import Minesweeper from "./demineur.js";
 
 export class AppDemineur extends React.Component {   
@@ -20,7 +19,7 @@ export class AppDemineur extends React.Component {
         minesweeperKey: 0,
         bombChance: 15,
         width: 10,
-        height: 10
+        height: 10,
     };
 
     play(){
@@ -51,20 +50,20 @@ export class AppDemineur extends React.Component {
 
     onWin = () => {
         this.setState({
-            msg: "Gagné !",
+            msg: "Bien joué guidoune !",
         });
         this.togglePlay();
     };
     onLose = () => {
         this.setState({
-            msg: "Perdu !",
+            msg: "Pas terrible tout ça !",
         });
         this.togglePlayLose();
     };
     restartMinesweeper = () => {
         this.setState(prevState => ({
             minesweeperKey: prevState.minesweeperKey + 1,
-            msg: "Partie en cours"
+            msg: "Partie en cours",
         }));
         
         this.togglePlay();
@@ -83,7 +82,8 @@ export class AppDemineur extends React.Component {
         return (
             <React.Fragment>
                 <div className="container">
-                <div className="minesweeper__header">
+                    <div className="minesweeper__header">
+                        <p>Sur ce site, ce sont les poutines qui te consomment.</p>
                         <p>Ce dépoutineur est entièrement personnalisable : tu peux régler la taille de la grille et le taux d'apparition des poutines.</p>
                         <p>Si jamais tu sens que tu fais n'importe quoi, clique sur Guidoune Man pour tout réinitialiser.</p>
                         <h1 fontSize="16px"><u>{msg}</u></h1>
