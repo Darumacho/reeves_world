@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import './Heros.css';
 
-import ShuffleText from 'react-shuffle-text';
-
 export class Heros extends Component {
     state = {
         name: 'Guidoune',
@@ -505,7 +503,7 @@ export class Heros extends Component {
             'de haute altitude',
             'communiste',
             'gastronomique',
-            'minéral(e)',
+            'démoniaque',
             'aquatique',
             'de pierre',
             'métallique',
@@ -573,8 +571,3 @@ export class Heros extends Component {
     }
 }
 export default Heros;
-
-/*<ShuffleText charFrameTime= {5} charFrames= {3} charIncInterval= {20} content ={this.state.name} />
-<ShuffleText charFrameTime= {5} charFrames= {3} charIncInterval= {20} content =" Man et " />
-<ShuffleText charFrameTime= {5} charFrames= {3} charIncInterval= {20} content = {this.state.power} /> 
-<ShuffleText charFrameTime= {5} charFrames= {3} charIncInterval= {20} content = "!"/>*/

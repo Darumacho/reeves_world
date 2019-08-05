@@ -37,6 +37,17 @@ export class Compagnon extends React.Component {
               <p>...</p>
               <p>Voilà.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Il a une bonne tête</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Il a un nom un peu chelou</li>
+              </ul>
+              </p>
+              <br />
 
               <h3 className="subtitle">Hubert</h3>
               <p><u>Taille :</u> 1.68m</p>
@@ -56,6 +67,17 @@ export class Compagnon extends React.Component {
               <p><u>Rôle :</u> Orchidoclaste</p>
               <p><u>Recrutement :</u> terminer sa quête à la CCI</p>
               <p>On vous laisse la surprise.</p>
+              <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Un recrutement à seulement 100 Dollawrs</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Existe</li>
+              </ul>
+              </p>
               <br />
 
               <h3 className="subtitle">Matante Man</h3>
@@ -145,7 +167,20 @@ export class Compagnon extends React.Component {
               <p>Contrairement à ses collègues défenseurs, Gordon possède une majorité d'attaques préventives prioritaires, gardant toujours un tour d'avance dans sa manche.</p>
               <p>Conseillé pour les formations lentes.</p>
               <br />
-
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Dispose du plus grand nombre d'attaques prioritaires</li>
+                <li>- Très efficace en équipe, permettant de prendre l'avantage à chaque début de tour</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Très mauvais en duel</li>
+                <li>- Un pouvoir offensif médiocre</li>
+              </ul>
+              </p>
+              <br />   
+              
               <h3 className="subtitle">Mucho Pimenté</h3>
               <p><u>Taille :</u> 1.75m</p>
               <p><u>Poids :</u> 70kg</p>
@@ -160,12 +195,26 @@ export class Compagnon extends React.Component {
               <h3 className="subtitle">Exodius</h3>
               <p><u>Taille :</u> 2.15m</p>
               <p><u>Poids :</u> 250kg</p>
-              <p><u>Origine :</u> Nouillorc</p>
+              <p><u>Origine :</u> Royaume du Nord</p>
               <p><u>Rôle :</u> Défense et Magie</p>
               <p><u>Recrutement :</u> amener la maman de Jimmy dans son repaire</p>
               <p>Nostalgique de ses aventures dans le Ta-bois-rnak, Exodius reprend du service, toujours grâce à son pouvoir sympathique et sa magie vertueuse.</p>
               <p>Comme tout paladin, ce bon vieil Exodius est un aficionado de l'élement Lumière.</p>
               <p>Conseillé pour les formations manquant de puissance magique ou de défense.</p>
+              <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Combine à merveille la défense, la magie et les soins</li>
+                <li>- Un garde du corps personnel incroyablement efficace</li>
+                <li>- Des compétences de soutien très complètes</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Un pouvoir offensif bon quoique plutôt limité</li>
+                <li>- Totalement épongé par les compétences anti-magie telles que Provoc</li>
+              </ul>
+              </p>
               <br />             
 
               <h3 className="subtitle">Cap'taine Loudmer</h3>
@@ -188,6 +237,17 @@ export class Compagnon extends React.Component {
               <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
               <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
+              <br />
+
+              <h3 className="subtitle">King Crash</h3>
+              <p><u>Taille :</u> 2.05m</p>
+              <p><u>Poids :</u> 130kg</p>
+              <p><u>Origine :</u> Vimontilliers</p>
+              <p><u>Rôle :</u> Attaque</p>
+              <p><u>Recrutement :</u> terminer sa quête au Dôme de Combat</p>
+              <p>King Crash est un duelliste du Dôme de Combat, éternel numéro deux du classement général derrière son plus grand rival, Quick Lord. Son armure aimantée et ses gadgets sont les outils le menant à la victoire.</p>
+              <p>Après avoir acquis une tonne d'expérience, King Crash est en mesure de pouvoir agir dans n'importe quelle situation, affectant les effets de ses attaques selon la polarité de son armure.</p>
+              <p>Conseillé pour les formations manquant de dégâts.</p>
               <br />
 
               <h3 className="subtitle">???</h3>

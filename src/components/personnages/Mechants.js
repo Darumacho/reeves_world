@@ -71,6 +71,14 @@ export class Mechant extends React.Component {
               <p>Malgré leur statut, ils sont les seuls à ne pas prendre part à la Corruption++.</p>
               <br />
 
+              <h3 className="subtitle">Campocobre</h3>
+              <p><u>Titre :</u> Jhâvarcaniste</p>
+              <p><u>Lieu(x) de rencontre :</u> Puerto Favor</p>
+              <p>Eklips et Nehtbinz sont liés depuis toujours par une amitié indéfectible, choisis pour être respectivement l'épée et le bouclier de leur ordre. Un "accident de parcours" les amène à déserter leurs propres rangs, décidant de partir à la recherche de l'Assembleur lui-même.</p>
+              <p>Ils affrontent les Chosen Ones et Hubert Reeves au sein du Sanctuaire du Void, à seulement quelques pas de leur objectif initial.</p>
+              <p>Malgré leur statut, ils sont les seuls à ne pas prendre part à la Corruption++.</p>
+              <br />
+
               <h3 className="subtitle">Giegue</h3>
               <p><u>Titre :</u> Étranger</p>
               <p><u>Lieu(x) de rencontre :</u> Portail Intergalactique, Ruines dimensionnelles, Nébuleuse</p>
