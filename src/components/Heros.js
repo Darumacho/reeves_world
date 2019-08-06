@@ -529,7 +529,7 @@ export class Heros extends Component {
         const randomTechnique2 = Math.floor(Math.random() * 41);
         const technique_two = technique2[randomTechnique2];
 
-        console.log(`name: ${randomName} power: ${randomPower} enemy: ${randomEnemyName} enemyPower: ${randomEnemyPower}`)
+        console.log(`name: ${randomName} power: ${randomPower} enemy: ${randomEnemyName} enemyPower: ${randomEnemyPower} technique1: ${randomTechnique1} technique2: ${randomTechnique2}`)
 
         this.setState({
             name: hero,

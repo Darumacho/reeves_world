@@ -138,7 +138,7 @@ export class AppQuestion extends React.Component {
                                 title: "un consul montréalais",
                                 image: "https://file1.telestar.fr/var/telestar/storage/images/2015/articles/marc-emmanuel-tous-ensemble-je-ne-suis-pas-un-enfoire-!-93610/810940-1-fre-FR/Marc-Emmanuel-Tous-ensemble-Je-ne-suis-pas-un-enfoire-!_width1024.jpg",               
                                 statut:'Consuls' , 
-                                famous: "Mère Thérésa, Nelson Mandela, le pape François, Jacques Cartier, ton thérapeute matrimonial, Marc-Emmanuel"});
+                                famous: "Mère Thérésa, Nelson Mandela, le pape François, Jacques Cartier, ton thérapeute matrimonial, Marc-Emmanuel de 'Tous ensemble !'"});
                 break;
 
             default :

@@ -56,7 +56,7 @@ export class AppDemineur extends React.Component {
     };
     onLose = () => {
         this.setState({
-            msg: "Pas terrible tout ça !",
+            msg: "Tu t'es fait poutiner on dirait",
         });
         this.togglePlayLose();
     };

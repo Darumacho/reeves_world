@@ -92,7 +92,7 @@ export class Persos extends React.Component {
               <p><u>Atouts :</u> 
               <ul>
                 <li>- La compétence Hexafrappe</li>
-                <li>- Les puissants ornements de casque</li>
+                <li>- L'immunité à l'étourdissement, le saignement et la paralysie</li>
                 <li>- La possibilité d'ouvrir des combos avec quasiment tous les personnages</li>
                 <li>- La mise à profit des dagues</li>
               </ul> 
@@ -262,7 +262,7 @@ export class Persos extends React.Component {
               </p>
               <p><u>Faiblesses :</u>
               <ul>
-                <li>- Ne possède vraiment de point faible, chaque statut comportant des forces et des faiblesses compensant celles de de l'autre</li>
+                <li>- N'apprend aucun Talent naturellement, rendant le Power potentiellement inutile</li>
               </ul>
               </p>
               <br />

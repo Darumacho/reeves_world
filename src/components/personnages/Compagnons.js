@@ -59,6 +59,20 @@ export class Compagnon extends React.Component {
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
               <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Le type Cosmique, super efficace contre beaucoup d'ennemis</li>
+                <li>- Un panel de compétences très complet</li>
+                <li>- La possibilité de ressusciter</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Comme tous les attaquants magiques, se retrouve complètement contré par la provocation</li>
+                <li>- Des PV moyens</li>
+              </ul>
+              </p>
+              <br />  
 
               <h3 className="subtitle">Bagin</h3>
               <p><u>Taille :</u> 1.51m</p>
@@ -70,7 +84,7 @@ export class Compagnon extends React.Component {
               <br />
               <p><u>Atouts :</u> 
               <ul>
-                <li>- Un recrutement à seulement 100 Dollawrs</li>
+                <li>- Un recrutement aussi cher qu'un millésime d'H2O</li>
               </ul> 
               </p>
               <p><u>Faiblesses :</u>
@@ -90,6 +104,20 @@ export class Compagnon extends React.Component {
               <p>Il ne maîtrise aucun élément, mais compte sur son âme de héros pour porter des coups fulgurants à ses adversaires.</p>
               <p>Conseillé pour les formations manquant de dégâts.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- La compétence Poing du Déni</li>
+                <li>- Une auto-suffisance en termes de soins le rendant fiable en duel</li>
+                <li>- De nombreuses options offensives</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Aucune capacité défensive</li>
+                <li>- Se retrouve à court d'options face à des adversaires plus agressifs</li>
+              </ul>
+              </p>
+              <br />  
 
               <h3 className="subtitle">Câlisse Boy</h3>
               <p><u>Taille :</u> 1.48m</p>
@@ -101,6 +129,19 @@ export class Compagnon extends React.Component {
               <p>Comme tout bon sidekick qui se respecte, Câlisse Boy dispose de tout un arsenal pour améliorer la progression de ces équipiers.</p>
               <p>Conseillé pour les formations manquant de boost de stats.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Des compétences accélérant fortement le Power de l'équipe</li>
+                <li>- Des boosts de groupe</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Aucune capacité offensive</li>
+                <li>- L'un des plus mauvais duellistes du jeu</li>
+              </ul>
+              </p>
+              <br />  
 
               <h3 className="subtitle">Caribou fétide</h3>
               <p><u>Taille :</u> 2.48m</p>
@@ -109,9 +150,23 @@ export class Compagnon extends React.Component {
               <p><u>Rôle :</u> Défense</p>
               <p><u>Recrutement :</u> terminer sa quête au village Akrid</p>
               <p>Caribou fétide est le chef gigantesque et odorant du village Akrid. Il tient son nom du premier animal qu'il a chassé en étant enfant, et porte sa carcasse depuis toujours. Son hygiène inhabituelle et sa carrure de colosse en font un tank très robuste pouvant grignoter à petit feu la santé des ennemis.</p>
-              <p>De par son fumet agréable; on peut rapidement deviner que Caribou fétide préfère l'élément Poison.</p>
+              <p>De par son fumet agréable, on peut rapidement deviner que Caribou fétide préfère l'élément Poison.</p>
               <p>Conseillé pour les formations manquant de tank, ou peu efficaces contre les ennemis résistants aux statuts.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Un poison incurable affectant tous les ennemis du jeu</li>
+                <li>- Des défenses de groupe impénétrables</li>
+                <li>- Des PV colossaux</li>
+                <li>- Des options offensives disruptives</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Ses capacités offensives peu précises peuvent faire perdre un tour</li>
+                <li>- À court d'options lorsque provoqué</li>
+              </ul>
+              </p>
 
               <h3 className="subtitle">Jean-Paul</h3>
               <p><u>Taille :</u> 1.86m</p>
@@ -123,6 +178,18 @@ export class Compagnon extends React.Component {
               <p>Comme tout personnage étrange digne de ce nom, Jean-Paul est passé maître de l'élément Psychique.</p>
               <p>Conseillé pour toute formation.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Dispose du plus grand nombre d'attaques prioritaires</li>
+                <li>- Très efficace en équipe, permettant de prendre l'avantage à chaque début de tour</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Très mauvais en duel</li>
+                <li>- Un pouvoir offensif médiocre</li>
+              </ul>
+              </p>
               
               <h3 className="subtitle">Chef Nabab</h3>
               <p><u>Taille :</u> 1.71m</p>
@@ -134,6 +201,18 @@ export class Compagnon extends React.Component {
               <p>En complément de ses sorts de soin, chef Nabab est en mesure d'infliger des dégâts élevés s'il possède le type d'arme adéquat.</p>
               <p>Conseillé pour les formations manquant de soins.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Les meilleures capacités de soin, toutes catégories confondues</li>
+                <li>- Des options offensives fiables avec la hache</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Une fragilité le rendant facile à tuer</li>
+              </ul>
+              </p>
+              <br />  
 
               <h3 className="subtitle">E.Gwiazdowski</h3>
               <p><u>Taille :</u> 1.65m</p>
@@ -145,6 +224,20 @@ export class Compagnon extends React.Component {
               <p>Elle est le seul personnage à ne disposer d'aucune compétence offensive directe.</p>
               <p>Conseillée pour n'importe quelle formation.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Des compétences de soutien ridiculement efficaces, permettant de fournir toute l'équipe en ressources</li>
+                <li>- Des altérations de statuts rares et intéressantes</li>
+                <li>- Des PV et défenses très correctes lui offrant de la longévité</li>
+                <li>- Une option offensive qui est la bienvenue</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Le personnage le plus affecté par la provocation</li>
+              </ul>
+              </p>
+              <br />  
 
               <h3 className="subtitle">Chef Jibé</h3>
               <p><u>Taille :</u> 1.68m</p>
@@ -156,6 +249,18 @@ export class Compagnon extends React.Component {
               <p>Son sourire éclatant ainsi que ses lunettes de soleil nous laissent deviner qu'il est très à l'aise avec la Lumière.</p>
               <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Dispose du plus grand nombre d'attaques prioritaires</li>
+                <li>- Très efficace en équipe, permettant de prendre l'avantage à chaque début de tour</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Très mauvais en duel</li>
+                <li>- Un pouvoir offensif médiocre</li>
+              </ul>
+              </p>
 
               <h3 className="subtitle">Gordon</h3>
               <p><u>Taille :</u> 1.88m</p>
@@ -211,7 +316,7 @@ export class Compagnon extends React.Component {
               </p>
               <p><u>Faiblesses :</u>
               <ul>
-                <li>- Un pouvoir offensif bon quoique plutôt limité</li>
+                <li>- Un pouvoir offensif plutôt limité</li>
                 <li>- Totalement épongé par les compétences anti-magie telles que Provoc</li>
               </ul>
               </p>
@@ -230,7 +335,7 @@ export class Compagnon extends React.Component {
 
               <h3 className="subtitle">Risryn</h3>
               <p><u>Taille :</u> 1.79m</p>
-              <p><u>Poids :</u> 89kg</p>
+              <p><u>Poids :</u> 70kg</p>
               <p><u>Origine :</u> Takarajima</p>
               <p><u>Rôle :</u> Attaque</p>
               <p><u>Recrutement :</u> terminer sa quête à Takarajima</p>
@@ -238,6 +343,21 @@ export class Compagnon extends React.Component {
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
               <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Très peu affecté par la provocation</li>
+                <li>- Des combos infligeant des dégâts absolument monstrueux</li>
+                <li>- Des talents nombreux et imparables</li>
+                <li>- Des combos infligeant des dégâts absolument monstrueux</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Totalement dépendant du Power</li>
+                <li>- Des contrôles illisibles laissant les premiers parcours plus que pénibles</li>
+              </ul>
+              </p>
+              <br />  
 
               <h3 className="subtitle">King Crash</h3>
               <p><u>Taille :</u> 2.05m</p>
@@ -249,6 +369,19 @@ export class Compagnon extends React.Component {
               <p>Après avoir acquis une tonne d'expérience, King Crash est en mesure de pouvoir agir dans n'importe quelle situation, affectant les effets de ses attaques selon la polarité de son armure.</p>
               <p>Conseillé pour les formations manquant de dégâts.</p>
               <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Un panel d'attaques aux effets complets, le rendant extrêmement efficace en duel</li>
+                <li>- Des PVs élevés couplés à une Défense excellente pour un attaquant</li>
+                <li>- Un bouclier et des soins personnels</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Reste un duelliste avant tout, rendant les interactions avec son équipe très limitées</li>
+              </ul>
+              </p>
+              <br /> 
 
               <h3 className="subtitle">???</h3>
               <p><u>Origine :</u> c'est un secret pour tout le monde</p>
