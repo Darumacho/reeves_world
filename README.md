@@ -35,9 +35,9 @@ Tu pourras y trouver une horloge, un thermomètre, des infos sur le climat et le
 
 Joue au morpion contre toi-même ou un ami, ce qui doit revenir au même finalement.
 
-### Jouer à TopNumber
+### Jouer au dépoutineur
 
-Vraiment si tu t'embêtes, tu peux cliquer sur des gros nombres, que tu rêves probablement de voir sur ta fiche de paie.
+Un jeu dont est fortement inspiré le démineur.
 
 ### Conférences
 
