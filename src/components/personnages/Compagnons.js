@@ -348,7 +348,7 @@ export class Compagnon extends React.Component {
                 <li>- Très peu affecté par la provocation</li>
                 <li>- Des combos infligeant des dégâts absolument monstrueux</li>
                 <li>- Des talents nombreux et imparables</li>
-                <li>- Des combos infligeant des dégâts absolument monstrueux</li>
+                <li>- Exploite parfaitement le Charme de l'Expert</li>
               </ul> 
               </p>
               <p><u>Faiblesses :</u>

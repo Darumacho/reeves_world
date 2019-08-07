@@ -19,7 +19,7 @@ export class Ceste extends Component {
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
       </nav>
       <div className="tabContainer">
-        <div className="tabHeader">Des armes destinées à la mêlée pure. Les cestes utilisent toujours les deux mains de leur porteur et lui procure une mobilité supérieure à la moyenne.
+        <div className="tabHeader">Des armes destinées à la mêlée pure. Les cestes utilisent toujours les deux mains de leur porteur et lui procurent une mobilité supérieure à la moyenne.
           <br />
           Héros compatibles : -- -- --
         </div>
@@ -28,7 +28,7 @@ export class Ceste extends Component {
             { title: 'Nom', field: 'name' },
             { title: 'Icône', field: 'icon' },
             { title: 'Dégâts', field: 'damage', type: 'numeric' },
-            { title: 'Grade', field: 'grade', lookup: { 1: 'Néophyte', 2: 'Avancé', 3: 'Décoré', 4: 'Remarquable', 5: 'Élite', 6: 'Perlescent', 7: 'Unique', 8: 'Signature'} },
+            { title: 'Grade', field: 'grade', lookup: { 1: 'Néophyte', 2: 'Avancé', 3: 'Décoré', 4: 'Remarquable', 5: 'Élite', 6: 'Perlescent', 7: 'Unique', 8: 'Signature', 9: 'Héroïque'} },
             { title: 'Coeff.', field: 'coeff', type: 'numeric' },
             { title: 'Élément', field: 'element', lookup: { 0: 'Aucun', 1: 'Feu', 2: 'Glace', 3: 'Électrique', 4: 'Psychique', 5: 'Poison', 6: 'Eau', 7: 'Ténèbres', 8: 'Lumière', 9: 'Féérique', 10: 'Cosmique'} },
             { title: 'Effets', field: 'effect' },

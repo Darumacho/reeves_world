@@ -19,7 +19,7 @@ export class Staff extends Component {
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
       </nav>
       <div className="tabContainer">
-        <div className="tabHeader">Des armes destinées aux amateurs de magie - il est impossible d'attaquer directement avec, n'ayant pour seul rôle que d'améliorer la puissance magique du lanceur.
+        <div className="tabHeader">Des armes destinées aux amateurs de magie - elles permettent à ces derniers de pouvoir attaquer comme tout le monde, parce que la discrimination c'est pas bien.
           <br />
           Héros compatibles : -- -- --
         </div>
@@ -28,7 +28,7 @@ export class Staff extends Component {
             { title: 'Nom', field: 'name' },
             { title: 'Icône', field: 'icon' },
             { title: 'Dégâts', field: 'damage', type: 'numeric' },
-            { title: 'Grade', field: 'grade', lookup: { 1: 'Néophyte', 2: 'Avancé', 3: 'Décoré', 4: 'Remarquable', 5: 'Élite', 6: 'Perlescent', 7: 'Unique', 8: 'Signature'} },
+            { title: 'Grade', field: 'grade', lookup: { 1: 'Néophyte', 2: 'Avancé', 3: 'Décoré', 4: 'Remarquable', 5: 'Élite', 6: 'Perlescent', 7: 'Unique', 8: 'Signature', 9: 'Héroïque'} },
             { title: 'Coeff.', field: 'coeff', type: 'numeric' },
             { title: 'Élément', field: 'element', lookup: { 0: 'Aucun', 1: 'Feu', 2: 'Glace', 3: 'Électrique', 4: 'Psychique', 5: 'Poison', 6: 'Eau', 7: 'Ténèbres', 8: 'Lumière', 9: 'Féérique', 10: 'Cosmique'} },
             { title: 'Effets', field: 'effect' },

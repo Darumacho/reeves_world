@@ -80,7 +80,7 @@ export class Contree extends React.Component {
 
               <h3 className="subtitle">Domaine de Silverberg</h3>
               <p><u>Climat :</u> Continental</p>
-              <p><u>Personnages importants :</u> À venir</p>
+              <p><u>Personnages importants :</u> Baron Silverberg, Capitaine Platane, Metsugazan, Gustave</p>
               <p>À venir</p>
               <br />
 

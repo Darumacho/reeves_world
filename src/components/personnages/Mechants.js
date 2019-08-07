@@ -74,9 +74,9 @@ export class Mechant extends React.Component {
               <h3 className="subtitle">Campocobre</h3>
               <p><u>Titre :</u> Jhâvarcaniste</p>
               <p><u>Lieu(x) de rencontre :</u> Puerto Favor</p>
-              <p>Eklips et Nehtbinz sont liés depuis toujours par une amitié indéfectible, choisis pour être respectivement l'épée et le bouclier de leur ordre. Un "accident de parcours" les amène à déserter leurs propres rangs, décidant de partir à la recherche de l'Assembleur lui-même.</p>
-              <p>Ils affrontent les Chosen Ones et Hubert Reeves au sein du Sanctuaire du Void, à seulement quelques pas de leur objectif initial.</p>
-              <p>Malgré leur statut, ils sont les seuls à ne pas prendre part à la Corruption++.</p>
+              <p>Campocobre est un aventurier et prestidigitateur ayant trouvé le plus attentif des publics à Puerto Favor. Son charisme naturel et son accent sentant bon le sable chaud en ont fait une figure locale très appréciée.</p>
+              <p>Sa magie inhabituelle, à titre purement distractif, déstabilisera les Chosen Ones et leurs amis. Il était censé faire progresser la Corruption++, mais a fini par produire son propre spectacle.</p>
+              <p>C'est le seul Garbage Collector dont les vestiges ne sont pas récoltés.</p>
               <br />
 
               <h3 className="subtitle">Giegue</h3>
@@ -84,6 +84,13 @@ export class Mechant extends React.Component {
               <p><u>Lieu(x) de rencontre :</u> Portail Intergalactique, Ruines dimensionnelles, Nébuleuse</p>
               <p>Les origines de Giegue restent assez floues et contradictoires d'un orateur à l'autre. Certains disent qu'il est tombé du ciel, d'autres disent qu'il est apparu un beau jour au beau milieu de Joliberges. Il semblerait qu'il ait un lien étroit avec le pouvoir des étoiles, dont il peut potentiellement tirer profit.</p>
               <p>Les Chosen Ones n'ont aucune idée du rôle ni du pouvoir de Giegue jusqu'à lors.</p>
+              <br />
+
+              <h3 className="subtitle">Didhir</h3>
+              <p><u>Titre :</u> Émissaire du Chaos</p>
+              <p><u>Lieu(x) de rencontre :</u> Oasis de Sacramenbourg, Nihilus</p>
+              <p>Didhir est une entité guidounienne liée à une force divine inconnue. Sa faille apparaît lorsque les 8 singularités sont refermées, déséquilibrant ainsi l'espace-temps. Il ouvre le passage vers le Nihilus afin de "restaurer le Chaos". Ses pouvoirs et ses dires défient toute logique, rendant ainsi toute action complètement inefficace.</p>
+              <p>La présence de Didhir permet des questionnements quant à la composition de l'Univers.</p>
               <br />
 
               </div>

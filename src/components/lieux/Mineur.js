@@ -67,7 +67,7 @@ export class Mineur extends React.Component {
               <br />
 
               <h3 className="subtitle">Route du Grand Chemin</h3>
-              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Gouffre obscur, maison de la famille Gidéon</p>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Atelier, Gouffre obscur millénaire, maison de la famille Gidéon, salon Laxa'Tif</p>
               <p>La très longue route principale reliant le port Duavre à la CCI. Elle est nommée ainsi à cause des nombreux embranchements s'ouvrant aux voyageurs. C'est l'une des routes les plus empruntées de la Contrée Principale, cependant coupée en deux par la forêt de Cierthelieux.</p>
               <br />
 
@@ -104,10 +104,16 @@ export class Mineur extends React.Component {
               <p>Un petit village incroyablement paisible, élu village le plus heureux du monde. C'ets ici qu'on trouve le célèbre établissement Saint-Sévère, réputé pour le recadrement des élèves difficiles ainsi que ses classes d'été faisant le bonheur de tous les écoliers.</p>
               <br />
 
+              <h3 className="subtitle">Dôme de Combat</h3>
+              <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Armes, Armures, Guidounière, Arène, Restaurant</p>
+              <p>Le Dôme de Combat est un gigantesque complexe construit par Abrams Kadabrams, afin de concurrencer la Tour de Combat de Michel Bay. Ce haut-lieu sportif est dédié aux duels, dont les participants arrivent du monde entier.</p>
+              <p>C'est le seul établissement proposant une monnaie parallèle ainsi qu'un classement.</p>
+              <br />
+
               <h3 className="subtitle">Passage funeste</h3>
               <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
               <p><u>Gardiens :</u> Khon Fethi l'Invincible, Légion des Jhâvannihhilateurs, Ellison</p>
-              <p>L'une des mystérieuses Îles lointaines. On y trouvait une cité apparemment florissante, avant que l'île entière ne soit déchirée par une gigantesque faille. Les derniers habitants de l'île ont pris soin d'enterrer leurs défaunts, apportant son nom au nouveau domaine.</p>
+              <p>L'une des mystérieuses Îles lointaines. On y trouvait une cité apparemment florissante, avant que l'île entière ne soit déchirée par une gigantesque faille. Les derniers habitants de l'île ont pris soin d'enterrer leurs défunts, apportant son nom au nouveau domaine.</p>
               <p>Le Passage funeste est une haut lieu de la conquête Jhâva, renfermant les forces d'élite millénaires chargées de donner le coup de grâce aux forces divines.</p>
               <br />
 
@@ -121,8 +127,8 @@ export class Mineur extends React.Component {
               <h3 className="subtitle">Canyon nocif</h3>
               <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
               <p><u>Gardiens :</u> Ninjarc-en-ciel, Melon Usk</p>
-              <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
-              <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
+              <p>L'une des mystérieuses Îles lointaines. Un canyon stérile d'où émane une atmosphère malsaine réduisant grandement les perceptions de ceux qui s'y aventurent. La chaleur intense et les vaperolles toxiques, couplées à un complexe rocheux tentaculaire rendent la traversée particuluièrement éprouvante, même pour les plus aguerris.</p>
+              <p>On raconte qu'un ingénieur fou aurait colonisé les lieux, avant de tomber sur des gisements de gaz mortels.</p>
               <br />
 
               <h3 className="subtitle">Chemin désastreux</h3>
