@@ -139,7 +139,8 @@ export class Mineur extends React.Component {
 
               <h3 className="subtitle">Portail intergalactique</h3>
               <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Guidounière, Agence de mercenariat, Agence de Duracuir, Raid</p>
-              <p>Le quartier général de la garde de la Contrée Principale, les fameux soldats en armure noire et rouge. C'est ici qu'ils forgent leur équipement, boivent, dorment, et jouent aux cartes. Les gardes sont souvent alternées, les soldats étant fréquemment mutés dans d'autres villes ou contrées. Des instructeurs sont présents pour distribuer des manuels à tous les novices en fabrication d'armement.</p>
+              <p><u>Gardiens :</u> Ninjarc-en-ciel, Melon Usk</p>
+              <p>L'une des mystérieuses Îles lointaines. Ce portail mystérieux est imbu d'une énergie cosmique transportant les voyageurs vers une contrée extrêmement lointaine. Ce carrefour hostile semble mener vers des plans guidouniens supérieurs.</p>
               <p>En ces temps de Corruption++, la garde nouillorcaise est particulièrement mobilisée, mais agit rarement contre les forces Jhâvas, laissant la tâche aux Chosen Ones, plus aptes à contenir les pouvoirs potentiellement destructeurs des Jhâvas.</p>
               <br />
 

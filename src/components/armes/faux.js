@@ -17,6 +17,7 @@ export class Faux extends Component {
         <a class="btn btn-outline-primary" href="/lance">Lances</a>
         <a class="btn btn-outline-primary" href="/faux">Faux</a>
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
+        <a class="btn btn-outline-primary" href="/omniclasse">Omniclasse</a>
       </nav>
       <div className="tabContainer">
         <div className="tabHeader">Les armes les plus raffinées qui soient - elles nécéssitent une grande dextérité pour être maniées et sont ainsi destinées aux héros "légers".

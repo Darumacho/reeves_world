@@ -17,6 +17,7 @@ export class Staff extends Component {
         <a class="btn btn-outline-primary" href="/lance">Lances</a>
         <a class="btn btn-outline-primary" href="/faux">Faux</a>
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
+        <a class="btn btn-outline-primary" href="/omniclasse">Omniclasse</a>
       </nav>
       <div className="tabContainer">
         <div className="tabHeader">Des armes destinées aux amateurs de magie - elles permettent à ces derniers de pouvoir attaquer comme tout le monde, parce que la discrimination c'est pas bien.

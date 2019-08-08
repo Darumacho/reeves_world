@@ -17,6 +17,7 @@ export class Lance extends Component {
         <a class="btn btn-outline-primary" href="/lance">Lances</a>
         <a class="btn btn-outline-primary" href="/faux">Faux</a>
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
+        <a class="btn btn-outline-primary" href="/omniclasse">Omniclasse</a>
       </nav>
       <div className="tabContainer">
         <div className="tabHeader">Des armes destinées à percer les défenses ennemies ou à espacer la distance avec ces derniers. Les lances sont généralement destinées à des personnages à potentiel défensif.

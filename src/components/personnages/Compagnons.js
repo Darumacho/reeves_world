@@ -164,7 +164,6 @@ export class Compagnon extends React.Component {
               <p><u>Faiblesses :</u>
               <ul>
                 <li>- Ses capacités offensives peu précises peuvent faire perdre un tour</li>
-                <li>- À court d'options lorsque provoqué</li>
               </ul>
               </p>
 

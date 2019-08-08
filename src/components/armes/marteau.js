@@ -17,6 +17,7 @@ export class Hammer extends Component {
         <a class="btn btn-outline-primary" href="/lance">Lances</a>
         <a class="btn btn-outline-primary" href="/faux">Faux</a>
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
+        <a class="btn btn-outline-primary" href="/omniclasse">Omniclasse</a>
       </nav>
       <div className="tabContainer">
         <div className="tabHeader">Armes réservées aux héros les plus endurants, les marteaux sont le symbole de la force brute. Ils sont souvent accompagnés d'effets dévastateurs

@@ -17,6 +17,7 @@ export class Sword extends Component {
         <a class="btn btn-outline-primary" href="/lance">Lances</a>
         <a class="btn btn-outline-primary" href="/faux">Faux</a>
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
+        <a class="btn btn-outline-primary" href="/omniclasse">Omniclasse</a>
       </nav>
       <div className="tabContainer">
         <div className="tabHeader">Armes de choix pour la plupart des classes légères, les épées sont les armes les plus versatiles du jeu, disposant d'un grand nombre de modèles et d'effets.

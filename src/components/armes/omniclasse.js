@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MaterialTable from 'material-table';
 
-export class Ceste extends Component {
+export class Omni extends Component {
   render() {
     return (
       <div>
@@ -20,9 +20,9 @@ export class Ceste extends Component {
         <a class="btn btn-outline-primary" href="/omniclasse">Omniclasse</a>
       </nav>
       <div className="tabContainer">
-        <div className="tabHeader">Des armes destinées à la mêlée pure. Les cestes utilisent toujours les deux mains de leur porteur et lui procurent une mobilité supérieure à la moyenne.
+        <div className="tabHeader">Comme leur nom l'indique, les armes Omniclasse peuvent être utilisées par n'importe quel héros. Elles disposent de propriétés et de formes incroyablement diverses et uniques. Elles ne ressemblent à aucun autre type d'arme.
           <br />
-          Héros compatibles : -- -- --
+          Héros compatibles : tous
         </div>
         <MaterialTable
           columns={[
@@ -36,14 +36,14 @@ export class Ceste extends Component {
             { title: 'Port', field: 'port', lookup: { 1: 'Une main', 2: 'Deux mains'} },
           ]}
           data={[
-              { name: 'Poing américain', icon: 'boy', damage: 8, grade: 1, coeff: 1, element: 0, effect: 'Aucun', port: 2 },
-              { name: 'Gants de boxe', icon: 'boy', damage: 7, grade: 2, coeff: 1.02, element: 0, effect: '-', port: 2 },
-              { name: 'Flammoserre', icon: 'boy', damage: 13, grade: 3, coeff: 1.05, element: 1, effect: '-', port: 2 },
-              { name: 'Vrillovrilles', icon: 'boy', damage: 12, grade: 3, coeff: 1.05, element: 1, effect: '-', port: 2 },
-              { name: 'Griffes de Renfir', icon: 'boy', damage: 22, grade: 4, coeff: 1.08, element: 2, effect: '-', port: 2 },
-              { name: 'Sol Invictus', icon: 'boy', damage: 40, grade: 5, coeff: 1.15, element: 8, effect: '-', port: 2 },
+              { name: 'Essence de Gloire', icon: 'boy', damage: 45, grade: 7, coeff: 1.15, element: 0, effect: 'Aucun', port: 1 },
+              { name: 'Punch grondant', icon: 'boy', damage: 35, grade: 7, coeff: 1.15, element: 0, effect: '-', port: 1 },
+              { name: 'Fléau septentrional', icon: 'boy', damage: 40, grade: 7, coeff: 1.15, element: 0, effect: '-', port: 1 },
+              { name: 'Technobuster', icon: 'boy', damage: 60, grade: 9, coeff: 1.2, element: 0, effect: '10% de chances d\'infliger n\'importe quel statut', port: 1 },
+              { name: 'Lame maudite', icon: 'boy', damage: 40, grade: 7, coeff: 1.15, element: 0, effect: '-', port: 1 },
+              { name: 'Patoune maudite', icon: 'boy', damage: 40, grade: 7, coeff: 1.15, element: 0, effect: '-', port: 2 },
               ]}
-          title="Liste des cestes"
+          title="Liste des armes Omniclasse"
         />
       </div>
       </div>
@@ -51,4 +51,4 @@ export class Ceste extends Component {
   }
 }
 
-export default Ceste;
+export default Omni;

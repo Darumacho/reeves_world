@@ -17,6 +17,7 @@ export class Martial extends Component {
         <a class="btn btn-outline-primary" href="/lance">Lances</a>
         <a class="btn btn-outline-primary" href="/faux">Faux</a>
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
+        <a class="btn btn-outline-primary" href="/omniclasse">Omniclasse</a>
       </nav>
       <div className="tabContainer">
         <div className="tabHeader">Un genre d'arme incroyablement varié, dédié aux plus patients et compétents des héros. C'est le type d'armement le plus riche qui soit.

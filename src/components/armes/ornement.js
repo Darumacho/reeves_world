@@ -17,6 +17,7 @@ export class Ornement extends Component {
         <a class="btn btn-outline-primary" href="/lance">Lances</a>
         <a class="btn btn-outline-primary" href="/faux">Faux</a>
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
+        <a class="btn btn-outline-primary" href="/omniclasse">Omniclasse</a>
       </nav>
       <div className="tabContainer">
         <div className="tabHeader">Un type d'arme très inhabituel spécifique à Sckald. Les ornements conservent les atouts défensifs du casque tout en lui ajoutant des propriétés offensives.

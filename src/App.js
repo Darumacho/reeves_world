@@ -33,6 +33,7 @@ import {Ornement} from './components/armes/ornement.js';
 import {Lance} from './components/armes/lance.js';
 import {Faux} from './components/armes/faux.js';
 import {Staff} from './components/armes/baguette.js';
+import {Omni} from './components/armes/omniclasse.js';
 
 function App() {
   return (
@@ -73,6 +74,7 @@ function App() {
           <Route path="/lance" component={Lance} />
           <Route path="/faux" component={Faux} />
           <Route path="/baguette" component={Staff} />
+          <Route path="/omniclasse" component={Omni} />
         </Switch>
         </React.Fragment>
       </header>

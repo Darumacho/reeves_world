@@ -17,6 +17,7 @@ export class Greatsword extends Component {
         <a class="btn btn-outline-primary" href="/lance">Lances</a>
         <a class="btn btn-outline-primary" href="/faux">Faux</a>
         <a class="btn btn-outline-primary" href="/baguette">Baguettes</a>
+        <a class="btn btn-outline-primary" href="/omniclasse">Omniclasse</a>
       </nav>
       <div className="tabContainer">
         <div className="tabHeader">Les espadons sont les plus grandes armes du jeu, généralement réservés aux héros de forte carrure. Ils infligent d'énormes dégâts et se portent presque exclusivement à deux mains. Ils infligent toujours un malus de vitesse à leur porteur.
