@@ -109,6 +109,7 @@ export class Compagnon extends React.Component {
                 <li>- La compétence Poing du Déni</li>
                 <li>- Une auto-suffisance en termes de soins le rendant fiable en duel</li>
                 <li>- De nombreuses options offensives</li>
+                <li>- Solide sur le plan physique</li>
               </ul> 
               </p>
               <p><u>Faiblesses :</u>
@@ -279,7 +280,7 @@ export class Compagnon extends React.Component {
               </p>
               <p><u>Faiblesses :</u>
               <ul>
-                <li>- Très mauvais en duel</li>
+                <li>- Des variétés de build très limitées</li>
                 <li>- Un pouvoir offensif médiocre</li>
               </ul>
               </p>
@@ -319,7 +320,32 @@ export class Compagnon extends React.Component {
                 <li>- Totalement épongé par les compétences anti-magie telles que Provoc</li>
               </ul>
               </p>
-              <br />             
+              <br />  
+
+              <h3 className="subtitle">Capitaine Platane</h3>
+              <p><u>Taille :</u> 1.85m</p>
+              <p><u>Poids :</u> 78kg</p>
+              <p><u>Origine :</u> Domaine de Silverberg</p>
+              <p><u>Rôle :</u> Attaque</p>
+              <p><u>Recrutement :</u> libérer le Domaine de Silverberg</p>
+              <p>Décidément aguerri par son aventure auprès des Chosen Ones, le Capitaine Platane prend un petit congé sabbatique afin d'explorer le monde et se frotter à de redoutables adversaires</p>
+              <p>Ses talents de spadassin lui permettent de grandement mettre à profit son Power.</p>
+              <p>Conseillé pour les formations manquant de dégâts.</p>
+              <br />
+              <p><u>Atouts :</u> 
+              <ul>
+                <li>- Très peu affecté par la provocation</li>
+                <li>- Quelques capacités de soutien très utiles</li>
+                <li>- Une vaste gamme d'effets à disposition</li>
+                <li>- L'une des meilleures attaques prioritaires avec Escarmouche</li>
+              </ul> 
+              </p>
+              <p><u>Faiblesses :</u>
+              <ul>
+                <li>- Les attaques les plus intéressantes nécessitent énormément de précision, rendant le personnage difficile à prendre en main</li>
+              </ul>
+              </p>
+              <br />            
 
               <h3 className="subtitle">Cap'taine Loudmer</h3>
               <p><u>Taille :</u> 1.85m</p>
@@ -348,6 +374,7 @@ export class Compagnon extends React.Component {
                 <li>- Des combos infligeant des dégâts absolument monstrueux</li>
                 <li>- Des talents nombreux et imparables</li>
                 <li>- Exploite parfaitement le Charme de l'Expert</li>
+                <li>- 4 styles différents</li>
               </ul> 
               </p>
               <p><u>Faiblesses :</u>

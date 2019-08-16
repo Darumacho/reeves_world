@@ -181,7 +181,7 @@ export class Persos extends React.Component {
                 <li>- Les compétences de blocage</li>
                 <li>- Les compétences de soins</li>
                 <li>- Les attaques de zone dévastatrices</li>
-                <li>- Peut être joué en tant que soigneur ou attaquant magique</li>
+                <li>- Des builds complètement opposés envisageables</li>
               </ul> 
               </p>
               <p><u>Faiblesses :</u>
@@ -217,8 +217,8 @@ export class Persos extends React.Component {
               <ul>
                 <li>- Une seule capacité d'auto-soin le rendant vulnérable pendant 3 tours</li>
                 <li>- Très coûteux en ressources</li>
-                <li>- Repose entièrement sur l'anticipation</li>
-                <li>- Faible face aux coups critiques</li>
+                <li>- Repose entièrement sur l'anticipation et les prises de risque</li>
+                <li>- Particulièrement sensible aux coups critiques</li>
               </ul>
               </p>
               <br />

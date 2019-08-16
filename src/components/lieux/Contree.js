@@ -80,8 +80,10 @@ export class Contree extends React.Component {
 
               <h3 className="subtitle">Domaine de Silverberg</h3>
               <p><u>Climat :</u> Continental</p>
-              <p><u>Personnages importants :</u> Baron Silverberg, Capitaine Platane, Metsugazan, Gustave</p>
-              <p>À venir</p>
+              <p><u>Personnages importants :</u> Maître Silverberg, Capitaine Platane, Le roi du catch, Yves, Pontife Rouge Furieux, Metsugazan</p>
+              <p>La gigantesque propriété d'un richissime exploitant minier, prise par une secte hérétique. Metsugazan, l'un des capitaines de la garde du domaine, est capturé, incombant son collègue, le Capitaine Platane, d'une tâche qui semble au-dessus de ses capacités, remettant en question son propre rôle au sein de l'organisation.</p>
+              <p>Le domaine est libéré grâce à la coopération des Chosen Ones, réhaussant au passage l'amour-propre d'une garde en pleine désillusion, uniquement attirée par l'appât du gain.</p>
+              <p>Cette contrée est la seule à appartenir à une seule et même personne.</p>
               <br />
 
               <h3 className="subtitle">Vallétale</h3>
