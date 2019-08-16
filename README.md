@@ -60,6 +60,6 @@ Les coordonnées des boys - ils te feront peut-être l'honneur de considérer to
 
 ### Générateur de héros
 
-Pimente ta vie pathétique et t'inventant un pouvoir et un nom parmi les 152 534 760 000 possibilités - ça fait presque autant que tes chromosomes.
+Pimente ta vie pathétique et t'inventant un pouvoir, un nom et un ennemi mortel parmi les 152 534 760 000 possibilités (oui vraiment) - ça fait presque autant que tes chromosomes.
 
 ## Bonne visite, guidoune
