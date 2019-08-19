@@ -32,6 +32,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 80kg</p>
               <p><u>Origine :</u> inconnue</p>
               <p><u>Rôle :</u> Polyvalent</p>
+              <p><u>Difficulté :</u> Intermédiaire</p>
               <p><u>Recrutement :</u> libérer le port Duavre</p>
               <p>Euh...à vrai dire on ne sait pas grand-chose sur Routoufmuche. Il est juste présent. C'est tout.</p>
               <p>...</p>
@@ -54,6 +55,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 65kg</p>
               <p><u>Origine :</u> Motopolis</p>
               <p><u>Rôle :</u> Magie et Soutien</p>
+              <p><u>Difficulté :</u> Intermédiaire</p>
               <p><u>Recrutement :</u> vaincre Eklips et Nehtbinz à Entrelasque</p>
               <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
@@ -79,6 +81,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 42kg</p>
               <p><u>Origine :</u> Port Duavre</p>
               <p><u>Rôle :</u> Orchidoclaste</p>
+              <p><u>Difficulté :</u> Oui</p>
               <p><u>Recrutement :</u> terminer sa quête à la CCI</p>
               <p>On vous laisse la surprise.</p>
               <br />
@@ -99,6 +102,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 75kg</p>
               <p><u>Origine :</u> Chopejambon Ville</p>
               <p><u>Rôle :</u> Attaque</p>
+              <p><u>Difficulté :</u> Facile</p>
               <p><u>Recrutement :</u> aider le Chosen One Nico à Chopejambon Ville</p>
               <p>Matante Man revient en force avec ses super-pouvoirs afin de distribuer des marrons vertueux à tous les méchants qui se dressent sur votre chemin..</p>
               <p>Il ne maîtrise aucun élément, mais compte sur son âme de héros pour porter des coups fulgurants à ses adversaires.</p>
@@ -125,6 +129,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 35kg</p>
               <p><u>Origine :</u> Chopejambon Ville</p>
               <p><u>Rôle :</u> Soutien</p>
+              <p><u>Difficulté :</u> Intermédiaire</p>
               <p><u>Recrutement :</u> aider le Chosen One Nico à Chopejambon Ville</p>
               <p>Câlisse Boy est de retour, toujours en compagnie de Matante Man, il est toujours l'aussi bon acolyte qu'on connaît, faisant profiter toute l'équipe d'amélioration de stats.</p>
               <p>Comme tout bon sidekick qui se respecte, Câlisse Boy dispose de tout un arsenal pour améliorer la progression de ces équipiers.</p>
@@ -149,6 +154,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 150kg</p>
               <p><u>Origine :</u> Village Akrid</p>
               <p><u>Rôle :</u> Défense</p>
+              <p><u>Difficulté :</u> Intermédiaire</p>
               <p><u>Recrutement :</u> terminer sa quête au village Akrid</p>
               <p>Caribou fétide est le chef gigantesque et odorant du village Akrid. Il tient son nom du premier animal qu'il a chassé en étant enfant, et porte sa carcasse depuis toujours. Son hygiène inhabituelle et sa carrure de colosse en font un tank très robuste pouvant grignoter à petit feu la santé des ennemis.</p>
               <p>De par son fumet agréable, on peut rapidement deviner que Caribou fétide préfère l'élément Poison.</p>
@@ -173,6 +179,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 88kg</p>
               <p><u>Origine :</u> inconnue</p>
               <p><u>Rôle :</u> Polyvalent</p>
+              <p><u>Difficulté :</u> Intermédiaire</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
               <p>Jean-Paul a décidé d'arrondir ses fins de mois en s'inscrivant à l'agence de Duracuir en tant que mercenaire de raid. Toutes ses compétences et talents sont nommés "Oh boy", mais possèdent des effets très variés, en faisant un très bon pilier multifonction.</p>
               <p>Comme tout personnage étrange digne de ce nom, Jean-Paul est passé maître de l'élément Psychique.</p>
@@ -196,6 +203,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 80kg</p>
               <p><u>Origine :</u> Nouillorc</p>
               <p><u>Rôle :</u> Soins</p>
+              <p><u>Difficulté :</u> Difficile</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
               <p>Le chef Nabab est un ancien collègue du chef Atouille et du chef Echtebez, chacun ayant continué dans sa propre voie. Il a mis au point une restauration rapide et copieuse dont lui seul a le secret, qu'il distribue afin de requinquer tous ses coéquipiers.</p>
               <p>En complément de ses sorts de soin, chef Nabab est en mesure d'infliger des dégâts élevés s'il possède le type d'arme adéquat.</p>
@@ -219,6 +227,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 54kg</p>
               <p><u>Origine :</u> Sacramenbourg</p>
               <p><u>Rôle :</u> Soutien</p>
+              <p><u>Difficulté :</u> Difficile</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
               <p>La maire de Sacramenbourg a décidé de s'octroyer quelques jours de congé afin de revenir casser de la guidoune de Jhâva. Grâce à ses connaissances dans le domaine juridique, elle est en mesure de grandement troubler les formations ennemies.</p>
               <p>Elle est le seul personnage à ne disposer d'aucune compétence offensive directe.</p>
@@ -244,6 +253,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 70kg</p>
               <p><u>Origine :</u> inconnue</p>
               <p><u>Rôle :</u> Attaque et Soutien</p>
+              <p><u>Difficulté :</u> Intermédiaire</p>
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
               <p>Lorsqu'il n'est pas derrière les fourneaux, ni en train de parcourir le monde, chef Jibé livre ses services de BG. Son prestige légendaire l'amènent à avoir des compétences avec des noms classes, mais aussi de puissants effets de zone.</p>
               <p>Son sourire éclatant ainsi que ses lunettes de soleil nous laissent deviner qu'il est très à l'aise avec la Lumière.</p>
@@ -267,6 +277,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 95kg</p>
               <p><u>Origine :</u> Ouarzazande</p>
               <p><u>Rôle :</u> Défense et Soutien</p>
+              <p><u>Difficulté :</u> Intermédiaire</p>
               <p><u>Recrutement :</u> libérer Ouarzazande</p>
               <p>Gordon est de retour avec sa mauvaise humeur et sa mauvaise haleine, toujours prêt à faire preuve de la plus gratuite des violences verbales afin de complètement déstabiliser les ennemis.</p>
               <p>Contrairement à ses collègues défenseurs, Gordon possède une majorité d'attaques préventives prioritaires, gardant toujours un tour d'avance dans sa manche.</p>
@@ -302,6 +313,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 250kg</p>
               <p><u>Origine :</u> Royaume du Nord</p>
               <p><u>Rôle :</u> Défense et Magie</p>
+              <p><u>Difficulté :</u> Difficile</p>
               <p><u>Recrutement :</u> amener la maman de Jimmy dans son repaire</p>
               <p>Nostalgique de ses aventures dans le Ta-bois-rnak, Exodius reprend du service, toujours grâce à son pouvoir sympathique et sa magie vertueuse.</p>
               <p>Comme tout paladin, ce bon vieil Exodius est un aficionado de l'élement Lumière.</p>
@@ -327,6 +339,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 78kg</p>
               <p><u>Origine :</u> Domaine de Silverberg</p>
               <p><u>Rôle :</u> Attaque</p>
+              <p><u>Difficulté :</u> Très difficile</p>
               <p><u>Recrutement :</u> libérer le Domaine de Silverberg</p>
               <p>Décidément aguerri par son aventure auprès des Chosen Ones, le Capitaine Platane prend un petit congé sabbatique afin d'explorer le monde et se frotter à de redoutables adversaires</p>
               <p>Ses talents de spadassin lui permettent de grandement mettre à profit son Power.</p>
@@ -352,6 +365,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 90kg</p>
               <p><u>Origine :</u> port Duavre</p>
               <p><u>Rôle :</u> Attaque</p>
+              <p><u>Difficulté :</u> Difficile</p>
               <p><u>Recrutement :</u> visiter toutes les Îles lointaines une fois et se rendre à Takarajima</p>
               <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
@@ -363,6 +377,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 70kg</p>
               <p><u>Origine :</u> Takarajima</p>
               <p><u>Rôle :</u> Attaque</p>
+              <p><u>Difficulté :</u> Très difficile</p>
               <p><u>Recrutement :</u> terminer sa quête à Takarajima</p>
               <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
@@ -390,6 +405,7 @@ export class Compagnon extends React.Component {
               <p><u>Poids :</u> 130kg</p>
               <p><u>Origine :</u> Vimontilliers</p>
               <p><u>Rôle :</u> Attaque</p>
+              <p><u>Difficulté :</u> Difficile</p>
               <p><u>Recrutement :</u> terminer sa quête au Dôme de Combat</p>
               <p>King Crash est un duelliste du Dôme de Combat, éternel numéro deux du classement général derrière son plus grand rival, Quick Lord. Son armure aimantée et ses gadgets sont les outils le menant à la victoire.</p>
               <p>Après avoir acquis une tonne d'expérience, King Crash est en mesure de pouvoir agir dans n'importe quelle situation, affectant les effets de ses attaques selon la polarité de son armure.</p>
@@ -412,6 +428,7 @@ export class Compagnon extends React.Component {
               <h3 className="subtitle">???</h3>
               <p><u>Origine :</u> c'est un secret pour tout le monde</p>
               <p><u>Rôle :</u> pareil</p>
+              <p><u>Difficulté :</u> Peut-être</p>
               <p><u>Recrutement :</u> atteindre la fin <strong>Prodige</strong></p>
               <p>Le dernier compagnon est classé secret défense, vous devrez explorer le monde et ses mystères si jamais vous souhaitez partir à l'aventure à ses côtés.</p>
               <br />

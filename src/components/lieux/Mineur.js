@@ -106,7 +106,7 @@ export class Mineur extends React.Component {
 
               <h3 className="subtitle">Dôme de Combat</h3>
               <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Armes, Armures, Guidounière, Arène, Restaurant</p>
-              <p>Le Dôme de Combat est un gigantesque complexe construit par Abrams Kadabrams, afin de concurrencer la Tour de Combat de Michel Bay. Ce haut-lieu sportif est dédié aux duels, dont les participants arrivent du monde entier.</p>
+              <p>Le Dôme de Combat est un gigantesque complexe construit par Quentin Tarentule, afin de concurrencer la Tour de Combat de Michel Bay. Ce haut-lieu sportif est dédié aux duels, dont les participants arrivent du monde entier.</p>
               <p>C'est le seul établissement proposant une monnaie parallèle ainsi qu'un classement.</p>
               <br />
 

@@ -6,7 +6,7 @@ function Question(props) {
     <h2 className="question">
     {props.content}
     <br />
-    <img src={props.image} width="40%" height="40%"/>
+    <img src={props.image} alt="guidoune" width="40%" height="40%"/>
     </h2>
   );
 }

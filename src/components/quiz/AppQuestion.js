@@ -93,7 +93,7 @@ export class AppQuestion extends React.Component {
         if (result.length === 1) {
           this.setState({ result: result[0] });
           switch(true){
-            case (this.state.result == "1"):
+            case (this.state.result === "1"):
                 this.setState({ desc: "comme ton nom le laisse penser, tu es en bas de l'échelle alimentaire, succombant à la moindre dose de force et de bon sens s'opposant à toi. Tu utilises tes supposés talents pour éclairer ta vie pathétique, et tu penses que tu n'as aucun défaut, qu'on peut pourtant compter par centaines, comme tes chromosomes. Les gens te seront cependant reconnaissants de ne pas gâcher leur bon oxygène à déblatérer des idioties à longueur de journée. Gros coeur sur toi, même si ton cas est des plus désespérés.", 
                                 title: "une grosse guidoune",    
                                 image: "https://www.onefm.ch/wp-content/uploads/2019/05/justinbieber-hero-498329920-1000x600.jpg",            
@@ -101,7 +101,7 @@ export class AppQuestion extends React.Component {
                                 famous: "Justin Bieber, Kim Kardashian, Emmanuel Macron, ta maman, Nicki Minaj, Florentin"});
                 break;
 
-            case (this.state.result == "2"):
+            case (this.state.result === "2"):
                 this.setState({ desc: "il semblerait que tes méthodes exotiques  et ta relation avec la nature soient endémiques à une lointaine contrée, probablement isolée de toute civilisation moderne. Tu es un concentré d'inattendu et tu peux facilement faire peur aux chiens. Les us et coutumes québecoises restent encore à acquérir, mais tu restes trop attaché à tes racines tropicales pour t'en défaire, qu'on ne manquera jamais de te faire remarquer.", 
                                 title: "un bédouin massaï",
                                 image: "https://www.enseignemoi-files.com/site/view/images/dyn-cache/pages/image/img/21/69/1502932231_216983_1200x667x0.jpg?v=2018021301",                  
@@ -109,7 +109,7 @@ export class AppQuestion extends React.Component {
                                 famous: "le xénomorphe, le Dalaï-Lama, le chef Raoni, Nicolas Hulot, les Australiens, Bouddha"});
                 break;
                 
-            case (this.state.result == "3"):
+            case (this.state.result === "3"):
                 this.setState({ desc: "tu penses que le monde est une gigantesque réserve naturelle de guidounes, que tu décimes pour ne pas choper de maladie. Tu te parfumes avec ta propre sueur, chasse ta propre nourriture à l'aide de tes muscles, et ne te baigne jamais, si ce n'est dans ton propre jus. Tu suintes la virilité, et ta seule présence fait pousser de la barbe même à ces guidounes d'enfants, câlisses d'imberbes. Tu es l'exact opposé du consul montréalais.", 
                                 title: "un chasseur de caribous",
                                 image: "https://cdn-media.rtl.fr/cache/ma1lFxAm1_DQqDlG74DvBQ/880v587-0/online/image/2016/0107/7781209485_sylvester-stallone-ne-veut-pas-reprendre-le-role-du-celebre-militaire-pour-un-rambo-v.jpg",  
@@ -117,7 +117,7 @@ export class AppQuestion extends React.Component {
                                 famous: "Sylvester Stallone, Vladimir Poutine, Chuck Norris, Garou, ta grand-mère, Gordon Ramsay"});
                 break;
                 
-            case (this.state.result == "4"):
+            case (this.state.result === "4"):
                 this.setState({ desc: "tu as le don de faire plaisir à tous ceux qui t'entourent, sans modération, mais également pour ton propre plaisir, gagant ainsi le respect de toute la communauté. Tu es un vrai bon-vivant, et un mauvais-mort, même si ça ne se dit pas, mais bon, on s'est compris, c'est le principal. Tu ne recherches jamais la reconnaissance, le bonheur de tes proches étant tout ce qui te vaille. Tu es l'exact opposé de la grosse guidoune", 
                                 title: "un maître-poutinier",
                                 image: "https://www.babelio.com/users/AVT_Maite_9546.jpg",  
@@ -125,7 +125,7 @@ export class AppQuestion extends React.Component {
                                 famous: "Maïté, Francis Lalanne, Joël Robuchon, Patrick Sébastien, Keanu Reeves, les mecs de chez Nachos"});
                 break;
                 
-            case (this.state.result == "5"):
+            case (this.state.result === "5"):
                 this.setState({ desc: "la sagesse est ton crédo, l'expérience ton arme de prédilection. Grâce à ton âge probablement canonique, tu es en mesure de connaître la vraie valeur des choses et de modérer tes actions afin de laisser la vie faire son travail. Tu te ferais même un petit plaisir à tuer tes adversaires à petit feu, avec leurs propres erreurs. Tu es la plus intangible et honorable des guidounes.", 
                                 title: "un astrophysicien légendaire",
                                 image: "https://img.lemde.fr/2018/12/19/0/0/4667/4000/688/0/60/0/ffa3bd7_z2o_Ky8gPpo-wtyXGLFBui_A.jpg",    
@@ -133,7 +133,7 @@ export class AppQuestion extends React.Component {
                                 famous: "Brian May, Hubert Reeves, Stephen Hawking, un maître shaolin, Jean d'Ormesson, Michel Serres"});
                 break;
                 
-            case (this.state.result == "6"):
+            case (this.state.result === "6"):
                 this.setState({ desc: "tu parles comme un diplomate, mais tu frappes comme un diplomate. Ton don se résume à régler les situations de la plus calme des manières, la violence ne faisant pas partie de tes cordes. Tu penses que c'est en unissant le monde qu'il prospérera dans la plus parfaite harmonie, tandis que tu seras toujours aussi bien sapé. Tu es l'exact opposé du chasseur de caribou.", 
                                 title: "un consul montréalais",
                                 image: "https://file1.telestar.fr/var/telestar/storage/images/2015/articles/marc-emmanuel-tous-ensemble-je-ne-suis-pas-un-enfoire-!-93610/810940-1-fre-FR/Marc-Emmanuel-Tous-ensemble-Je-ne-suis-pas-un-enfoire-!_width1024.jpg",               
@@ -144,7 +144,7 @@ export class AppQuestion extends React.Component {
             default :
                 this.setState({ result: 'un mystère de la nature',
                                 title: 'un mystère de la nature',
-                                desc: "on ne sait pas trop ce que tu fais ici, c\'est la catégorie un peu fourre-tout, désolé.",
+                                desc: "on ne sait pas trop ce que tu fais ici, c'est la catégorie un peu fourre-tout, désolé.",
                                 image: "https://media3.giphy.com/media/3oKIPbKvfVzRxp5M0U/source.gif",               
                                 statut:'Mystères',
                                 famous: 'les Miss France, la plupart des chanteurs modernes, le Yeti, mon voisin dans le placard de ma chambre, ton code génétique, un fromage dans le rayon des lessives'});
@@ -152,7 +152,7 @@ export class AppQuestion extends React.Component {
         } else {
         this.setState({ result: 'un mystère de la nature',
                         title: 'un mystère de la nature',
-                        desc: "on ne sait pas trop ce que tu fais ici, c\'est la catégorie un peu fourre-tout, désolé.",
+                        desc: "on ne sait pas trop ce que tu fais ici, c'est la catégorie un peu fourre-tout, désolé.",
                         image: "https://media3.giphy.com/media/3oKIPbKvfVzRxp5M0U/source.gif",               
                         statut:'Mystères',
                         famous: 'les Miss France, la plupart des chanteurs modernes, le Yeti, mon voisin dans le placard de ma chambre, ton code génétique, un fromage dans le rayon des lessives' });

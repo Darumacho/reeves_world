@@ -89,7 +89,7 @@ export class AppDemineur extends React.Component {
                         <h1 fontSize="16px"><u>{msg}</u></h1>
                     </div>
                     <div>
-                        <button className="minesweeper__restart" onClick={this.restartMinesweeper}><img src="img/GuidouneMan2.png" width="40%" height="40%" /></button>
+                        <button className="minesweeper__restart" onClick={this.restartMinesweeper}><img src="img/GuidouneMan2.png" alt="guidoune" width="40%" height="40%" /></button>
                     </div>
                     <Minesweeper
                         key={minesweeperKey}
