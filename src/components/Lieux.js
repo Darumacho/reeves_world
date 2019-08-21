@@ -60,7 +60,7 @@ export class Lieux extends React.Component {
               <h3 className="subtitle">CCI</h3>
               <p><u>Climat :</u> Continental</p>
               <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Armes, Armures, Nourriture, Boutique-surprise, Artefacteur, Guidounière, Agence de mercenariat, Friböst</p>
-              <p>La CCI est le point le plus important de la Contrée Principale, abritant le Friböst, seul moyen de voyage entre les différentes contrées. La CCI n'a pas de réel dirigeant, si ce n'est qu'elle est sous la protection de Guillaume, Divinité de la Terre.</p>
+              <p>La Chambre de Cohésion Interuniverselle est le point le plus important de la Contrée Principale, abritant le Friböst, seul moyen de voyage entre les différentes contrées. La CCI n'a pas de réel dirigeant, si ce n'est qu'elle est sous la protection de Guillaume, Divinité de la Terre.</p>
               <p>L'immense tour de la CCI abrite différents corps de spécialisation, son sommet menant à la Chaîne du Pouvoir, lien unique entre les Trois Royaumes. C'est ici que les Chosen Ones doivent se rendre afin d'atteindre les Profondeurs.</p>
               <p>Il y'a un mystérieux portail gelé derrière la tour, mais personne n'en connaît l'utilité.</p>
               <br />

@@ -340,14 +340,14 @@ export class Compagnon extends React.Component {
               <p><u>Origine :</u> Domaine de Silverberg</p>
               <p><u>Rôle :</u> Attaque</p>
               <p><u>Difficulté :</u> Très difficile</p>
-              <p><u>Recrutement :</u> libérer le Domaine de Silverberg</p>
+              <p><u>Recrutement :</u> aider le Chosen One Metsugazan au domaine de Silverberg</p>
               <p>Décidément aguerri par son aventure auprès des Chosen Ones, le Capitaine Platane prend un petit congé sabbatique afin d'explorer le monde et se frotter à de redoutables adversaires</p>
               <p>Ses talents de spadassin lui permettent de grandement mettre à profit son Power.</p>
               <p>Conseillé pour les formations manquant de dégâts.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
-                <li>- Très peu affecté par la provocation</li>
+                <li>- De nombreux talents constituant de bonnes alternatives à la provocation</li>
                 <li>- Quelques capacités de soutien très utiles</li>
                 <li>- Une vaste gamme d'effets à disposition</li>
                 <li>- L'une des meilleures attaques prioritaires avec Escarmouche</li>

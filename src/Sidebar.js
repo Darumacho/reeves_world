@@ -31,7 +31,7 @@ export function Sidebar() {
           <NavDropdown.Item href="/talents">Talents</NavDropdown.Item>
           <NavDropdown.Item href="/distinction">Distinctions</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="http://www.mediafire.com/file/aygv57ddo4v4b97/CSI_Forever_-_1.6.rar/file">Télécharger (1.6)</NavDropdown.Item>
+          <NavDropdown.Item href="http://www.mediafire.com/file/aygv57ddo4v4b97/CSI_Forever_-_1.6.rar/file">Télécharger (1.7)</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>

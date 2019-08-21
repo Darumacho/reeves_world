@@ -39,7 +39,7 @@ export class Mineur extends React.Component {
 
               <h3 className="subtitle">Ruines de Lanfair</h3>
               <p><u>Commerce(s) / Centre(s) d'intérêt :</u> Aucun</p>
-              <p>Les piteux restes de l'ancien royaume de Lanfair, autrefois prospère, avant qu'il ne soit englouti et corrompu par une force inconnue. C'était le plus grand territoire du monde avant le fameux évènement mystérieux. Les rescapés se sont réfugiés à l'ouest de la seule oasis encore potable, afin de fonder l'actuel Saramenbourg.</p>
+              <p>Les piteux restes de l'ancien royaume de Lanfair, autrefois prospère, avant qu'il ne soit englouti et corrompu par une force inconnue. C'était le plus grand territoire du monde avant le fameux évènement mystérieux. Les rescapés se sont réfugiés à l'est de la seule oasis encore potable, afin de fonder l'actuel Saramenbourg.</p>
               <p>Le seul habitant des ruines est un géant nommé Genoer, apparemment issu d'un autre Univers, chargé de garder une force inquiétante.</p>
               <br />
 
