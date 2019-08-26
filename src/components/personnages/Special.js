@@ -69,6 +69,28 @@ export class Special extends React.Component {
               <p>Les contremaîtres supervisent les différents ateliers éparpillés aux quatre coins du monde. Ils mettent à disposition du matériel d'amélioration, permettant aux Chosen Ones de librement modifier leur équipement.</p>
               <p>Il semblerait qu'aucun d'eux n'ait de prénom d'ailleurs.</p>
               <br />
+
+              <h3 className="subtitle">Les farfadéments</h3>
+              <p><u>Fonction :</u> lâcheurs de butin</p>
+              <p><u>Lieu(x) de rencontre :</u> Manne à butin, coffres perlescents</p>
+              <p>Les farfadéments sont des êtres mythologiques ayant la fâcheuse tendance de se cacher dans des coffres, se sentant en sécurité auprès d'objet de valeur. Ils se sont enfuits de l'Empire à Steak, où leur chasse était l'une des activités majeures.</p>
+              <p>Leur rencontre est toujours synonyme de richesses en tous genres.</p>
+              <br />
+
+              <h3 className="subtitle">Les lutins-butins</h3>
+              <p><u>Fonction :</u> lâcheurs de butin</p>
+              <p><u>Lieu(x) de rencontre :</u> Manne à butin, coffres perlescents, contrée eldritch</p>
+              <p>Les lutins-butins sont des êtres extrêmement rares, issus d'un plan guidounienn différent appelé "contrée eldritch". Leur petite composition, inhabituelle pour des eldritchs, leur permet de se réfugier dans les plus exigüs des coffres.</p>
+              <p>Les lutins-butins ont été nommés ainsi du fait de leur incroyable générosité, lâchant toujours de l'équipement d'une qualité incomparable.</p>
+              <br />
+
+              <h3 className="subtitle">Canada Man</h3>
+              <p><u>Fonction :</u> héros légendaire</p>
+              <p><u>Lieu(x) de rencontre :</u> Manne à butin, coffres perlescents, Dôme de Combat</p>
+              <p>Canada Man est un héros renégat légendaire, décrit comme le premier sauveur de la contrée principale, l'inventeur du mot "guidoune" et le créateur de la poutine. Il parcourt le monde en permanence, se montrant aux persos les plus braves et valeureuses, chacune de ses apparitions créant la plus intense des béatitudes.</p>
+              <p>Canada Man peut distribuer de l'équipement de qualité séraphine, introuvable dans le plan guidounien de la contrée principale.</p>
+              <br />
+
               </div>
         </div>
         <nav class="blog-pagination">
