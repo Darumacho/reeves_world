@@ -22,6 +22,7 @@ export class Compagnon extends React.Component {
           <a class="btn btn-outline-primary" href="/ami">Les amis</a>
           <a class="btn btn-outline-primary" href="/mechant">Les méchants</a>
           <a class="btn btn-outline-primary" href="/compagnon">Les compagnons</a>
+          <a class="btn btn-outline-primary" href="/special">PNJ spéciaux</a>
         </nav>
           <div class="blog-post">
               <h2 class="blog-post-title" id="chosen">Les compagnons</h2>
@@ -59,7 +60,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> vaincre Eklips et Nehtbinz à Entrelasque</p>
               <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
-              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -106,7 +106,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> aider le Chosen One Nico à Chopejambon Ville</p>
               <p>Matante Man revient en force avec ses super-pouvoirs afin de distribuer des marrons vertueux à tous les méchants qui se dressent sur votre chemin..</p>
               <p>Il ne maîtrise aucun élément, mais compte sur son âme de héros pour porter des coups fulgurants à ses adversaires.</p>
-              <p>Conseillé pour les formations manquant de dégâts.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -133,7 +132,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> aider le Chosen One Nico à Chopejambon Ville</p>
               <p>Câlisse Boy est de retour, toujours en compagnie de Matante Man, il est toujours l'aussi bon acolyte qu'on connaît, faisant profiter toute l'équipe d'amélioration de stats.</p>
               <p>Comme tout bon sidekick qui se respecte, Câlisse Boy dispose de tout un arsenal pour améliorer la progression de ces équipiers.</p>
-              <p>Conseillé pour les formations manquant de boost de stats.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -158,7 +156,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> terminer sa quête au village Akrid</p>
               <p>Caribou fétide est le chef gigantesque et odorant du village Akrid. Il tient son nom du premier animal qu'il a chassé en étant enfant, et porte sa carcasse depuis toujours. Son hygiène inhabituelle et sa carrure de colosse en font un tank très robuste pouvant grignoter à petit feu la santé des ennemis.</p>
               <p>De par son fumet agréable, on peut rapidement deviner que Caribou fétide préfère l'élément Poison.</p>
-              <p>Conseillé pour les formations manquant de tank, ou peu efficaces contre les ennemis résistants aux statuts.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -183,7 +180,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
               <p>Jean-Paul a décidé d'arrondir ses fins de mois en s'inscrivant à l'agence de Duracuir en tant que mercenaire de raid. Toutes ses compétences et talents sont nommés "Oh boy", mais possèdent des effets très variés, en faisant un très bon pilier multifonction.</p>
               <p>Comme tout personnage étrange digne de ce nom, Jean-Paul est passé maître de l'élément Psychique.</p>
-              <p>Conseillé pour toute formation.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -207,7 +203,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
               <p>Le chef Nabab est un ancien collègue du chef Atouille et du chef Echtebez, chacun ayant continué dans sa propre voie. Il a mis au point une restauration rapide et copieuse dont lui seul a le secret, qu'il distribue afin de requinquer tous ses coéquipiers.</p>
               <p>En complément de ses sorts de soin, chef Nabab est en mesure d'infliger des dégâts élevés s'il possède le type d'arme adéquat.</p>
-              <p>Conseillé pour les formations manquant de soins.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -231,7 +226,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
               <p>La maire de Sacramenbourg a décidé de s'octroyer quelques jours de congé afin de revenir casser de la guidoune de Jhâva. Grâce à ses connaissances dans le domaine juridique, elle est en mesure de grandement troubler les formations ennemies.</p>
               <p>Elle est le seul personnage à ne disposer d'aucune compétence offensive directe.</p>
-              <p>Conseillée pour n'importe quelle formation.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -257,7 +251,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> agence de Duracuir sur les Îles Lointaines</p>
               <p>Lorsqu'il n'est pas derrière les fourneaux, ni en train de parcourir le monde, chef Jibé livre ses services de BG. Son prestige légendaire l'amènent à avoir des compétences avec des noms classes, mais aussi de puissants effets de zone.</p>
               <p>Son sourire éclatant ainsi que ses lunettes de soleil nous laissent deviner qu'il est très à l'aise avec la Lumière.</p>
-              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -281,7 +274,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> libérer Ouarzazande</p>
               <p>Gordon est de retour avec sa mauvaise humeur et sa mauvaise haleine, toujours prêt à faire preuve de la plus gratuite des violences verbales afin de complètement déstabiliser les ennemis.</p>
               <p>Contrairement à ses collègues défenseurs, Gordon possède une majorité d'attaques préventives prioritaires, gardant toujours un tour d'avance dans sa manche.</p>
-              <p>Conseillé pour les formations lentes.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -305,7 +297,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> libérer Puerto Favor</p>
               <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
-              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
 
               <h3 className="subtitle">Exodius</h3>
@@ -317,7 +308,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> amener la maman de Jimmy dans son repaire</p>
               <p>Nostalgique de ses aventures dans le Ta-bois-rnak, Exodius reprend du service, toujours grâce à son pouvoir sympathique et sa magie vertueuse.</p>
               <p>Comme tout paladin, ce bon vieil Exodius est un aficionado de l'élement Lumière.</p>
-              <p>Conseillé pour les formations manquant de puissance magique ou de défense.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -343,7 +333,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> aider le Chosen One Metsugazan au domaine de Silverberg</p>
               <p>Décidément aguerri par son aventure auprès des Chosen Ones, le Capitaine Platane prend un petit congé sabbatique afin d'explorer le monde et se frotter à de redoutables adversaires</p>
               <p>Ses talents de spadassin lui permettent de grandement mettre à profit son Power.</p>
-              <p>Conseillé pour les formations manquant de dégâts.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -369,7 +358,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> visiter toutes les Îles lointaines une fois et se rendre à Takarajima</p>
               <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
-              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
 
               <h3 className="subtitle">Risryn</h3>
@@ -381,7 +369,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> terminer sa quête à Takarajima</p>
               <p>Ce bon vieux Hubert revient pour prêter main forte aux Chosen Ones, utilisant son grand âge et sa science pour faciliter la vie de ses équipiers, et déteriorer celle de leurs ennemis.</p>
               <p>En bon astrophysicien qui se respecte, Hubert maîtrise l'énergie cosmique, élément efficace contre la majorité des personnages.</p>
-              <p>Conseillé pour les formations manquant de soutien ou de dégâts magiques.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>
@@ -409,7 +396,6 @@ export class Compagnon extends React.Component {
               <p><u>Recrutement :</u> terminer sa quête au Dôme de Combat</p>
               <p>King Crash est un duelliste du Dôme de Combat, éternel numéro deux du classement général derrière son plus grand rival, Quick Lord. Son armure aimantée et ses gadgets sont les outils le menant à la victoire.</p>
               <p>Après avoir acquis une tonne d'expérience, King Crash est en mesure de pouvoir agir dans n'importe quelle situation, affectant les effets de ses attaques selon la polarité de son armure.</p>
-              <p>Conseillé pour les formations manquant de dégâts.</p>
               <br />
               <p><u>Atouts :</u> 
               <ul>

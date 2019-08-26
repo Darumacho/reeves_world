@@ -22,6 +22,7 @@ export class Mechant extends React.Component {
           <a class="btn btn-outline-primary" href="/ami">Les amis</a>
           <a class="btn btn-outline-primary" href="/mechant">Les méchants</a>
           <a class="btn btn-outline-primary" href="/compagnon">Les compagnons</a>
+          <a class="btn btn-outline-primary" href="/special">PNJ spéciaux</a>
         </nav>
           <div class="blog-post">
               <h2 class="blog-post-title" id="chosen">Les méchants</h2>

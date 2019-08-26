@@ -22,6 +22,7 @@ export class Ami extends React.Component {
           <a class="btn btn-outline-primary" href="/ami">Les amis</a>
           <a class="btn btn-outline-primary" href="/mechant">Les méchants</a>
           <a class="btn btn-outline-primary" href="/compagnon">Les compagnons</a>
+          <a class="btn btn-outline-primary" href="/special">PNJ spéciaux</a>
         </nav>
           <div class="blog-post">
               <h2 class="blog-post-title" id="chosen">Les amis</h2>
@@ -32,13 +33,6 @@ export class Ami extends React.Component {
               <p><u>Lieu(x) de rencontre :</u> Sacramenbourg, Îles Lointaines</p>
               <p>E.Gwiazdowski est une magistrate experte en droit, actuellement maire de Sacramenbourg. Elle rencontre les Chosen Ones lors de leur arrivée dans la Contrée principale et les charge de dissoudre le raid Jhâva entravant la ville. Sa phrase fétiche et incontrable est le célèbre proverbe : "Nul ne peut se prévaloir de ses propres turpitudes".</p>
               <p>En plus d'avoir un nom imprononçable, E.Gwiazdowski possède un important éventail d''alinéas en tous genres, dédiés à profondément déstabiliser les ennemis.</p>
-              <br />
-
-              <h3 className="subtitle">Nod Ji'Hess</h3>
-              <p><u>Fonction :</u> Jhâva renégat</p>
-              <p><u>Lieu(x) de rencontre :</u> Sacramenbourg, Îles Lointaines</p>
-              <p>Nod a déserté les rangs de l'ordre Jhâva peu de temps après le début du raid de Sacramenbourg. Il est un formidable artisan maîtrisant l'art de la transposition. Les Chosen Ones feront souvent appel à lui pour transposer les vestiges de puissants adversaires, afin d'en tirer une arme, un artefact ou une armure.</p>
-              <p>Nod semble toujours avoir une anecdote intéressante à propos de ses anciens camarades tombés au combat, ce qui amène à penser qu'il est resté relativement longtemps au sein de l'ordre.</p>
               <br />
 
               <h3 className="subtitle">Michel Bay</h3>

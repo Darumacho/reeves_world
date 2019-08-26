@@ -17,6 +17,7 @@ import {Divin} from './components/personnages/Divin.js';
 import {Ami} from './components/personnages/Amis.js';
 import {Mechant} from './components/personnages/Mechants.js';
 import {Compagnon} from './components/personnages/Compagnons.js';
+import {Special} from './components/personnages/Special.js';
 import {Lieux} from './components/Lieux.js';
 import {Contree} from './components/lieux/Contree.js';
 import {Mineur} from './components/lieux/Mineur.js';
@@ -54,6 +55,7 @@ function App() {
           <Route path="/ami" component={Ami} />
           <Route path="/mechant" component={Mechant} />
           <Route path="/compagnon" component={Compagnon} />
+          <Route path="/special" component={Special} />
           <Route path="/lieux" component={Lieux} />
           <Route path="/contree" component={Contree} />
           <Route path="/mineur" component={Mineur} />

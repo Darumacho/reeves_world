@@ -22,6 +22,7 @@ export class Persos extends React.Component {
           <a class="btn btn-outline-primary" href="/ami">Les amis</a>
           <a class="btn btn-outline-primary" href="/mechant">Les méchants</a>
           <a class="btn btn-outline-primary" href="/compagnon">Les compagnons</a>
+          <a class="btn btn-outline-primary" href="/special">PNJ spéciaux</a>
         </nav>
           <div class="blog-post">
               <h2 class="blog-post-title" id="chosen">Les Chosen Ones</h2>
@@ -29,7 +30,7 @@ export class Persos extends React.Component {
               <div class="miniContainer">
               <h3 className="subtitle">Chester</h3>
               <p><u>Taille :</u> 1.79m</p>
-              <p><u>Poids :</u> 90kg</p>
+              <p><u>Poids :</u> 80kg</p>
               <p><u>Origine :</u> Arborescence</p>
               <p><u>Rôle :</u> Polyvalent</p>
               <p><u>Difficulté :</u> Intermédiaire</p>
@@ -177,7 +178,7 @@ export class Persos extends React.Component {
               <p><u>Arme de prédilection :</u> Baguette</p>
               <p>Son titre est <strong>le Dude on Fire</strong>.</p>
               <p>Tom Tom est un DJ semeur de bonne humeur, considéré comme une légende locale. Son statut de Dude on Fire ainsi que son aura agréable font de lui un incroyable pyromancien et un très bon soigneur. Il est presque toujours appelé par son statut, et organise d'ailleurs une très grande fête avant son départ, aidé par les différents habitants de l'Archipel.</p>
-              <p>Il a le pouvoir de redonner le sourire à n'importe qui est fait preuve d'une immense sympathie envers tous ceux qu'il rencontre.</p>
+              <p>Il a le pouvoir de redonner le sourire à n'importe qui et fait preuve d'une immense sympathie envers tous ceux qu'il rencontre.</p>
               <p>Comme son nom l'indique, il maîtrise le feu comme nul autre.</p>
               <br />
               <p><u>Atouts :</u> 
@@ -201,7 +202,7 @@ export class Persos extends React.Component {
 
               <h3 className="subtitle">Darumacho</h3>
               <p><u>Taille :</u> 1.86m</p>
-              <p><u>Poids :</u> 180kg</p>
+              <p><u>Poids :</u> 230kg</p>
               <p><u>Origine :</u> Empire à Steak</p>
               <p><u>Rôle :</u> Défense</p>
               <p><u>Difficulté :</u> Difficile</p>
@@ -232,7 +233,7 @@ export class Persos extends React.Component {
 
               <h3 className="subtitle">Metsugazan</h3>
               <p><u>Taille :</u> 1.62m</p>
-              <p><u>Poids :</u> 50kg</p>
+              <p><u>Poids :</u> 59kg</p>
               <p><u>Origine :</u> Domaine de Silverberg</p>
               <p><u>Rôle :</u> Attaque et Magie</p>
               <p><u>Difficulté :</u> Intermédiaire</p>
@@ -260,7 +261,7 @@ export class Persos extends React.Component {
 
               <h3 className="subtitle">Arcthane</h3>
               <p><u>Taille :</u> 1.70m</p>
-              <p><u>Poids :</u> 52kg</p>
+              <p><u>Poids :</u> 55kg</p>
               <p><u>Origine :</u> Vallétale</p>
               <p><u>Rôle :</u> Polyvalent</p>
               <p><u>Difficulté :</u> Intermédiaire</p>
